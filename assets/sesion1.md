@@ -1,18 +1,16 @@
-#### Sesión 1
+## **Sesión 1. Base de datos para Ciencia de Datos** 
 
-#### Temario
-
-#### **¿Por qué estudiar base de datos en ciencia de datos?**
+## **¿Por qué estudiar base de datos en ciencia de datos?**
 
 El estudio de bases de datos en Ciencia de Datos es fundamental porque los datos constituyen la materia prima para generar conocimiento y apoyar la toma de decisiones. Para aprovechar su valor, es necesario almacenarlos, organizarlos, consultarlos y procesarlos de manera eficiente, considerando que la tecnología utilizada para su almacenamiento influye directamente en el análisis y los resultados obtenidos. Además, las fuentes de información pueden presentarse en distintos formatos, desde datos estructurados y semiestructurados hasta grandes volúmenes de información, por lo que es indispensable comprender cómo gestionarlos adecuadamente.
 
-# Fuentes de Información: Estructurada
+### Fuentes de Información: Estructurada
 
 La **información estructurada** es aquella que se encuentra organizada de forma lógica y siguiendo un esquema previamente definido. Sus datos se almacenan en campos, registros, tablas o categorías específicas, lo que permite que tanto las personas como los sistemas informáticos puedan acceder, interpretar y procesar la información de manera rápida y eficiente.
 
 Este tipo de información es ampliamente utilizado en bases de datos, sistemas de gestión empresarial, aplicaciones web, hojas de cálculo y otros entornos donde es necesario mantener un orden y consistencia en los datos. Gracias a su estructura uniforme, facilita la automatización de procesos, la generación de reportes y la toma de decisiones basada en información confiable.
 
-## Características
+### Características
 
 - Está organizada en **campos, categorías, registros o tablas**.
 - Sigue una **estructura uniforme y consistente** para todos los datos almacenados.
@@ -23,7 +21,7 @@ Este tipo de información es ampliamente utilizado en bases de datos, sistemas d
 - Facilita la generación de estadísticas, reportes e indicadores de desempeño.
 - Es escalable y puede manejar grandes volúmenes de información de forma ordenada.
 
-## Ventajas
+### Ventajas
 
 - Mayor rapidez para localizar información específica.
 - Facilita la actualización y mantenimiento de los datos.
@@ -31,7 +29,7 @@ Este tipo de información es ampliamente utilizado en bases de datos, sistemas d
 - Mejora la precisión en los procesos de análisis y toma de decisiones.
 - Reduce la duplicidad de información y los errores de registro.
 
-## Ejemplo de Información Estructurada
+### Ejemplo de Información Estructurada
 
 La siguiente información puede almacenarse en una tabla de base de datos:
 
@@ -41,7 +39,7 @@ La siguiente información puede almacenarse en una tabla de base de datos:
 
 En este ejemplo, cada dato ocupa un campo específico (nombre, departamento, edad y correo electrónico), lo que permite realizar consultas, filtros o reportes de manera sencilla.
 
-## Aplicaciones Comunes
+### Aplicaciones Comunes
 
 La información estructurada se encuentra habitualmente en:
 
@@ -53,7 +51,7 @@ La información estructurada se encuentra habitualmente en:
 - Expedientes médicos electrónicos.
 - Plataformas de comercio electrónico.
 
-# Fuentes de Información: Semiestructurada
+#### Fuentes de Información: Semiestructurada
 
 La **información semiestructurada** es un tipo de información que no se encuentra organizada bajo un esquema rígido como el de las bases de datos relacionales, pero que sí incorpora ciertos elementos de organización que facilitan su identificación, clasificación y procesamiento. Estos elementos pueden ser etiquetas, metadatos, campos o marcas que aportan estructura al contenido, aunque sin imponer un formato completamente fijo.
 
@@ -61,7 +59,7 @@ Este tipo de información representa un punto intermedio entre la información e
 
 La información semiestructurada es ampliamente utilizada en aplicaciones modernas, sitios web, servicios en la nube, sistemas de mensajería y procesos de intercambio de datos entre diferentes plataformas.
 
-## Características
+### Características
 
 - No sigue un esquema rígido de filas y columnas.
 - Utiliza **etiquetas, metadatos o marcadores** para organizar la información.
@@ -72,7 +70,7 @@ La información semiestructurada es ampliamente utilizada en aplicaciones modern
 - Ofrece un equilibrio entre flexibilidad y organización.
 - Es común en formatos como XML, JSON, correos electrónicos y documentos con metadatos.
 
-## Ventajas
+### Ventajas
 
 - Mayor flexibilidad para almacenar diferentes tipos de datos.
 - Facilita la interoperabilidad entre sistemas.
@@ -80,7 +78,7 @@ La información semiestructurada es ampliamente utilizada en aplicaciones modern
 - Reduce las limitaciones de los esquemas estrictamente definidos.
 - Favorece el intercambio de información en entornos digitales y web.
 
-## Ejemplo de Información Semiestructurada
+### Ejemplo de Información Semiestructurada
 
 ### Correo electrónico
 
@@ -96,7 +94,7 @@ Te comparto la información para la reunión programada el día viernes a las 10
 Saludos,
 Juan Pérez
 
-# Fuentes de Información: Gran Volumen (Big Data)
+### **Fuentes de Información: Gran Volumen (Big Data)**
 
 La **información de gran volumen**, conocida comúnmente como **Big Data**, se refiere a conjuntos de datos que, debido a su enorme tamaño, diversidad y velocidad de generación, no pueden ser gestionados eficientemente mediante las herramientas tradicionales de almacenamiento y procesamiento de datos.
 
@@ -104,29 +102,29 @@ El crecimiento exponencial de Internet, las redes sociales, los dispositivos mó
 
 Big Data permite identificar patrones, tendencias y relaciones ocultas en los datos, contribuyendo a una mejor toma de decisiones en ámbitos como negocios, salud, educación, manufactura, finanzas y gobierno.
 
-## Características Principales: Las 5 V de Big Data
+### Características Principales: Las 5 V de Big Data
 
-### 1. Volumen
+#### 1. Volumen
 
 Se refiere a la enorme cantidad de datos generados y almacenados continuamente por personas, organizaciones y dispositivos. Estos volúmenes pueden alcanzar desde terabytes hasta petabytes o incluso exabytes de información.
 
-### 2. Velocidad
+#### 2. Velocidad
 
 Hace referencia a la rapidez con la que los datos son generados, transmitidos y procesados. Algunos sistemas requieren analizar la información prácticamente en tiempo real para obtener resultados útiles.
 
-### 3. Variedad
+#### 3. Variedad
 
 Los datos provienen de múltiples fuentes y formatos, incluyendo información estructurada, semiestructurada y no estructurada, como textos, imágenes, videos, audios, documentos y registros de sensores.
 
-### 4. Veracidad
+#### 4. Veracidad
 
 Se relaciona con la calidad, precisión y confiabilidad de los datos. No toda la información recopilada es exacta o útil, por lo que es necesario validar y depurar los datos antes de analizarlos.
 
-### 5. Valor
+#### 5. Valor
 
 Representa el beneficio que puede obtenerse a partir del análisis de los datos. El verdadero propósito de Big Data es transformar grandes cantidades de información en conocimiento útil para apoyar la toma de decisiones.
 
-## Ventajas
+### Ventajas
 
 - Permite analizar grandes cantidades de información en poco tiempo.
 - Facilita la identificación de tendencias y patrones de comportamiento.
@@ -136,37 +134,37 @@ Representa el beneficio que puede obtenerse a partir del análisis de los datos.
 - Favorece la detección de riesgos, anomalías y fraudes.
 - Contribuye al desarrollo de soluciones innovadoras y estrategias más efectivas.
 
-## Ejemplos de Información de Gran Volumen
+### Ejemplos de Información de Gran Volumen
 
-### Redes Sociales
+#### Redes Sociales
 
 Plataformas como Facebook, X (Twitter), Instagram, TikTok y LinkedIn generan millones de publicaciones, comentarios, imágenes y videos diariamente.
 
-### Comercio Electrónico
+#### Comercio Electrónico
 
 Tiendas en línea registran constantemente información sobre compras, búsquedas, clics, preferencias de productos y comportamiento de los clientes.
 
-### Internet de las Cosas (IoT)
+#### Internet de las Cosas (IoT)
 
 Sensores inteligentes instalados en vehículos, fábricas, hogares o ciudades generan datos de manera continua sobre temperatura, ubicación, consumo energético y funcionamiento de equipos.
 
-### Sistemas Bancarios y Financieros
+#### Sistemas Bancarios y Financieros
 
 Las instituciones financieras procesan millones de transacciones electrónicas diariamente para detectar fraudes, evaluar riesgos y ofrecer productos personalizados.
 
-### Dispositivos Móviles
+#### Dispositivos Móviles
 
 Los teléfonos
 
-# El Papel de las Bases de Datos en la Ciencia de Datos
+### El Papel de las Bases de Datos en la Ciencia de Datos
 
 Las **bases de datos** desempeñan un papel fundamental en la Ciencia de Datos, ya que constituyen el principal mecanismo para almacenar, organizar, administrar y recuperar grandes volúmenes de información. Gracias a ellas, los datos pueden mantenerse de forma estructurada y accesible, permitiendo su posterior procesamiento y análisis para la generación de conocimiento útil.
 
 En los proyectos de Ciencia de Datos, las bases de datos funcionan como el punto central donde se recopilan datos provenientes de múltiples fuentes, como sistemas empresariales, aplicaciones web, sensores, redes sociales, dispositivos móviles y plataformas de comercio electrónico. Sin una adecuada gestión de estos datos, sería difícil obtener información confiable para la toma de decisiones.
 
-## Flujo de las Bases de Datos en la Ciencia de Datos
+### Flujo de las Bases de Datos en la Ciencia de Datos
 
-### 1. Fuente de Datos
+#### 1. Fuente de Datos
 
 La información se genera a partir de distintas fuentes, entre las que se incluyen:
 
@@ -179,7 +177,7 @@ La información se genera a partir de distintas fuentes, entre las que se incluy
 
 En esta etapa, los datos pueden presentarse en formatos estructurados, semiestructurados o no estructurados.
 
-### 2. Almacenamiento
+#### 2. Almacenamiento
 
 Una vez recopilados, los datos se almacenan en bases de datos o repositorios especializados para garantizar su disponibilidad, seguridad y organización.
 
@@ -192,7 +190,7 @@ Los sistemas más utilizados incluyen:
 
 El objetivo es conservar la información de forma eficiente para facilitar su consulta y procesamiento posterior.
 
-### 3. Procesamiento
+#### 3. Procesamiento
 
 En esta fase, los datos son preparados para su análisis mediante diversas actividades, tales como:
 
@@ -204,7 +202,7 @@ En esta fase, los datos son preparados para su análisis mediante diversas activ
 
 La calidad de los resultados obtenidos depende en gran medida de la calidad de este proceso.
 
-### 4. Análisis
+#### 4. Análisis
 
 Los datos procesados son examinados utilizando técnicas estadísticas, minería de datos, inteligencia artificial y aprendizaje automático.
 
@@ -218,7 +216,7 @@ Durante esta etapa se busca:
 
 Herramientas como Python, R, Power BI y Tableau son frecuentemente utilizadas para estas tareas.
 
-### 5. Toma de Decisiones
+#### 5. Toma de Decisiones
 
 Finalmente, los resultados obtenidos se transforman en información útil para apoyar la toma de decisiones estratégicas y operativas.
 
@@ -231,7 +229,7 @@ Algunos ejemplos incluyen:
 - Mejora de la experiencia del cliente.
 - Planeación de recursos y presupuestos.
 
-## Importancia de las Bases de Datos en la Ciencia de Datos
+### Importancia de las Bases de Datos en la Ciencia de Datos
 
 Las bases de datos aportan múltiples beneficios dentro de los proyectos de análisis de datos:
 
@@ -242,7 +240,7 @@ Las bases de datos aportan múltiples beneficios dentro de los proyectos de aná
 - Favorecen la seguridad y el control de acceso a los datos.
 - Soportan procesos de análisis avanzados y modelos predictivos.
 
-## Ejemplo Práctico
+#### Ejemplo Práctico
 
 Una empresa de comercio electrónico registra diariamente miles de transacciones. Los datos de ventas, productos, clientes y pagos se almacenan en una base de datos. Posteriormente, estos datos son procesados y analizados para identificar:
 
@@ -253,13 +251,13 @@ Una empresa de comercio electrónico registra diariamente miles de transacciones
 
 Con esta información, la empresa puede diseñar mejores estrategias comerciales y aumentar sus ingresos.
 
-# ¿Qué ocurre cuando los datos no están organizados como una tabla?
+### ¿Qué ocurre cuando los datos no están organizados como una tabla?
 
 No toda la información se encuentra organizada en filas y columnas como sucede en las bases de datos tradicionales. En la actualidad, una gran parte de los datos generados por personas y sistemas se presentan en formatos más flexibles, como documentos de texto, imágenes, videos, correos electrónicos, publicaciones en redes sociales, archivos multimedia y registros de actividad.
 
 Cuando los datos no están organizados como una tabla, se consideran **datos no estructurados** o, en algunos casos, **datos semiestructurados**. Este tipo de información puede contener una gran cantidad de conocimientos valiosos, pero requiere técnicas y herramientas especializadas para su almacenamiento, procesamiento y análisis.
 
-## ¿Por qué representa un desafío?
+### ¿Por qué representa un desafío?
 
 Los datos tabulares tienen una estructura claramente definida, donde cada registro ocupa una fila y cada atributo corresponde a una columna. Esto facilita su consulta y análisis.
 
@@ -271,9 +269,9 @@ Sin embargo, cuando los datos carecen de esta organización:
 - El volumen de información suele ser mucho mayor.
 - Es necesario utilizar tecnologías avanzadas para extraer conocimiento útil.
 
-## Tipos de datos no organizados en tablas
+### Tipos de datos no organizados en tablas
 
-### Documentos de texto
+#### Documentos de texto
 
 Incluyen archivos PDF, documentos de Word, reportes, artículos y libros digitales.
 
@@ -283,11 +281,11 @@ Incluyen archivos PDF, documentos de Word, reportes, artículos y libros digital
 
 Aunque la información es valiosa, no está organizada en columnas específicas.
 
-### Correos electrónicos
+#### Correos electrónicos
 
 Los correos contienen algunos campos estructurados (remitente, destinatario y asunto), pero el contenido principal suele ser libre.
 
-## Redes Sociales
+#### Redes Sociales
 
 Las publicaciones, comentarios, reacciones, imágenes, videos y mensajes generados diariamente en plataformas digitales representan enormes cantidades de información no estructurada. Cada interacción de los usuarios genera datos valiosos que pueden ser analizados para identificar tendencias, preferencias, comportamientos de consumo y opiniones sobre productos o servicios.
 
@@ -302,11 +300,11 @@ Entre las principales fuentes de este tipo de información se encuentran platafo
 
 Debido a su volumen y diversidad, el análisis de los datos provenientes de redes sociales suele requerir herramientas especializadas de Big Data e Inteligencia Artificial.
 
-## Imágenes y Videos
+##### Imágenes y Videos
 
 Las fotografías y grabaciones contienen información visual que no puede analizarse directamente como una tabla de datos. Sin embargo, mediante técnicas avanzadas de procesamiento de imágenes y visión por computadora, es posible extraer información relevante para distintos propósitos.
 
-### Ejemplos
+#### Ejemplos
 
 - Fotografías médicas.
 - Cámaras de seguridad.
@@ -315,11 +313,11 @@ Las fotografías y grabaciones contienen información visual que no puede analiz
 
 Este tipo de datos se utiliza en áreas como la seguridad, la salud, la agricultura, la investigación científica y el transporte inteligente.
 
-## Registros de Sensores y Dispositivos Inteligentes
+#### Registros de Sensores y Dispositivos Inteligentes
 
 Los sistemas del **Internet de las Cosas (IoT)** generan datos de manera continua a través de sensores, dispositivos conectados y equipos inteligentes. Estos datos suelen provenir de múltiples fuentes y formatos, por lo que requieren procesamiento especializado antes de ser analizados.
 
-### Ejemplos
+#### Ejemplos
 
 - Sensores de temperatura y humedad.
 - Medidores inteligentes de energía eléctrica.
@@ -331,7 +329,7 @@ La información obtenida permite monitorear procesos, optimizar recursos y detec
 
 ---
 
-# ¿Cómo se gestionan estos datos?
+#### ¿Cómo se gestionan estos datos?
 
 Para trabajar con información no estructurada se utilizan tecnologías y técnicas avanzadas capaces de almacenar, procesar y analizar grandes volúmenes de datos provenientes de diversas fuentes.
 
@@ -347,7 +345,7 @@ Entre las más importantes se encuentran:
 
 Estas tecnologías permiten transformar información compleja en datos analizables y útiles para la toma de decisiones.
 
-# Ejemplo Práctico
+#### Ejemplo Práctico
 
 Supongamos que una empresa desea conocer la opinión de sus clientes sobre un nuevo producto lanzado al mercado.
 
@@ -367,7 +365,7 @@ Mediante técnicas de análisis de texto e Inteligencia Artificial, la empresa p
 
 Con esta información, la organización puede mejorar sus productos, desarrollar nuevas estrategias de marketing y ofrecer una mejor experiencia a sus clientes.
 
-# Importancia en la Ciencia de Datos
+#### Importancia en la Ciencia de Datos
 
 Actualmente, se estima que la mayor parte de la información generada a nivel mundial corresponde a datos no estructurados. Por esta razón, los científicos de datos deben emplear herramientas y metodologías capaces de procesar información que va más allá de las bases de datos tradicionales.
 
@@ -382,11 +380,11 @@ El análisis de estos datos permite:
 
 A medida que el volumen de información digital continúa creciendo, la capacidad de analizar datos no estructurados se convierte en una habilidad fundamental para las organizaciones modernas.
 
-# Bases de Datos Semiestructuradas
+### Bases de Datos Semiestructuradas
 
 En una **base de datos semiestructurada**, los datos no se encuentran organizados en filas y columnas fijas como ocurre en las bases de datos relacionales. En su lugar, la información se almacena mediante estructuras flexibles que permiten que cada registro tenga diferentes atributos según las necesidades de la aplicación.
 
-## Características
+#### Características
 
 - No existe un esquema rígido de filas y columnas.
 - Cada registro puede contener atributos diferentes.
@@ -396,7 +394,7 @@ En una **base de datos semiestructurada**, los datos no se encuentran organizado
 - Facilitan el almacenamiento de información heterogénea y cambiante.
 - Son ampliamente utilizadas en aplicaciones web, sistemas distribuidos y plataformas de Big Data.
 
-## Ejemplo
+#### Ejemplo
 
 Un registro puede contener únicamente nombre y edad:
 
@@ -406,15 +404,15 @@ Un registro puede contener únicamente nombre y edad:
   "edad": 25
 }
 
-# ¿Cómo se Relacionan los Temas?
+### ¿Cómo se Relacionan los Temas?
 
 Los diferentes conceptos estudiados en el ámbito de las bases de datos y la Ciencia de Datos están estrechamente conectados y forman parte de un ecosistema tecnológico que permite recopilar, almacenar, procesar y analizar información para generar conocimiento útil y apoyar la toma de decisiones.
 
-## XML y Datos Semiestructurados
+#### XML y Datos Semiestructurados
 
 Los formatos como **XML** y **JSON** surgieron como nuevas formas de representar información que no encaja fácilmente en tablas tradicionales.
 
-### Relación con otros temas
+#### Relación con otros temas
 
 - Permiten almacenar datos con estructuras flexibles.
 - Son ampliamente utilizados en servicios web y aplicaciones modernas.
@@ -425,11 +423,11 @@ Los formatos como **XML** y **JSON** surgieron como nuevas formas de representar
 
 ---
 
-## Computación en la Nube (Cloud Computing)
+### Computación en la Nube (Cloud Computing)
 
 La **Nube** proporciona la infraestructura tecnológica necesaria para almacenar, administrar y procesar grandes cantidades de información de manera escalable.
 
-### Relación con otros temas
+#### Relación con otros temas
 
 - Permite alojar bases de datos y aplicaciones de análisis de datos.
 - Proporciona recursos bajo demanda para proyectos de Big Data.
@@ -444,11 +442,11 @@ La **Nube** proporciona la infraestructura tecnológica necesaria para almacenar
 
 ---
 
-## Data Warehouse, OLAP y Data Mining
+### Data Warehouse, OLAP y Data Mining
 
 Estas tecnologías están orientadas al análisis de datos y la generación de conocimiento para apoyar la toma de decisiones.
 
-### Data Warehouse
+#### Data Warehouse
 
 Es un repositorio centralizado que integra información proveniente de múltiples fuentes.
 
@@ -458,7 +456,7 @@ Es un repositorio centralizado que integra información proveniente de múltiple
 - Facilitar consultas analíticas.
 - Servir como base para la inteligencia de negocios.
 
-### OLAP (Online Analytical Processing)
+#### OLAP (Online Analytical Processing)
 
 Permite realizar análisis multidimensionales sobre grandes volúmenes de información.
 
@@ -468,7 +466,7 @@ Permite realizar análisis multidimensionales sobre grandes volúmenes de inform
 - Análisis por regiones, periodos o categorías.
 - Generación de reportes estratégicos.
 
-### Data Mining (Minería de Datos)
+#### Data Mining (Minería de Datos)
 
 Aplica técnicas estadísticas y algoritmos para descubrir patrones ocultos en los datos.
 
@@ -479,7 +477,7 @@ Aplica técnicas estadísticas y algoritmos para descubrir patrones ocultos en l
 - Segmentación de clientes.
 - Identificación de tendencias.
 
-### Relación entre ellos
+#### Relación entre ellos
 
 ```text
 Datos Operacionales
@@ -492,51 +490,51 @@ Datos Operacionales
         ↓
  Toma de Decisiones
 
-# ¿Cómo Trabajaremos?
+### ¿Cómo Trabajaremos?
 
 Durante el desarrollo del curso, se utilizará una metodología de aprendizaje dinámica y práctica que permitirá comprender los conceptos teóricos y aplicarlos en situaciones reales. El objetivo es fomentar la participación activa, el análisis crítico y el desarrollo de habilidades para resolver problemas relacionados con las bases de datos y la Ciencia de Datos.
 
-## Clases Presenciales
+#### Clases Presenciales
 
 Las sesiones presenciales serán el espacio principal para la explicación de conceptos, resolución de dudas y desarrollo de actividades de aprendizaje.
 
-### Objetivos
+#### Objetivos
 
 - Comprender los fundamentos teóricos de cada tema.
 - Interactuar directamente con el docente y compañeros.
 - Resolver dudas de manera oportuna.
 - Complementar el aprendizaje mediante ejemplos prácticos.
 
-## Análisis de Casos
+#### Análisis de Casos
 
 Se estudiarán situaciones reales o simuladas que permitan comprender cómo se aplican los conceptos en diferentes contextos organizacionales.
 
-### Beneficios
+#### Beneficios
 
 - Desarrollar el pensamiento crítico.
 - Identificar problemas y proponer soluciones.
 - Relacionar la teoría con la práctica.
 - Comprender la importancia de los datos en la toma de decisiones.
 
-### Ejemplos
+#### Ejemplos
 
 - Análisis de ventas de una empresa.
 - Gestión de información en hospitales.
 - Sistemas bancarios y financieros.
 - Comercio electrónico y marketing digital.
 
-## Prácticas con Software y Herramientas
+### Prácticas con Software y Herramientas
 
 El aprendizaje se complementará mediante actividades prácticas utilizando aplicaciones y herramientas tecnológicas relacionadas con la gestión y análisis de datos.
 
-### Objetivos
+#### Objetivos
 
 - Familiarizarse con herramientas utilizadas en el entorno profesional.
 - Aplicar los conceptos aprendidos en clase.
 - Desarrollar habilidades técnicas para el manejo de datos.
 - Comprender el funcionamiento de sistemas de bases de datos y análisis.
 
-### Actividades
+#### Actividades
 
 - Creación de bases de datos.
 - Gestión de información.
@@ -544,11 +542,11 @@ El aprendizaje se complementará mediante actividades prácticas utilizando apli
 - Interpretación de resultados.
 - Desarrollo de ejercicios prácticos.
 
-## Participación y Discusión
+#### Participación y Discusión
 
 La participación activa de los estudiantes será fundamental para enriquecer el proceso de aprendizaje.
 
-### Formas de participación
+#### Formas de participación
 
 - Preguntas durante las sesiones.
 - Comentarios y aportaciones sobre los temas.
@@ -558,11 +556,11 @@ La participación activa de los estudiantes será fundamental para enriquecer el
 
 La discusión de ideas permite fortalecer la comprensión de los conceptos y desarrollar habilidades de comunicación y trabajo en equipo.
 
-## Aplicación de los Conceptos a Situaciones Reales
+#### Aplicación de los Conceptos a Situaciones Reales
 
 Uno de los principales objetivos del curso es que los conocimientos adquiridos puedan aplicarse a problemas y necesidades del entorno real.
 
-### Aplicaciones
+#### Aplicaciones
 
 - Organización y administración de información.
 - Análisis de datos para la toma de decisiones.
@@ -577,7 +575,7 @@ Uno de los principales objetivos del curso es que los conocimientos adquiridos p
 - Preparación para enfrentar situaciones reales en el ámbito laboral.
 - Capacidad para proponer soluciones basadas en información y evidencia.
 
-## Metodología General
+### Metodología General
 
 El aprendizaje se basará en una combinación de:
 
@@ -587,7 +585,7 @@ El aprendizaje se basará en una combinación de:
 4. Participación activa de los estudiantes.
 5. Aplicación de conocimientos a contextos reales.
 
-# Proyecto Final
+### Proyecto Final
 
 - Integrar los conocimientos adquiridos durante la materia.
 - Explorar una solución basada en tecnologías de **Nube**, **Big Data** o **NoSQL**.
@@ -595,9 +593,9 @@ El aprendizaje se basará en una combinación de:
 - Desarrollar una solución funcional y una interfaz de visualización de datos.
 - Justificar técnicamente las decisiones tomadas durante el diseño e implementación del proyecto.
 
-# Análisis de Redes Sociales (Ideal para Ciencia de Datos)
+#### Análisis de Redes Sociales (Ideal para Ciencia de Datos)
 
-## Datos
+#### Datos
 
 Para desarrollar un proyecto de análisis de redes sociales, se pueden recopilar distintos tipos de información generada por los usuarios:
 
@@ -608,7 +606,7 @@ Para desarrollar un proyecto de análisis de redes sociales, se pueden recopilar
 
 Estos datos permiten conocer el comportamiento de la comunidad, medir niveles de interacción y detectar patrones de uso dentro de la plataforma.
 
-## Análisis
+#### Análisis
 
 A partir de los datos recopilados, es posible realizar diversos análisis, tales como:
 
@@ -619,7 +617,7 @@ A partir de los datos recopilados, es posible realizar diversos análisis, tales
 - Detectar tendencias y temas de interés.
 - Comparar el alcance e impacto de diferentes publicaciones.
 
-## Beneficios
+#### Beneficios
 
 - Comprender mejor el comportamiento de los usuarios.
 - Mejorar estrategias de contenido y comunicación.
@@ -627,7 +625,7 @@ A partir de los datos recopilados, es posible realizar diversos análisis, tales
 - Apoyar la toma de decisiones basada en datos.
 - Evaluar el impacto de campañas y publicaciones.
 
-## Herramientas Sugeridas
+#### Herramientas Sugeridas
 
 - Python
 - Pandas
@@ -636,7 +634,7 @@ A partir de los datos recopilados, es posible realizar diversos análisis, tales
 - MongoDB
 - Apache Spark
 
-## Resultados Esperados
+#### Resultados Esperados
 
 Como producto final, se puede desarrollar un tablero de visualización que muestre indicadores clave, tales como:
 
@@ -648,7 +646,7 @@ Como producto final, se puede desarrollar un tablero de visualización que muest
 
 Este tipo de proyecto integra conceptos de bases de datos, análisis de datos, visualización de información y Ciencia de Datos, convirtiéndose en una excelente opción para aplicar los conocimientos adquiridos durante el curso.
 
-# Criterios de Evaluación
+### Criterios de Evaluación
 
 La calificación final de la asignatura estará compuesta por los siguientes elementos:
 
@@ -657,7 +655,7 @@ La calificación final de la asignatura estará compuesta por los siguientes ele
 - **Presentación de Lectura:** 50%
 - **Asistencia:** requisito para el seguimiento adecuado de las actividades y el cumplimiento de los objetivos del curso.
 
-## Distribución de la Calificación
+#### Distribución de la Calificación
 
 | Actividad | Porcentaje |
 |------------|------------|
@@ -665,7 +663,7 @@ La calificación final de la asignatura estará compuesta por los siguientes ele
 | Controles de Lectura | 25% |
 | Presentación de Lectura | 50% |
 
-## Consideraciones
+#### Consideraciones
 
 - El **Examen Final** evaluará la comprensión e integración de los conceptos estudiados durante el curso.
 - Los **Controles de Lectura** permitirán verificar el análisis y comprensión de los materiales asignados.
