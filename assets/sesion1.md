@@ -491,6 +491,7 @@ Datos Operacionales
    Data Mining
         ↓
  Toma de Decisiones
+```
 
 ### ¿Cómo Trabajaremos?
 
