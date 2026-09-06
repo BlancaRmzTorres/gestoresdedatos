@@ -628,15 +628,6 @@ A partir de los datos recopilados, es posible realizar diversos análisis, tales
 - Apoyar la toma de decisiones basada en datos.
 - Evaluar el impacto de campañas y publicaciones.
 
-#### Herramientas Sugeridas
-
-- Python
-- Pandas
-- Power BI
-- Tableau
-- MongoDB
-- Apache Spark
-
 #### Resultados Esperados
 
 Como producto final, se puede desarrollar un tablero de visualización que muestre indicadores clave, tales como:
