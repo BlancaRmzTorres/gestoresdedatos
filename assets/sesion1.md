@@ -404,6 +404,7 @@ Un registro puede contener únicamente nombre y edad:
   "nombre": "Ana",
   "edad": 25
 }
+```
 
 ### ¿Cómo se Relacionan los Temas?
 
