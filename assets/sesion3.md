@@ -377,7 +377,7 @@ return $libro/titulo
 
 Los motores de consulta XML permiten recuperar información específica de documentos XML de forma rápida y eficiente. XPath facilita la búsqueda de nodos mediante expresiones de consulta, mientras que Python permite automatizar estas consultas utilizando el módulo xml.etree.ElementTree. Estas herramientas son fundamentales cuando se trabaja con grandes volúmenes de datos almacenados en formato XML.
 
-## **Cómputo en la nube **
+## **Cómputo en la nube**
 
 ### 1.1 Introducción
 
