@@ -51,7 +51,7 @@ La información estructurada se encuentra habitualmente en:
 - Expedientes médicos electrónicos.
 - Plataformas de comercio electrónico.
 
-#### Fuentes de Información: Semiestructurada
+### Fuentes de Información: Semiestructurada
 
 La **información semiestructurada** es un tipo de información que no se encuentra organizada bajo un esquema rígido como el de las bases de datos relacionales, pero que sí incorpora ciertos elementos de organización que facilitan su identificación, clasificación y procesamiento. Estos elementos pueden ser etiquetas, metadatos, campos o marcas que aportan estructura al contenido, aunque sin imponer un formato completamente fijo.
 
