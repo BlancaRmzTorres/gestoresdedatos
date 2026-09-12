@@ -1,4 +1,7 @@
 <div align="center">
+<img src="https://enlace.ucags.edu.mx/img/logotipos/logo_gu.png" width="180">
+
+<br><br>
 
 # Análisis de datos fisiológicos para la identificación de cambios previos a crisis epilépticas
 
@@ -17,8 +20,6 @@
 </div>
 
 ---
-
-## 1. Descripción del Proyecto
 
 ## 1. Descripción del Proyecto
 
