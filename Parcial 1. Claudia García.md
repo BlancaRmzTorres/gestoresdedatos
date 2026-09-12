@@ -78,9 +78,9 @@ Dependiendo del conjunto de datos seleccionado, algunas de las variables podría
 * Frecuencia cardiaca.
 * Actividad física.
 * Movimiento.
-* Señales de EEG.
-* Señales de ECG.
-* Señales de EMG.
+* Señales de EEG (Electroencefalografía).
+* Señales de ECG (Electrocardiografía).
+* Señales de EMG (Electromiografía).
 * Información temporal de las crisis.
 * Otras variables disponibles en el conjunto seleccionado.
 
