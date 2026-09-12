@@ -125,34 +125,86 @@ Otra limitación es que los datos disponibles provienen de estudios realizados e
 
 ## 4. Fuente de Obtención del Conjunto de Datos
 
-Para el desarrollo del proyecto se consideran como posibles fuentes **conjuntos de datos académicos de acceso abierto** relacionados con epilepsia y registros obtenidos mediante dispositivos o sistemas de monitoreo fisiológico.
-
-La selección definitiva del conjunto de datos se realizará después de revisar sus variables, formato, tamaño, disponibilidad y facilidad de procesamiento.
+Para el desarrollo del proyecto se consideran diferentes conjuntos de datos académicos de acceso público, relacionados con personas con epilepsia y registros obtenidos mediante dispositivos de monitoreo. La selección final dependerá de las variables disponibles, la cantidad y calidad de los datos, el formato, el tamaño del conjunto y el tiempo disponible para su procesamiento.
 
 ### 4.1 My Seizure Gauge Long-term Wearable Data
 
-* **Repositorio:** [Zenodo](https://zenodo.org/)
-* **Conjunto de datos:** [My Seizure Gauge Long-term Wearable Data](https://zenodo.org/records/17380899)
-* **País de origen de los participantes:** Estados Unidos.
-* **Tipo de datos:** Registros de largo plazo obtenidos mediante dispositivos *wearables*.
+**Fuente:** Zenodo
+**Enlace:** https://zenodo.org/records/17380899
 
-Este conjunto contiene información de personas con epilepsia monitoreadas durante periodos prolongados. Incluye datos obtenidos mediante dispositivos como Empatica E4 y Fitbit Charge HR, entre ellos frecuencia cardiaca y actividad, además de información sobre los momentos en que ocurrieron las crisis.
+Este conjunto de datos contiene registros de monitoreo a largo plazo de personas con epilepsia. Incluye información obtenida mediante dispositivos portátiles como Empatica E4 y Fitbit Charge HR, además de información relacionada con los momentos en que ocurrieron las crisis.
 
-**Posible utilidad para el proyecto:** permitiría comparar las señales registradas antes de una crisis con periodos en los que no se presentó una crisis.
+**¿Por qué podría ser útil para el proyecto?**
+Permite estudiar los datos registrados antes de una crisis y compararlos con periodos en los que no ocurrió una crisis, con el objetivo de identificar posibles cambios o patrones.
+
+---
 
 ### 4.2 Seizure Diary + Heart Rate (Wearable Data)
 
-* **Repositorio:** University of Melbourne - Figshare.
-* **Conjunto de datos:** [Seizure Diary + Heart Rate (Wearable Data)](https://figshare.unimelb.edu.au/articles/dataset/Seizure_Diary_Wearable_Data/15109896)
-* **País de origen:** Australia.
-* **Tipo de datos:** Frecuencia cardiaca y registros de crisis.
+**Fuente:** University of Melbourne – Figshare
+**Enlace:** https://figshare.unimelb.edu.au/articles/dataset/Seizure_Diary_Wearable_Data/15109896
 
-El conjunto contiene datos de frecuencia cardiaca obtenidos mediante dispositivos Fitbit y registros de las crisis reportadas por los participantes mediante una aplicación de registro.
+Este conjunto contiene información de frecuencia cardíaca obtenida mediante dispositivos Fitbit y registros de las crisis reportadas por los participantes mediante un diario electrónico.
 
-**Posible utilidad para el proyecto:** permitiría analizar si existen cambios en la frecuencia cardiaca asociados temporalmente con los periodos previos a las crisis.
+**¿Por qué podría ser útil para el proyecto?**
+Permite analizar la relación temporal entre la frecuencia cardíaca y los momentos en que se presentaron crisis, buscando posibles cambios durante el periodo previo a una crisis.
+
+---
 
 ### 4.3 Wearable Seizure Forecasting Pilot
 
-* **Repositorio:** University of Melbourne - Figshare.
-* **Conjunto de datos:** [Wearable Seizure Forecasting Pilot](https://figshare.unimelb.edu.au/articles/dataset/Wearable_Seizure_Forecasting_Pilo_)
+**Fuente:** University of Melbourne – Figshare
+**Enlace:** https://figshare.unimelb.edu.au/articles/dataset/Wearable_Seizure_Forecasting_Pilot/23206445
 
+Este conjunto de datos corresponde a un estudio piloto enfocado en el análisis de información obtenida mediante dispositivos portátiles y registros de crisis en personas con epilepsia. El estudio está relacionado con el análisis de cambios en la probabilidad de presentar una crisis.
+
+**¿Por qué podría ser útil para el proyecto?**
+Es especialmente relevante para el objetivo del proyecto porque permite explorar datos relacionados con el periodo previo a una crisis y analizar si existen patrones que puedan estudiarse como posibles señales tempranas.
+
+---
+
+### 4.4 SeizeIT2
+
+**Fuente:** OpenNeuro
+**Enlace:** https://openneuro.org/datasets/ds005873
+
+SeizeIT2 es un conjunto de datos que contiene registros de personas con epilepsia obtenidos mediante diferentes dispositivos y sensores. Incluye señales como EEG, ECG, EMG y datos de movimiento, además de información temporal sobre las crisis.
+
+**¿Por qué podría ser útil para el proyecto?**
+La variedad de señales permite analizar diferentes tipos de información fisiológica y de movimiento alrededor de las crisis, lo que puede ser útil para explorar qué cambios podrían presentarse antes de ellas.
+
+---
+
+### Criterios para seleccionar el conjunto de datos
+
+Una vez revisadas las fuentes disponibles, se seleccionará el conjunto de datos que resulte más adecuado para el proyecto considerando principalmente:
+
+* Variables disponibles.
+* Cantidad de participantes y registros.
+* Información sobre los momentos de las crisis.
+* Formato de los datos.
+* Tamaño del conjunto de datos.
+* Facilidad de acceso y procesamiento.
+* Posibilidad de identificar periodos previos a las crisis.
+* Tiempo disponible para realizar el análisis.
+
+La selección de una fuente específica se realizará después de revisar con mayor detalle la estructura y las variables disponibles en cada conjunto de datos.
+
+---
+
+# 5. Glosario
+
+| Término                         | Definición                                                                                                                                                |
+| ------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **EEG**                         | Electroencefalografía. Técnica que registra la actividad eléctrica del cerebro mediante electrodos colocados sobre el cuero cabelludo.                    |
+| **ECG**                         | Electrocardiografía. Técnica que registra la actividad eléctrica del corazón.                                                                             |
+| **EMG**                         | Electromiografía. Técnica que registra la actividad eléctrica de los músculos.                                                                            |
+| **Frecuencia cardíaca**         | Número de latidos del corazón por minuto.                                                                                                                 |
+| **Acelerómetro**                | Sensor que permite registrar cambios en el movimiento y la aceleración de un dispositivo.                                                                 |
+| **Giroscopio**                  | Sensor que permite registrar cambios en la orientación y rotación de un dispositivo.                                                                      |
+| **Wearable**                    | Dispositivo electrónico portátil que puede llevarse puesto y que permite registrar información sobre la actividad o el estado fisiológico de una persona. |
+| **Dispositivo portátil**        | Dispositivo electrónico diseñado para ser utilizado o llevado por una persona durante sus actividades cotidianas.                                         |
+| **Crisis epiléptica**           | Evento producido por una actividad eléctrica anormal y excesiva en el cerebro, que puede manifestarse de diferentes formas.                               |
+| **Periodo previo a una crisis** | Intervalo de tiempo anterior a una crisis que puede analizarse para identificar posibles cambios o patrones.                                              |
+| **Señal fisiológica**           | Información que representa alguna función o actividad del organismo, como la actividad cerebral, cardíaca o muscular.                                     |
+| **Datos de movimiento**         | Información obtenida mediante sensores que permite registrar desplazamientos, aceleraciones, orientación o actividad física.                              |
