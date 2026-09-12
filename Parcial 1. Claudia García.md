@@ -5,17 +5,21 @@
 
 ### Proyecto Final
 
-**Gestores de Datos**
+**Profesora:**  
+Blanca Esthela Torres Ramírez
 
 <br>
 
-**Claudia Ivett García Vite**
+**Alumna:**  
+Claudia Ivett García Vite
 
 <br>
 
-**2026**
+**Maestría en Ciencia de Datos**
 
-</div>
+<br><br>
+
+**Septiembre 2026**</div>
 
 ---
 
