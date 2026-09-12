@@ -1,5 +1,5 @@
 <div align="center">
-<img src="https://enlace.ucags.edu.mx/img/logotipos/logo_gu.png" width="180">
+<img src="https://enlace.ucags.edu.mx/img/logotipos/logo_gu.png" width="280">
 
 <br><br>
 
