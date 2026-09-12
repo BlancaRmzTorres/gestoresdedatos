@@ -1,6 +1,5 @@
 <div align="center">
-<img src="https://enlace.ucags.edu.mx/img/logotipos/logo_gu.png" width="300">
-<br>
+<img src="https://enlace.ucags.edu.mx/img/logotipos/logo_gu.png" width="320">
 
 # Análisis de datos fisiológicos para la identificación de cambios previos a crisis epilépticas
 
