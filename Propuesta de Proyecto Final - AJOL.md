@@ -4,8 +4,6 @@
 
 **Alumno:** Alexis Jaisiel Ortiz Lara  
 **Asignatura:** Bases de Datos para Ciencia De Datos
-**Fuente:** Instituto Nacional de Estadística y Geografía (INEGI)  
-**Conjunto de datos:** Encuesta Nacional sobre Disponibilidad y Uso de Tecnologías de la Información en los Hogares (ENDUTIH) 2024  
 
 ---
 
