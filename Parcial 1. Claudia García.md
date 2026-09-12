@@ -1,4 +1,24 @@
+<div align="center">
+
 # Análisis de datos fisiológicos para la identificación de cambios previos a crisis epilépticas
+
+### Proyecto Final
+
+**Gestores de Datos**
+
+<br>
+
+**Claudia Ivett García Vite**
+
+<br>
+
+**2026**
+
+</div>
+
+---
+
+## 1. Descripción del Proyecto
 
 ## 1. Descripción del Proyecto
 
