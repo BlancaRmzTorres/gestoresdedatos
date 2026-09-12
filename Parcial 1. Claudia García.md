@@ -211,18 +211,16 @@ La selección de una fuente específica se realizará después de revisar con ma
 
 # 6. Bibliografía
 
-1. Fisher, R. S., Cross, J. H., French, J. A., Higurashi, N., Hirsch, E., Jansen, F. E., Lagae, L., Moshé, S. L., Peltola, J., Roulet Perez, E., Scheffer, I. E., & Zuberi, S. M. (2017). *Operational Classification of Seizure Types by the International League Against Epilepsy*. Epilepsia, 58(4), 522–530.
+1. World Health Organization (WHO). (2025). *Epilepsy*. Disponible en: https://www.who.int/news-room/fact-sheets/detail/epilepsy
 
-2. World Health Organization (WHO). (2025). *Epilepsy*. Disponible en: https://www.who.int/news-room/fact-sheets/detail/epilepsy
+2. International League Against Epilepsy (ILAE). (2025). *About Epilepsy*. Disponible en: https://www.ilae.org
 
-3. International League Against Epilepsy (ILAE). (2025). *About Epilepsy*. Disponible en: https://www.ilae.org
+3. My Seizure Gauge. (2025). *My Seizure Gauge Long-term Wearable Data*. Zenodo. Disponible en: https://zenodo.org/records/17380899
 
-4. My Seizure Gauge. (2025). *My Seizure Gauge Long-term Wearable Data*. Zenodo. Disponible en: https://zenodo.org/records/17380899
+4. University of Melbourne. (2021). *Seizure Diary + Heart Rate (Wearable Data)*. Figshare. Disponible en: https://figshare.unimelb.edu.au/articles/dataset/Seizure_Diary_Wearable_Data/15109896
 
-5. University of Melbourne. (2021). *Seizure Diary + Heart Rate (Wearable Data)*. Figshare. Disponible en: https://figshare.unimelb.edu.au/articles/dataset/Seizure_Diary_Wearable_Data/15109896
+5. University of Melbourne. (2023). *Wearable Seizure Forecasting Pilot*. Figshare. Disponible en: https://figshare.unimelb.edu.au/articles/dataset/Wearable_Seizure_Forecasting_Pilot/23206445
 
-6. University of Melbourne. (2023). *Wearable Seizure Forecasting Pilot*. Figshare. Disponible en: https://figshare.unimelb.edu.au/articles/dataset/Wearable_Seizure_Forecasting_Pilot/23206445
+6. OpenNeuro. (2025). *SeizeIT2 Dataset*. Disponible en: https://openneuro.org/datasets/ds005873
 
-7. OpenNeuro. (2025). *SeizeIT2 Dataset*. Disponible en: https://openneuro.org/datasets/ds005873
-
-8. Instituto Nacional de Neurología y Neurocirugía. (2024). *Registro Nacional de Epilepsia en México*. Referencia utilizada como antecedente para el contexto epidemiológico de la epilepsia en México.
+7. Instituto Nacional de Neurología y Neurocirugía. (2024). *Registro Nacional de Epilepsia en México*. Referencia utilizada como antecedente para el contexto epidemiológico de la epilepsia en México.
