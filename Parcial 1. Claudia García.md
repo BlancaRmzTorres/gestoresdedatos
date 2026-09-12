@@ -3,8 +3,6 @@
 
 # Análisis de datos fisiológicos para la identificación de cambios previos a crisis epilépticas
 
-### Proyecto Final
-
 **Profesora:**  
 Blanca Esthela Torres Ramírez
 
