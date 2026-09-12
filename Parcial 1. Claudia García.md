@@ -125,7 +125,7 @@ Otra limitación es que los datos disponibles provienen de estudios realizados e
 
 ## 4. Fuente de Obtención del Conjunto de Datos
 
-Para el desarrollo del proyecto se consideran como posibles fuentes **conjuntos de datos académicos de acceso abierto** relacionados con epilepsia y registros obtenidos mediante dispositivos *wearables* o sistemas de monitoreo fisiológico.
+Para el desarrollo del proyecto se consideran como posibles fuentes **conjuntos de datos académicos de acceso abierto** relacionados con epilepsia y registros obtenidos mediante dispositivos o sistemas de monitoreo fisiológico.
 
 La selección definitiva del conjunto de datos se realizará después de revisar sus variables, formato, tamaño, disponibilidad y facilidad de procesamiento.
 
