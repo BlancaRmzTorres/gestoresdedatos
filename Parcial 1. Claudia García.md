@@ -27,7 +27,7 @@ Claudia Ivett García Vite
 
 Las personas con epilepsia pueden presentar crisis de manera inesperada, lo que puede ocasionar caídas, accidentes o lesiones. Por esta razón, resulta de interés estudiar si existen cambios en algunas señales fisiológicas o de actividad que puedan presentarse antes de una crisis.
 
-Este proyecto propone analizar datos obtenidos mediante dispositivos de monitoreo y *wearables* de personas con epilepsia, con la finalidad de identificar posibles cambios o patrones durante el periodo previo a una crisis epiléptica.
+Este proyecto propone analizar datos obtenidos mediante dispositivos de monitoreo de personas con epilepsia, con la finalidad de identificar posibles cambios o patrones durante el periodo previo a una crisis epiléptica.
 
 ### Contexto de aplicación
 
