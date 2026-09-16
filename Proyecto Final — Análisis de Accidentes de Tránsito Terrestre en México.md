@@ -245,3 +245,8 @@ A partir de los datos correspondientes a 2025 se realizará un proceso de explor
 El resultado esperado será una solución que permita consultar la información y visualizar indicadores básicos sobre los accidentes de tránsito, demostrando la aplicación práctica de los conocimientos adquiridos durante la asignatura.
 
 El proyecto se ha delimitado para mantener un alcance factible y permitir su desarrollo dentro del periodo establecido, dejando fuera funcionalidades avanzadas como predicción, inteligencia artificial o aprendizaje automático.
+
+#### **Observaciones**
+El proyecto está bien planteado, con objetivos claros y una metodología factible. La propuesta integra adecuadamente el uso de tecnologías de datos semiestructurados y NoSQL aplicadas a una fuente oficial de información. La incorporación de indicadores y visualizaciones permitirá obtener resultados relevantes sobre los accidentes de tránsito. En general, es un trabajo sólido y con buen potencial de desarrollo.
+
+Adicionalmente, te comento que durante la maestría realizamos un estudio relacionado con esta temática, en el que se identificaron las horas de mayor ocurrencia de accidentes y los anillos viales con mayor incidencia. Si te interesa, con gusto puedo compartirte parte de ese análisis, ya que podría servirte como referencia o inspiración para enriquecer tu proyecto.
