@@ -168,3 +168,8 @@ Posteriormente, la investigación podrá incorporar dos dimensiones adicionales:
 Esto permitirá evaluar si la prioridad definida conceptualmente coincide con factores observados en los datos, como frecuencia de modificación, número de inconsistencias, recurrencia, tiempos de atención y dependencia entre objetos.
 
 De esta manera, la investigación podrá avanzar desde una clasificación conceptual hacia un modelo de priorización sustentado progresivamente en evidencia obtenida de los procesos de actualización.
+
+
+#### **Observaciones**
+
+Tu trabajo está bien desarrollado y se observa un análisis cuidadoso del problema. Los objetivos son claros, el alcance es adecuado y la propuesta resulta pertinente para el contexto que presentas. Continúa trabajando en la definición de los criterios de priorización para fortalecer aún más la metodología. ¡Buen trabajo!
