@@ -156,3 +156,6 @@ El producto final será un **sistema de análisis y clasificación de perfiles d
 7. Tablas y gráficas para presentar e interpretar los resultados.
 
 El proyecto permitirá utilizar datos oficiales del INEGI para estudiar la brecha digital desde una perspectiva más amplia, considerando no solamente el acceso a la tecnología, sino también su uso y las habilidades digitales de los usuarios.
+
+#### **Observaciones**
+En términos generales, el proyecto está bien planteado, presenta objetivos claros y una metodología viable. La construcción del Índice de Madurez Digital constituye una propuesta interesante para clasificar perfiles y analizar la brecha digital desde distintas dimensiones. Si deseas profundizar en el tema, durante la maestría se desarrolló un estudio utilizando información de la ENDUTIH, por lo que con gusto puedo compartir algunas referencias, recomendaciones o enfoques que podrían enriquecer tu trabajo. Asimismo, te comento que actualmente ya se encuentran disponibles los datos de la ENDUTIH 2025, lo que podría abrir oportunidades para futuras comparaciones o análisis longitudinales.
