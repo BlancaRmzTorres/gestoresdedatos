@@ -7,3 +7,4 @@ Temario
 - [Sesión 3](assets/sesion3.md)
 - [Sesión 4](assets/sesion4.md)
 - [Sesión 5](assets/sesion5.md)
+- [Sesión 6](assets/sesion6.md)
