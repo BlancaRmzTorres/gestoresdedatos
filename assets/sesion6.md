@@ -376,6 +376,32 @@ Comprender estas diferencias permite diseñar arquitecturas tecnológicas más e
 
 **10 de octubre**
 
+# Segunda Entrega
+## Diseño y Preparación de Datos NoSQL
+
+**Del dato crudo a una base de datos lista para el análisis**
+
+| Elemento | Aspectos a Evaluar |
+|-----------|-------------------|
+| 🗄️ Fuente de datos | Confiabilidad y relevancia de los datos. |
+| 📄 Diccionario de datos | Definición clara de atributos y tipos de datos. |
+| 📋 Modelo NoSQL | Diseño de colecciones y documentos. |
+| 🧹 Limpieza de datos | Eliminación de duplicados, nulos e inconsistencias. |
+| ⚙️ Preparación de datos | Transformación y normalización de información. |
+| ⬆️ Carga inicial | Inserción de datos en la base NoSQL. |
+| 💻 Código preliminar | Evidencia funcional en Python. |
+
+## Recomendaciones
+
+- ✅ Datos de calidad, mejores decisiones.
+- ✅ Estructura flexible para grandes ideas.
+- ✅ Datos listos para el análisis.
+- ✅ De los datos al conocimiento.
+
+## Objetivo de la entrega
+
+Diseñar, preparar y cargar los datos en una base de datos NoSQL, dejando un código funcional que sirva como base para las siguientes etapas del proyecto.
+
 ---
 
 
