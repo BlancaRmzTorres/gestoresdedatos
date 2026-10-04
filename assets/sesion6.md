@@ -1,22 +1,22 @@
-# Base de datos para Ciencia de Datos
+### Base de datos para Ciencia de Datos
 
-## Sesión 6. Plataformas y Tipos de Servicios
-
----
-
-# 2.4 Tipos de Servicio
-
-## 2.4.1 Software como Servicio (SaaS)
-
-## 2.4.2 Plataforma como Servicio (PaaS)
-
-## 2.4.3 Infraestructura como Servicio (IaaS)
-
-## 2.5 Uso de aplicaciones
+#### **Sesión 6. Plataformas y Tipos de Servicios**
 
 ---
 
-# 2.4.2 Platform as a Service (PaaS)
+#### 2.4 Tipos de Servicio
+
+##### 2.4.1 Software como Servicio (SaaS)
+
+#### 2.4.2 Plataforma como Servicio (PaaS)
+
+#### 2.4.3 Infraestructura como Servicio (IaaS)
+
+#### 2.5 Uso de aplicaciones
+
+---
+
+#### 2.4.2 Platform as a Service (PaaS)
 
 PaaS (Platform as a Service) es un modelo de computación en la nube que ofrece una plataforma completa para desarrollar, probar, implementar y administrar aplicaciones sin preocuparse por la infraestructura.
 
@@ -378,4 +378,4 @@ Comprender estas diferencias permite diseñar arquitecturas tecnológicas más e
 
 ---
 
-# Gracias
+
