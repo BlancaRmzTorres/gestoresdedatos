@@ -9,4 +9,5 @@ Temario
 - [Sesión 5](assets/sesion5.md)
 - [Sesión 6](assets/sesion6.md)
 - [Sesión 7](assets/sesion7.md)
+- [Sesión 8](assets/sesion8.md)
 - [Presentaciones](assets/presentaciones/)
