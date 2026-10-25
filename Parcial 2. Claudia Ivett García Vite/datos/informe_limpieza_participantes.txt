@@ -1,0 +1,10 @@
+INFORME DE LIMPIEZA DE PARTICIPANTES
+========================================
+Filas revisadas: 125
+Registros válidos: 125
+Registros con incidencias: 0
+Sexo m: 63
+Sexo f: 62
+
+DETALLE DE INCIDENCIAS
+No se detectaron incidencias.
