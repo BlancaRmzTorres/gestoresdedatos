@@ -213,7 +213,6 @@ Un ecosistema Big Data está compuesto por tecnologías que trabajan juntas para
 
 ## Flujo general
 
-```text
 Fuentes de Datos
        ↓
 Ingesta
