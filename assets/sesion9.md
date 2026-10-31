@@ -525,5 +525,33 @@ Porque involucra:
 
 - Mayor rentabilidad.
 - Menores pérdidas.
--
+- Alto rendimiento analítico.
+
+---
+
+## Inteligencia Artificial Generativa
+
+Permite:
+
+- Automatizar análisis.
+- Generar contenido.
+- Mejorar la productividad.
+- Asistir en la toma de decisiones.
+
+---
+
+## Analítica en Tiempo Real
+
+Las organizaciones buscan cada vez más procesar eventos y generar información de valor en cuestión de segundos mediante arquitecturas de streaming de datos.
+
+---
+
+# Conclusiones
+
+- Los datos son uno de los activos más importantes de las organizaciones modernas.
+- Big Data permite almacenar, procesar y analizar información a gran escala.
+- Las 5V ayudan a comprender los desafíos asociados a los datos masivos.
+- Un ecosistema Big Data integra múltiples herramientas para convertir datos en conocimiento.
+- Tecnologías como Kafka, Hadoop, Spark, TensorFlow y Power BI son componentes clave dentro de estas arquitecturas.
+- Las organizaciones que aprovechan eficazmente sus datos pueden innovar, optimizar procesos y obtener ventajas competitivas sostenibles.
 
