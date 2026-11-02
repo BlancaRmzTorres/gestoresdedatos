@@ -1,0 +1,155 @@
+Super Formulario y Guía Definitiva de Termodinámica
+Este formulario reúne todas las leyes fundamentales, procesos termodinámicos, despejes detallados, leyes de mezclas de gases y los modelos de ciclos de potencia ideales ($Otto$, $Diesel$, $Brayton$ y $Carnot$), estructurados para resolver cualquier tipo de ejercicio técnico.
+1. Leyes de los Gases Ideales y Procesos Básicos
+A) Ley de Boyle (Procesos Isotérmicos: $T = \text{constante}$)
+Establece que a temperatura constante, la presión y el volumen son inversamente proporcionales. 
+$$P_1 \cdot V_1 = P_2 \cdot V_2$$
+•	Despejes posibles:
+o	Para $P_1$: 
+$$P_1 = \frac{P_2 \cdot V_2}{V_1}$$
+o	Para $V_1$: 
+$$V_1 = \frac{P_2 \cdot V_2}{P_1}$$
+o	Para $P_2$: 
+$$P_2 = \frac{P_1 \cdot V_1}{V_2}$$
+o	Para $V_2$: 
+$$V_2 = \frac{P_1 \cdot V_1}{P_2}$$
+B) Ley de Charles (Procesos Isobáricos: $P = \text{constante}$)
+Establece que a presión constante, el volumen de una masa fija de gas es directamente proporcional a su temperatura absoluta. 
+$$\frac{V_1}{T_1} = \frac{V_2}{T_2}$$
+•	Despejes posibles:
+o	Para $V_1$: 
+$$V_1 = \frac{V_2 \cdot T_1}{T_2}$$
+o	Para $T_1$: 
+$$T_1 = \frac{V_1 \cdot T_2}{V_2}$$
+o	Para $V_2$: 
+$$V_2 = \frac{V_1 \cdot T_2}{T_1}$$
+o	Para $T_2$: 
+$$T_2 = \frac{V_2 \cdot T_1}{V_1}$$
+C) Ley de Gay-Lussac / Amontons (Procesos Isocóricos: $V = \text{constante}$)
+Establece que a volumen constante, la presión de una masa fija de gas es directamente proporcional a su temperatura absoluta. 
+$$\frac{P_1}{T_1} = \frac{P_2}{T_2}$$
+•	Despejes posibles:
+o	Para $P_1$: 
+$$P_1 = \frac{P_2 \cdot T_1}{T_2}$$
+o	Para $T_1$: 
+$$T_1 = \frac{P_1 \cdot T_2}{P_2}$$
+o	Para $P_2$: 
+$$P_2 = \frac{P_1 \cdot T_2}{T_1}$$
+o	Para $T_2$: 
+$$T_2 = \frac{P_2 \cdot T_1}{P_1}$$
+D) Ecuación General / Combinada de los Gases
+Relaciona dos estados de un gas cuando varían simultáneamente presión, volumen y temperatura. 
+$$\frac{P_1 \cdot V_1}{T_1} = \frac{P_2 \cdot V_2}{T_2}$$
+•	Despejes de incógnitas principales:
+o	Para $P_2$: 
+$$P_2 = \frac{P_1 \cdot V_1 \cdot T_2}{T_1 \cdot V_2}$$
+o	Para $V_2$: 
+$$V_2 = \frac{P_1 \cdot V_1 \cdot T_2}{T_1 \cdot P_2}$$
+o	Para $T_2$: 
+$$T_2 = \frac{P_2 \cdot V_2 \cdot T_1}{P_1 \cdot V_1}$$
+o	Para $P_1$: 
+$$P_1 = \frac{P_2 \cdot V_2 \cdot T_1}{T_2 \cdot V_1}$$
+o	Para $V_1$: 
+$$V_1 = \frac{P_2 \cdot V_2 \cdot T_1}{T_2 \cdot P_1}$$
+o	Para $T_1$: 
+$$T_1 = \frac{P_1 \cdot V_1 \cdot T_2}{P_2 \cdot V_2}$$
+E) Ecuación de Estado de los Gases Ideales
+•	En función de los moles ($n$): 
+$$P \cdot V = n \cdot \bar{R} \cdot T$$
+o	Despejes: 
+$$n = \frac{P \cdot V}{\bar{R} \cdot T}, \quad P = \frac{n \cdot \bar{R} \cdot T}{V}, \quad V = \frac{n \cdot \bar{R} \cdot T}{P}, \quad T = \frac{P \cdot V}{n \cdot \bar{R}}$$
+•	En función de la masa ($m$): 
+$$P \cdot V = m \cdot R \cdot T$$
+o	Donde $R = \frac{\bar{R}}{M}$ (constante específica del gas).
+o	Despejes: 
+$$m = \frac{P \cdot V}{R \cdot T}, \quad V = \frac{m \cdot R \cdot T}{P}, \quad P = \frac{m \cdot R \cdot T}{V}, \quad T = \frac{P \cdot V}{m \cdot R}$$
+2. Procesos Adiabáticos y Relaciones de Poisson
+En un proceso adiabático reversible (isentrópico), no hay transferencia de calor ($Q = 0$) y se cumple con el exponente adiabático $\gamma$ (o $k$ o $\delta$): 
+$$\gamma = \frac{C_p}{C_v}, \quad C_p = C_v + R$$
+Fórmulas de relación entre estados:
+1.	Relación Presión-Volumen: 
+$$P_1 \cdot V_1^{\gamma} = P_2 \cdot V_2^{\gamma} \implies \frac{P_2}{P_1} = \left(\frac{V_1}{V_2}\right)^{\gamma}$$
+2.	Relación Temperatura-Volumen: 
+$$\frac{T_2}{T_1} = \left(\frac{V_1}{V_2}\right)^{\gamma-1} \quad \text{o bien} \quad T_2 = T_1 \cdot \left(\frac{V_1}{V_2}\right)^{\gamma-1}$$
+3.	Relación Temperatura-Presión: 
+$$\frac{T_2}{T_1} = \left(\frac{P_2}{P_1}\right)^{\frac{\gamma-1}{\gamma}}$$
+3. Sustancias Puras, Fases y Cambios de Estado
+•	Calidad del vapor ($x$): Representa el porcentaje de masa en forma de vapor respecto a la masa total. Su valor se encuentra entre $0$ y $1$ (o $0\%$ y $100\%$). 
+$$x = \frac{m_{\text{vapor}}}{m_{\text{total}}} = \frac{v - v_f}{v_g - v_f} = \frac{u - u_f}{u_g - u_f} = \frac{h - h_f}{h_{fg}}$$
+•	Propiedades promedio en mezcla saturada:
+o	Volumen específico: $v = v_f + x \cdot (v_g - v_f) = v_f + x \cdot v_{fg}$ 
+o	Entalpía: $h = h_f + x \cdot (h_g - h_f) = h_f + x \cdot h_{fg}$ 
+o	Energía interna: $u = u_f + x \cdot (u_g - u_f) = u_f + x \cdot u_{fg}$ 
+•	Calor y Energía en procesos específicos:
+o	Proceso isobárico ($P = \text{constante}$): $Q = m \cdot \Delta h$ (o $q = \Delta h$)
+o	Proceso isocórico ($V = \text{constante}$): $Q = m \cdot \Delta u$ (o $q = \Delta u$)
+o	Para cambio de fase total (vaporización a $P$ constante): $Q = m \cdot h_{fg}$ 
+o	Flujo másico a potencia ($\text{kW}$): $\dot{H} = \dot{m} \cdot h$ 
+4. Mezclas de Gases
+•	Fracción molar ($y_i$): 
+$$y_i = \frac{n_i}{n_{\text{total}}}, \quad \sum y_i = 1$$
+A) Ley de Dalton (Presiones Parciales)
+La presión total es la suma de las presiones parciales de los componentes ocupando el volumen total. 
+$$P_{\text{total}} = \sum P_i$$$$P_i = y_i \cdot P_{\text{total}}$$
+B) Ley de Amagat (Volúmenes Parciales)
+El volumen total es la suma de los volúmenes parciales a la presión y temperatura de la mezcla. 
+$$V_{\text{total}} = \sum V_i$$$$V_i = y_i \cdot V_{\text{total}}$$
+C) Propiedades Pseudocríticas (Regla de Kay)
+Para encontrar el comportamiento real de mezclas de gases ideales:
+•	Temperatura pseudocrítica: $T_{pc} = \sum (y_i \cdot T_{ci})$ 
+•	Presión pseudocrítica: $P_{pc} = \sum (y_i \cdot P_{ci})$ 
+•	Temperatura y presión reducidas de la mezcla: 
+$$T_R' = \frac{T}{T_{pc}}, \quad P_R' = \frac{P}{P_{pc}}$$
+•	Volumen real corregido con el factor de compresibilidad ($Z$): 
+$$V = \frac{Z \cdot n \cdot \bar{R} \cdot T}{P}$$
+5. Ciclos Termodinámicos de Potencia
+A) Ciclo Carnot (Ciclo Ideal Reversible)
+Compuesto por dos isotermas y dos adiabáticas reversibles. Es el límite máximo de eficiencia térmica para cualquier ciclo.
+•	Eficiencia térmica ($\eta_{\text{th}}$): 
+$$\eta_{\text{th, Carnot}} = 1 - \frac{T_L}{T_H} = 1 - \frac{Q_{\text{out}}}{Q_{\text{in}}}$$
+(Nota: $T_L$ y $T_H$ deben ingresarse estrictamente en temperatura absoluta: Kelvin o Rankine).
+B) Ciclo Otto Ideal (Motores de encendido por chispa)
+Procesos:
+1.	$1 \rightarrow 2$: Compresión isentrópica.
+2.	$2 \rightarrow 3$: Adición de calor a volumen constante ($V_2 = V_3$).
+3.	$3 \rightarrow 4$: Expansión isentrópica.
+4.	$4 \rightarrow 1$: Rechazo de calor a volumen constante ($V_4 = V_1$).
+•	Relación de compresión ($r$): 
+$$r = \frac{V_1}{V_2} = \frac{V_4}{V_3}$$
+•	Eficiencia térmica: 
+$$\eta_{\text{th}} = 1 - \frac{1}{r^{\gamma-1}}$$
+•	Balances por etapa:
+o	Calor de entrada ($2 \rightarrow 3$): $Q_{\text{in}} = m \cdot C_v \cdot (T_3 - T_2)$ 
+o	Calor de salida ($4 \rightarrow 1$): $Q_{\text{out}} = m \cdot C_v \cdot (T_4 - T_1)$ 
+o	Trabajo neto: $W_{\text{net}} = Q_{\text{in}} - Q_{\text{out}}$ 
+C) Ciclo Diesel Ideal (Motores de encendido por compresión)
+Procesos:
+1.	$1 \rightarrow 2$: Compresión isentrópica.
+2.	$2 \rightarrow 3$: Adición de calor a presión constante ($P_2 = P_3$).
+3.	$3 \rightarrow 4$: Expansión isentrópica.
+4.	$4 \rightarrow 1$: Rechazo de calor a volumen constante ($V_4 = V_1$).
+•	Parámetros clave:
+o	Relación de compresión: $r = \frac{V_1}{V_2}$ 
+o	Relación de corte de admisión: $r_c = \frac{V_3}{V_2}$ 
+•	Eficiencia térmica: 
+$$\eta_{\text{th}} = 1 - \frac{1}{r^{\gamma-1}} \left[ \frac{r_c^\gamma - 1}{\gamma(r_c - 1)} \right]$$
+•	Balances por etapa:
+o	Calor de entrada ($2 \rightarrow 3$, a presión constante): $Q_{\text{in}} = m \cdot C_p \cdot (T_3 - T_2)$ 
+o	Calor de salida ($4 \rightarrow 1$, a volumen constante): $Q_{\text{out}} = m \cdot C_v \cdot (T_4 - T_1)$ 
+o	Trabajo neto específico: $w_{\text{net}} = q_{\text{in}} - q_{\text{out}}$ 
+D) Ciclo Brayton Ideal (Turbinas de gas)
+Procesos:
+1.	$1 \rightarrow 2$: Compresión isentrópica en el compresor.
+2.	$2 \rightarrow 3$: Adición de calor a presión constante en la cámara de combustión ($P_2 = P_3$).
+3.	$3 \rightarrow 4$: Expansión isentrópica en la turbina.
+4.	$4 \rightarrow 1$: Rechazo de calor a presión constante en el exterior ($P_4 = P_1$).
+•	Relación de presiones ($r_p$): 
+$$r_p = \frac{P_2}{P_1} = \frac{P_3}{P_4}$$
+•	Eficiencia térmica: 
+$$\eta_{\text{th}} = 1 - \frac{1}{r_p^{\frac{\gamma-1}{\gamma}}}$$
+•	Balances de energía por componente:
+o	Trabajo del compresor ($W_{\text{comp}}$): $m \cdot C_p \cdot (T_2 - T_1)$ 
+o	Calor suministrado ($Q_{\text{in}}$): $m \cdot C_p \cdot (T_3 - T_2)$ 
+o	Trabajo de la turbina ($W_{\text{turb}}$): $m \cdot C_p \cdot (T_3 - T_4)$ 
+o	Calor rechazado ($Q_{\text{out}}$): $m \cdot C_p \cdot (T_4 - T_1)$ 
+o	Trabajo neto del ciclo: $W_{\text{net}} = W_{\text{turb}} - W_{\text{comp}} = Q_{\text{in}} - Q_{\text{out}}$
