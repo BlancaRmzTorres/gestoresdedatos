@@ -11,4 +11,5 @@ Temario
 - [Sesión 7](assets/sesion7.md)
 - [Sesión 8](assets/sesion8.md)
 - [Sesión 9](assets/sesion9.md)
+- [Sesión 10](assets/sesion10.md)
 - [Presentaciones](assets/presentaciones/)
