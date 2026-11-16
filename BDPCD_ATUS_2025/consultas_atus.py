@@ -1,37 +1,143 @@
+
+"""
+PROYECTO BDPCD
+Análisis de accidentes de tránsito terrestre en México durante 2025
+mediante datos semiestructurados y tecnologías NoSQL.
+
+Fuente: INEGI - ATUS 2025
+Base de datos: bdpcd_atus
+Colección: accidentes_2025
+
+Requisitos:
+    pip install -r requirements.txt
+
+Configuración:
+    La URI de MongoDB debe estar en la variable de entorno MONGODB_URI.
+
+Ejecución:
+    python consultas_atus.py
+"""
+
 import os
+import sys
 from pymongo import MongoClient
+from pymongo.errors import PyMongoError
 
-uri = os.getenv("MONGODB_URI")
 
-if not uri:
-    raise RuntimeError("No se encontró la variable MONGODB_URI.")
+# ============================================================
+# 1. CONFIGURACIÓN
+# ============================================================
 
-client = MongoClient(uri, serverSelectionTimeoutMS=15000)
+MONGODB_URI = os.getenv("MONGODB_URI")
+DATABASE_NAME = os.getenv("MONGODB_DATABASE", "bdpcd_atus")
+COLLECTION_NAME = os.getenv("MONGODB_COLLECTION", "accidentes_2025")
 
-db = client["bdpcd_atus"]
-coleccion = db["accidentes_2025"]
+if not MONGODB_URI:
+    print("ERROR: No se encontró la variable MONGODB_URI.")
+    print("Configura la variable de entorno antes de ejecutar.")
+    sys.exit(1)
+
+
+CAMPOS_FALLECIDOS = [
+    "CONDMUERTO",
+    "PASAMUERTO",
+    "PEATMUERTO",
+    "CICLMUERTO",
+    "OTROMUERTO"
+]
+
+CAMPOS_LESIONADOS = [
+    "CONDHERIDO",
+    "PASAHERIDO",
+    "PEATHERIDO",
+    "CICLHERIDO",
+    "OTROHERIDO"
+]
+
+CAMPOS_VICTIMAS = CAMPOS_FALLECIDOS + CAMPOS_LESIONADOS
+
+
+# ============================================================
+# 2. FUNCIONES AUXILIARES
+# ============================================================
+
+def encabezado(titulo):
+    print("\n" + "=" * 75)
+    print(titulo)
+    print("=" * 75)
+
+
+def imprimir_resultados(cursor):
+    resultados = list(cursor)
+
+    if not resultados:
+        print("No se encontraron resultados.")
+        return
+
+    for resultado in resultados:
+        print(resultado)
+
+
+def sumar_campos(campos):
+    """
+    Genera una expresión MongoDB para sumar un conjunto de campos.
+    Los valores nulos o inexistentes se consideran cero.
+    """
+    return {
+        "$add": [
+            {"$ifNull": [f"${campo}", 0]}
+            for campo in campos
+        ]
+    }
+
+
+# ============================================================
+# 3. EJECUCIÓN DE LOS ANÁLISIS
+# ============================================================
+
+client = None
 
 try:
+
+    client = MongoClient(
+        MONGODB_URI,
+        serverSelectionTimeoutMS=15000,
+        connectTimeoutMS=20000,
+        socketTimeoutMS=60000
+    )
+
+    # Verificar conexión
     client.admin.command("ping")
 
-    # ============================================================
+    db = client[DATABASE_NAME]
+    coleccion = db[COLLECTION_NAME]
+
+    encabezado("CONEXIÓN A MONGODB")
+    print("Conexión establecida correctamente.")
+    print(f"Base de datos: {DATABASE_NAME}")
+    print(f"Colección: {COLLECTION_NAME}")
+
+    total_documentos = coleccion.count_documents({})
+
+    # ========================================================
     # 1. TOTAL DE REGISTROS
-    # ============================================================
+    # ========================================================
 
-    print("\n=== 1. TOTAL DE REGISTROS ===")
-    print(coleccion.count_documents({}))
+    encabezado("1. TOTAL DE REGISTROS")
 
-    # ============================================================
+    print(f"Total de accidentes registrados: {total_documentos:,}")
+
+    # ========================================================
     # 2. ACCIDENTES POR MES
-    # ============================================================
+    # ========================================================
 
-    print("\n=== 2. ACCIDENTES POR MES ===")
+    encabezado("2. ACCIDENTES POR MES")
 
     pipeline_mes = [
         {
             "$group": {
                 "_id": "$MES",
-                "total": {"$sum": 1}
+                "total_accidentes": {"$sum": 1}
             }
         },
         {
@@ -40,23 +146,26 @@ try:
     ]
 
     for r in coleccion.aggregate(pipeline_mes):
-        print(f"Mes {r['_id']}: {r['total']:,} registros")
+        print(
+            f"Mes {r['_id']}: "
+            f"{r['total_accidentes']:,} accidentes"
+        )
 
-    # ============================================================
-    # 3. ACCIDENTES POR ENTIDAD
-    # ============================================================
+    # ========================================================
+    # 3. ACCIDENTES POR ENTIDAD FEDERATIVA
+    # ========================================================
 
-    print("\n=== 3. ACCIDENTES POR ENTIDAD ===")
+    encabezado("3. TOP 10 ENTIDADES FEDERATIVAS")
 
     pipeline_entidad = [
         {
             "$group": {
                 "_id": "$CVE_ENT",
-                "total": {"$sum": 1}
+                "total_accidentes": {"$sum": 1}
             }
         },
         {
-            "$sort": {"total": -1}
+            "$sort": {"total_accidentes": -1}
         },
         {
             "$limit": 10
@@ -64,41 +173,56 @@ try:
     ]
 
     for r in coleccion.aggregate(pipeline_entidad):
-        print(f"Entidad {r['_id']}: {r['total']:,} registros")
+        print(
+            f"Entidad {r['_id']}: "
+            f"{r['total_accidentes']:,} accidentes"
+        )
 
-    # ============================================================
+    # ========================================================
     # 4. ACCIDENTES POR TIPO
-    # ============================================================
+    # ========================================================
 
-    print("\n=== 4. ACCIDENTES POR TIPO ===")
+    encabezado("4. ACCIDENTES POR TIPO")
 
     pipeline_tipo = [
         {
             "$group": {
                 "_id": "$TIPACCID",
-                "total": {"$sum": 1}
+                "total_accidentes": {"$sum": 1}
             }
         },
         {
-            "$sort": {"total": -1}
-        },
-        {
-            "$limit": 10
+            "$sort": {"total_accidentes": -1}
         }
     ]
 
     for r in coleccion.aggregate(pipeline_tipo):
-        print(f"Tipo {r['_id']}: {r['total']:,} registros")
+        porcentaje = (
+            r["total_accidentes"] / total_documentos * 100
+            if total_documentos else 0
+        )
 
-    # ============================================================
+        print(
+            f"Tipo: {r['_id']} | "
+            f"Accidentes: {r['total_accidentes']:,} | "
+            f"Porcentaje: {porcentaje:.2f}%"
+        )
+
+    # ========================================================
     # 5. REGISTROS CON CAMPOS FALTANTES
-    # ============================================================
+    # ========================================================
 
-    print("\n=== 5. REGISTROS CON CAMPOS FALTANTES ===")
+    encabezado("5. DIAGNÓSTICO DE CAMPOS PRINCIPALES")
 
-    campos = ["CVE_ENT", "MES", "TIPACCID", "CAUSAACCI"]
+    campos_revision = [
+        "CVE_ENT",
+        "MES",
+        "TIPACCID",
+        "CAUSAACCI"
+    ]
 
-    for campo in campos:
+    for campo in campos_revision:
+
         faltantes = coleccion.count_documents({
             "$or": [
                 {campo: {"$exists": False}},
@@ -107,13 +231,21 @@ try:
             ]
         })
 
-        print(f"{campo}: {faltantes:,} registros sin valor")
+        porcentaje = (
+            faltantes / total_documentos * 100
+            if total_documentos else 0
+        )
 
-    # ============================================================
+        print(
+            f"{campo}: {faltantes:,} faltantes "
+            f"({porcentaje:.2f}%)"
+        )
+
+    # ========================================================
     # 6. PRINCIPALES CAUSAS DE LOS ACCIDENTES
-    # ============================================================
+    # ========================================================
 
-    print("\n=== 6. PRINCIPALES CAUSAS DE LOS ACCIDENTES ===")
+    encabezado("6. PRINCIPALES CAUSAS DE LOS ACCIDENTES")
 
     pipeline_causas = [
         {
@@ -137,167 +269,35 @@ try:
         }
     ]
 
-    for resultado in coleccion.aggregate(pipeline_causas):
+    for r in coleccion.aggregate(pipeline_causas):
         print(
-            f"Causa: {resultado['_id']} | "
-            f"Accidentes: {resultado['total']:,}"
+            f"Causa: {r['_id']} | "
+            f"Accidentes: {r['total']:,}"
         )
 
-    # ============================================================
-    # 7. PERSONAS FALLECIDAS Y LESIONADAS
-    # ============================================================
+    # ========================================================
+    # 7. PARTICIPACIÓN DE LOS VEHÍCULOS INVOLUCRADOS
+    # ========================================================
 
-    print("\n=== 7. PERSONAS FALLECIDAS Y LESIONADAS ===")
+    encabezado("7. VEHÍCULOS INVOLUCRADOS")
 
-    pipeline_victimas = [
-        {
-            "$group": {
-                "_id": None,
-                "fallecidos": {
-                    "$sum": {"$ifNull": ["$NEMUERTO", 0]}
-                },
-                "lesionados": {
-                    "$sum": {"$ifNull": ["$NEHERIDO", 0]}
-                },
-                "registros": {"$sum": 1}
-            }
-        }
+    campos_vehiculos = [
+        "AUTOMOVIL",
+        "CAMPASAJ",
+        "MICROBUS",
+        "PASCAMION",
+        "OMNIBUS",
+        "TRANVIA",
+        "CAMIONETA",
+        "CAMION",
+        "TRACTOR",
+        "FERROCARRI",
+        "MOTOCICLET",
+        "BICICLETA",
+        "OTROVEHIC"
     ]
 
-    for resultado in coleccion.aggregate(pipeline_victimas):
-        print(f"Registros analizados: {resultado['registros']:,}")
-        print(f"Fallecidos reportados: {resultado['fallecidos']:,}")
-        print(f"Lesionados reportados: {resultado['lesionados']:,}")
-
-    # ============================================================
-    # 8. VÍCTIMAS POR TIPO DE ACCIDENTE
-    # ============================================================
-
-    print("\n=== 8. VÍCTIMAS POR TIPO DE ACCIDENTE ===")
-
-    pipeline_victimas_tipo = [
-        {
-            "$group": {
-                "_id": "$TIPACCID",
-                "accidentes": {"$sum": 1},
-                "fallecidos": {
-                    "$sum": {"$ifNull": ["$NEMUERTO", 0]}
-                },
-                "lesionados": {
-                    "$sum": {"$ifNull": ["$NEHERIDO", 0]}
-                }
-            }
-        },
-        {
-            "$sort": {"fallecidos": -1}
-        }
-    ]
-
-    for resultado in coleccion.aggregate(pipeline_victimas_tipo):
-        print(
-            f"Tipo: {resultado['_id']} | "
-            f"Accidentes: {resultado['accidentes']:,} | "
-            f"Fallecidos: {resultado['fallecidos']:,} | "
-            f"Lesionados: {resultado['lesionados']:,}"
-        )
-
-    # ============================================================
-    # 9. DIAGNÓSTICO DE LOS CAMPOS DE VÍCTIMAS
-    # ============================================================
-
-    print("\n=== 9. DIAGNÓSTICO DE LOS CAMPOS DE VÍCTIMAS ===")
-
-    campos = [
-        "NEMUERTO",
-        "NEHERIDO",
-        "CONDMUERTO",
-        "CONDHERIDO",
-        "PASAMUERTO",
-        "PASAHERIDO",
-        "PEATMUERTO",
-        "PEATHERIDO",
-        "CICLMUERTO",
-        "CICLHERIDO",
-        "OTROMUERTO",
-        "OTROHERIDO"
-    ]
-
-    for campo in campos:
-
-        print(f"\nCampo: {campo}")
-
-        existentes = coleccion.count_documents({
-            campo: {"$exists": True}
-        })
-
-        distintos_cero = coleccion.count_documents({
-            campo: {"$ne": 0, "$exists": True}
-        })
-
-        ejemplos = list(
-            coleccion.find(
-                {campo: {"$exists": True}},
-                {"_id": 0, campo: 1}
-            ).limit(5)
-        )
-
-        print(f"Documentos con campo: {existentes:,}")
-        print(f"Valores distintos de cero: {distintos_cero:,}")
-        print(f"Ejemplos: {ejemplos}")
-
-    # ============================================================
-    # 10. TIPOS DE DATOS EN MONGODB
-    # ============================================================
-
-    print("\n=== 10. TIPOS DE DATOS EN MONGODB ===")
-
-    for campo in ["NEMUERTO", "NEHERIDO", "CAUSAACCI", "TIPACCID"]:
-
-        pipeline_tipos = [
-            {
-                "$group": {
-                    "_id": {"$type": f"${campo}"},
-                    "total": {"$sum": 1}
-                }
-            },
-            {
-                "$sort": {"total": -1}
-            }
-        ]
-
-        print(f"\nCampo: {campo}")
-
-        for resultado in coleccion.aggregate(pipeline_tipos):
-            print(
-                f"Tipo BSON: {resultado['_id']} | "
-                f"Registros: {resultado['total']:,}"
-            )
-
-    # ============================================================
-    # 11. TOTAL DE FALLECIDOS Y LESIONADOS
-    # ============================================================
-
-    print("\n=== 11. TOTAL DE FALLECIDOS Y LESIONADOS ===")
-
-    campos_fallecidos = [
-        "CONDMUERTO",
-        "PASAMUERTO",
-        "PEATMUERTO",
-        "CICLMUERTO",
-        "OTROMUERTO"
-    ]
-
-    campos_lesionados = [
-        "CONDHERIDO",
-        "PASAHERIDO",
-        "PEATHERIDO",
-        "CICLHERIDO",
-        "OTROHERIDO"
-    ]
-
-    campos = campos_fallecidos + campos_lesionados
-
-    pipeline = [
+    pipeline_vehiculos = [
         {
             "$group": {
                 "_id": None,
@@ -305,47 +305,132 @@ try:
                     campo: {
                         "$sum": {"$ifNull": [f"${campo}", 0]}
                     }
-                    for campo in campos
+                    for campo in campos_vehiculos
                 }
             }
         }
     ]
 
-    documento = next(coleccion.aggregate(pipeline), None)
+    resultado_vehiculos = next(
+        coleccion.aggregate(pipeline_vehiculos),
+        None
+    )
 
-    if documento:
+    if resultado_vehiculos:
 
-        print("\nFALLECIDOS POR CATEGORÍA:")
+        for campo in campos_vehiculos:
+            print(
+                f"{campo}: "
+                f"{resultado_vehiculos[campo]:,}"
+            )
 
-        for campo in campos_fallecidos:
-            print(f"{campo}: {documento,}")
-
-        print("\nLESIONADOS POR CATEGORÍA:")
-
-        for campo in campos_lesionados:
-            print(f"{campo}: {documento,}")
-
-        total_fallecidos = sum(
-            documento[campo]
-            for campo in campos_fallecidos
+        total_vehiculos = sum(
+            resultado_vehiculos[campo]
+            for campo in campos_vehiculos
         )
 
-        total_lesionados = sum(
-            documento[campo]
-            for campo in campos_lesionados
-        )
+        print(f"\nTotal de registros de vehículos: {total_vehiculos:,}")
 
-        print(f"\nTotal fallecidos: {total_fallecidos:,}")
-        print(f"Total lesionados: {total_lesionados:,}")
+    # ========================================================
+    # 8. DIAGNÓSTICO DE CAMPOS DE VÍCTIMAS
+    # ========================================================
 
-    else:
-        print("No se obtuvieron resultados.")
+    encabezado("8. DIAGNÓSTICO DE CAMPOS DE VÍCTIMAS")
 
-    # ============================================================
-    # 12. VÍCTIMAS POR TIPO DE ACCIDENTE
-    # ============================================================
+    for campo in ["NEMUERTO", "NEHERIDO"] + CAMPOS_VICTIMAS:
 
-    print("\n=== 12. VÍCTIMAS POR TIPO DE ACCIDENTE ===")
+        existentes = coleccion.count_documents({
+            campo: {"$exists": True}
+        })
+
+        distintos_cero = coleccion.count_documents({
+            campo: {
+                "$ne": 0,
+                "$exists": True
+            }
+        })
+
+        print(f"\nCampo: {campo}")
+        print(f"Documentos con campo: {existentes:,}")
+        print(f"Valores distintos de cero: {distintos_cero:,}")
+
+    # ========================================================
+    # 9. TOTAL DE FALLECIDOS POR CATEGORÍA
+    # ========================================================
+
+    encabezado("9. TOTAL DE FALLECIDOS POR CATEGORÍA")
+
+    pipeline_fallecidos = [
+        {
+            "$group": {
+                "_id": None,
+                **{
+                    campo: {
+                        "$sum": {"$ifNull": [f"${campo}", 0]}
+                    }
+                    for campo in CAMPOS_FALLECIDOS
+                }
+            }
+        }
+    ]
+
+    resultado_fallecidos = next(
+        coleccion.aggregate(pipeline_fallecidos),
+        None
+    )
+
+    total_fallecidos = 0
+
+    if resultado_fallecidos:
+
+        for campo in CAMPOS_FALLECIDOS:
+            valor = resultado_fallecidos[campo]
+            total_fallecidos += valor
+            print(f"{campo}: {valor:,}")
+
+        print(f"\nTOTAL DE FALLECIDOS: {total_fallecidos:,}")
+
+    # ========================================================
+    # 10. TOTAL DE LESIONADOS POR CATEGORÍA
+    # ========================================================
+
+    encabezado("10. TOTAL DE LESIONADOS POR CATEGORÍA")
+
+    pipeline_lesionados = [
+        {
+            "$group": {
+                "_id": None,
+                **{
+                    campo: {
+                        "$sum": {"$ifNull": [f"${campo}", 0]}
+                    }
+                    for campo in CAMPOS_LESIONADOS
+                }
+            }
+        }
+    ]
+
+    resultado_lesionados = next(
+        coleccion.aggregate(pipeline_lesionados),
+        None
+    )
+
+    total_lesionados = 0
+
+    if resultado_lesionados:
+
+        for campo in CAMPOS_LESIONADOS:
+            valor = resultado_lesionados[campo]
+            total_lesionados += valor
+            print(f"{campo}: {valor:,}")
+
+        print(f"\nTOTAL DE LESIONADOS: {total_lesionados:,}")
+
+    # ========================================================
+    # 11. VÍCTIMAS POR TIPO DE ACCIDENTE
+    # ========================================================
+
+    encabezado("11. VÍCTIMAS POR TIPO DE ACCIDENTE")
 
     pipeline_victimas_tipo = [
         {
@@ -353,26 +438,10 @@ try:
                 "_id": "$TIPACCID",
                 "accidentes": {"$sum": 1},
                 "fallecidos": {
-                    "$sum": {
-                        "$add": [
-                            {"$ifNull": ["$CONDMUERTO", 0]},
-                            {"$ifNull": ["$PASAMUERTO", 0]},
-                            {"$ifNull": ["$PEATMUERTO", 0]},
-                            {"$ifNull": ["$CICLMUERTO", 0]},
-                            {"$ifNull": ["$OTROMUERTO", 0]}
-                        ]
-                    }
+                    "$sum": sumar_campos(CAMPOS_FALLECIDOS)
                 },
                 "lesionados": {
-                    "$sum": {
-                        "$add": [
-                            {"$ifNull": ["$CONDHERIDO", 0]},
-                            {"$ifNull": ["$PASAHERIDO", 0]},
-                            {"$ifNull": ["$PEATHERIDO", 0]},
-                            {"$ifNull": ["$CICLHERIDO", 0]},
-                            {"$ifNull": ["$OTROHERIDO", 0]}
-                        ]
-                    }
+                    "$sum": sumar_campos(CAMPOS_LESIONADOS)
                 }
             }
         },
@@ -381,19 +450,20 @@ try:
         }
     ]
 
-    for resultado in coleccion.aggregate(pipeline_victimas_tipo):
+    for r in coleccion.aggregate(pipeline_victimas_tipo):
+
         print(
-            f"Tipo: {resultado['_id']} | "
-            f"Accidentes: {resultado['accidentes']:,} | "
-            f"Fallecidos: {resultado['fallecidos']:,} | "
-            f"Lesionados: {resultado['lesionados']:,}"
+            f"Tipo: {r['_id']} | "
+            f"Accidentes: {r['accidentes']:,} | "
+            f"Fallecidos: {r['fallecidos']:,} | "
+            f"Lesionados: {r['lesionados']:,}"
         )
 
-    # ============================================================
-    # 13. FALLECIDOS POR CADA 100 ACCIDENTES
-    # ============================================================
+    # ========================================================
+    # 12. FALLECIDOS POR CADA 100 ACCIDENTES
+    # ========================================================
 
-    print("\n=== 13. FALLECIDOS POR CADA 100 ACCIDENTES ===")
+    encabezado("12. FALLECIDOS POR CADA 100 ACCIDENTES")
 
     pipeline_tasa = [
         {
@@ -401,15 +471,7 @@ try:
                 "_id": "$TIPACCID",
                 "accidentes": {"$sum": 1},
                 "fallecidos": {
-                    "$sum": {
-                        "$add": [
-                            {"$ifNull": ["$CONDMUERTO", 0]},
-                            {"$ifNull": ["$PASAMUERTO", 0]},
-                            {"$ifNull": ["$PEATMUERTO", 0]},
-                            {"$ifNull": ["$CICLMUERTO", 0]},
-                            {"$ifNull": ["$OTROMUERTO", 0]}
-                        ]
-                    }
+                    "$sum": sumar_campos(CAMPOS_FALLECIDOS)
                 }
             }
         },
@@ -444,14 +506,150 @@ try:
         }
     ]
 
-    for resultado in coleccion.aggregate(pipeline_tasa):
+    for r in coleccion.aggregate(pipeline_tasa):
+
         print(
-            f"{resultado['_id']} | "
-            f"Accidentes: {resultado['accidentes']:,} | "
-            f"Fallecidos: {resultado['fallecidos']:,} | "
-            f"Por cada 100 accidentes: "
-            f"{resultado['fallecidos_por_100_accidentes']:.2f}"
+            f"Tipo: {r['_id']} | "
+            f"Accidentes: {r['accidentes']:,} | "
+            f"Fallecidos: {r['fallecidos']:,} | "
+            f"Tasa: {r['fallecidos_por_100_accidentes']:.2f}"
         )
 
+    # ========================================================
+    # 13. LESIONADOS POR CADA 100 ACCIDENTES
+    # ========================================================
+
+    encabezado("13. LESIONADOS POR CADA 100 ACCIDENTES")
+
+    pipeline_tasa_lesionados = [
+        {
+            "$group": {
+                "_id": "$TIPACCID",
+                "accidentes": {"$sum": 1},
+                "lesionados": {
+                    "$sum": sumar_campos(CAMPOS_LESIONADOS)
+                }
+            }
+        },
+        {
+            "$project": {
+                "_id": 1,
+                "accidentes": 1,
+                "lesionados": 1,
+                "lesionados_por_100_accidentes": {
+                    "$cond": [
+                        {"$gt": ["$accidentes", 0]},
+                        {
+                            "$multiply": [
+                                {
+                                    "$divide": [
+                                        "$lesionados",
+                                        "$accidentes"
+                                    ]
+                                },
+                                100
+                            ]
+                        },
+                        0
+                    ]
+                }
+            }
+        },
+        {
+            "$sort": {
+                "lesionados_por_100_accidentes": -1
+            }
+        }
+    ]
+
+    for r in coleccion.aggregate(pipeline_tasa_lesionados):
+
+        print(
+            f"Tipo: {r['_id']} | "
+            f"Accidentes: {r['accidentes']:,} | "
+            f"Lesionados: {r['lesionados']:,} | "
+            f"Tasa: {r['lesionados_por_100_accidentes']:.2f}"
+        )
+
+    # ========================================================
+    # 14. DISTRIBUCIÓN DE ACCIDENTES POR DÍA DE LA SEMANA
+    # ========================================================
+
+    encabezado("14. ACCIDENTES POR DÍA DE LA SEMANA")
+
+    pipeline_dias = [
+        {
+            "$group": {
+                "_id": "$DIASEMANA",
+                "total": {"$sum": 1}
+            }
+        },
+        {
+            "$sort": {"total": -1}
+        }
+    ]
+
+    imprimir_resultados(coleccion.aggregate(pipeline_dias))
+
+    # ========================================================
+    # 15. DISTRIBUCIÓN DE ACCIDENTES POR ZONA
+    # ========================================================
+
+    encabezado("15. ACCIDENTES POR ZONA")
+
+    pipeline_zona = [
+        {
+            "$group": {
+                "_id": {
+                    "urbana": "$URBANA",
+                    "suburbana": "$SUBURBANA"
+                },
+                "total": {"$sum": 1}
+            }
+        },
+        {
+            "$sort": {"total": -1}
+        }
+    ]
+
+    imprimir_resultados(coleccion.aggregate(pipeline_zona))
+
+    # ========================================================
+    # RESUMEN GENERAL
+    # ========================================================
+
+    encabezado("RESUMEN GENERAL DEL ANÁLISIS")
+
+    print(f"Registros analizados: {total_documentos:,}")
+    print(f"Total de fallecidos por categorías: {total_fallecidos:,}")
+    print(f"Total de lesionados por categorías: {total_lesionados:,}")
+
+    if total_documentos > 0:
+
+        print(
+            "Fallecidos por cada 100 accidentes (global): "
+            f"{total_fallecidos / total_documentos * 100:.2f}"
+        )
+
+        print(
+            "Lesionados por cada 100 accidentes (global): "
+            f"{total_lesionados / total_documentos * 100:.2f}"
+        )
+
+    print("\nAnálisis ejecutado correctamente.")
+
+except PyMongoError as error:
+
+    print("\nERROR DE MONGODB")
+    print(f"Detalle: {error}")
+
+except Exception as error:
+
+    print("\nERROR DURANTE EL ANÁLISIS")
+    print(f"Detalle: {error}")
+
 finally:
-    client.close()
+
+    if client is not None:
+        client.close()
+        print("\nConexión a MongoDB cerrada.")
