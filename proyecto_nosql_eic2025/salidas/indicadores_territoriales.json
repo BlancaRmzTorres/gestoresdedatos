@@ -1,0 +1,5204 @@
+[
+  {
+    "_id": "01_1",
+    "fuente": {
+      "institucion": "INEGI",
+      "programa": "Encuesta Intercensal 2025",
+      "tabla_origen": "PERSONAS",
+      "periodo": 2025
+    },
+    "territorio": {
+      "cve_ent": "01",
+      "tamloc": "1",
+      "tamloc_descripcion": "Menos de 2 500 habitantes"
+    },
+    "universo": {
+      "sexo": "Mujer",
+      "edad_min": 15,
+      "edad_max": 49
+    },
+    "conteos": {
+      "registros_microdato": 18936,
+      "poblacion_ponderada": 67132
+    },
+    "indicadores": {
+      "escolaridad_promedio": 10.3792,
+      "participacion_economica_pct": 42.9428,
+      "mujeres_unidas_pct": 55.0314,
+      "autoadscripcion_indigena_pct": 2.9951,
+      "habla_lengua_indigena_pct": 0.0954,
+      "promedio_hijos_nacidos_vivos": 1.6153
+    },
+    "notas": {
+      "tasa_global_fecundidad": "Pendiente de método específico. El promedio de hijos nacidos vivos no se interpreta como TGF."
+    }
+  },
+  {
+    "_id": "01_2",
+    "fuente": {
+      "institucion": "INEGI",
+      "programa": "Encuesta Intercensal 2025",
+      "tabla_origen": "PERSONAS",
+      "periodo": 2025
+    },
+    "territorio": {
+      "cve_ent": "01",
+      "tamloc": "2",
+      "tamloc_descripcion": "De 2 500 a 14 999 habitantes"
+    },
+    "universo": {
+      "sexo": "Mujer",
+      "edad_min": 15,
+      "edad_max": 49
+    },
+    "conteos": {
+      "registros_microdato": 14047,
+      "poblacion_ponderada": 53467
+    },
+    "indicadores": {
+      "escolaridad_promedio": 11.1763,
+      "participacion_economica_pct": 52.1529,
+      "mujeres_unidas_pct": 53.9417,
+      "autoadscripcion_indigena_pct": 5.7579,
+      "habla_lengua_indigena_pct": 0.2455,
+      "promedio_hijos_nacidos_vivos": 1.5367
+    },
+    "notas": {
+      "tasa_global_fecundidad": "Pendiente de método específico. El promedio de hijos nacidos vivos no se interpreta como TGF."
+    }
+  },
+  {
+    "_id": "01_3",
+    "fuente": {
+      "institucion": "INEGI",
+      "programa": "Encuesta Intercensal 2025",
+      "tabla_origen": "PERSONAS",
+      "periodo": 2025
+    },
+    "territorio": {
+      "cve_ent": "01",
+      "tamloc": "3",
+      "tamloc_descripcion": "De 15 000 a 49 999 habitantes"
+    },
+    "universo": {
+      "sexo": "Mujer",
+      "edad_min": 15,
+      "edad_max": 49
+    },
+    "conteos": {
+      "registros_microdato": 9324,
+      "poblacion_ponderada": 27841
+    },
+    "indicadores": {
+      "escolaridad_promedio": 11.5858,
+      "participacion_economica_pct": 55.4335,
+      "mujeres_unidas_pct": 47.2301,
+      "autoadscripcion_indigena_pct": 3.4335,
+      "habla_lengua_indigena_pct": 0.2121,
+      "promedio_hijos_nacidos_vivos": 1.4431
+    },
+    "notas": {
+      "tasa_global_fecundidad": "Pendiente de método específico. El promedio de hijos nacidos vivos no se interpreta como TGF."
+    }
+  },
+  {
+    "_id": "01_4",
+    "fuente": {
+      "institucion": "INEGI",
+      "programa": "Encuesta Intercensal 2025",
+      "tabla_origen": "PERSONAS",
+      "periodo": 2025
+    },
+    "territorio": {
+      "cve_ent": "01",
+      "tamloc": "4",
+      "tamloc_descripcion": "De 50 000 a 99 999 habitantes"
+    },
+    "universo": {
+      "sexo": "Mujer",
+      "edad_min": 15,
+      "edad_max": 49
+    },
+    "conteos": {
+      "registros_microdato": 3200,
+      "poblacion_ponderada": 19221
+    },
+    "indicadores": {
+      "escolaridad_promedio": 11.4353,
+      "participacion_economica_pct": 61.4784,
+      "mujeres_unidas_pct": 49.8855,
+      "autoadscripcion_indigena_pct": 3.5015,
+      "habla_lengua_indigena_pct": 0.1249,
+      "promedio_hijos_nacidos_vivos": 1.4624
+    },
+    "notas": {
+      "tasa_global_fecundidad": "Pendiente de método específico. El promedio de hijos nacidos vivos no se interpreta como TGF."
+    }
+  },
+  {
+    "_id": "01_5",
+    "fuente": {
+      "institucion": "INEGI",
+      "programa": "Encuesta Intercensal 2025",
+      "tabla_origen": "PERSONAS",
+      "periodo": 2025
+    },
+    "territorio": {
+      "cve_ent": "01",
+      "tamloc": "5",
+      "tamloc_descripcion": "100 000 y más habitantes"
+    },
+    "universo": {
+      "sexo": "Mujer",
+      "edad_min": 15,
+      "edad_max": 49
+    },
+    "conteos": {
+      "registros_microdato": 3301,
+      "poblacion_ponderada": 252049
+    },
+    "indicadores": {
+      "escolaridad_promedio": 12.3122,
+      "participacion_economica_pct": 57.9423,
+      "mujeres_unidas_pct": 46.2196,
+      "autoadscripcion_indigena_pct": 3.9786,
+      "habla_lengua_indigena_pct": 0.1222,
+      "promedio_hijos_nacidos_vivos": 1.2898
+    },
+    "notas": {
+      "tasa_global_fecundidad": "Pendiente de método específico. El promedio de hijos nacidos vivos no se interpreta como TGF."
+    }
+  },
+  {
+    "_id": "02_1",
+    "fuente": {
+      "institucion": "INEGI",
+      "programa": "Encuesta Intercensal 2025",
+      "tabla_origen": "PERSONAS",
+      "periodo": 2025
+    },
+    "territorio": {
+      "cve_ent": "02",
+      "tamloc": "1",
+      "tamloc_descripcion": "Menos de 2 500 habitantes"
+    },
+    "universo": {
+      "sexo": "Mujer",
+      "edad_min": 15,
+      "edad_max": 49
+    },
+    "conteos": {
+      "registros_microdato": 7948,
+      "poblacion_ponderada": 71951
+    },
+    "indicadores": {
+      "escolaridad_promedio": 9.9204,
+      "participacion_economica_pct": 48.7352,
+      "mujeres_unidas_pct": 57.4147,
+      "autoadscripcion_indigena_pct": 16.4734,
+      "habla_lengua_indigena_pct": 6.2211,
+      "promedio_hijos_nacidos_vivos": 1.6145
+    },
+    "notas": {
+      "tasa_global_fecundidad": "Pendiente de método específico. El promedio de hijos nacidos vivos no se interpreta como TGF."
+    }
+  },
+  {
+    "_id": "02_2",
+    "fuente": {
+      "institucion": "INEGI",
+      "programa": "Encuesta Intercensal 2025",
+      "tabla_origen": "PERSONAS",
+      "periodo": 2025
+    },
+    "territorio": {
+      "cve_ent": "02",
+      "tamloc": "2",
+      "tamloc_descripcion": "De 2 500 a 14 999 habitantes"
+    },
+    "universo": {
+      "sexo": "Mujer",
+      "edad_min": 15,
+      "edad_max": 49
+    },
+    "conteos": {
+      "registros_microdato": 7860,
+      "poblacion_ponderada": 59487
+    },
+    "indicadores": {
+      "escolaridad_promedio": 10.2684,
+      "participacion_economica_pct": 53.7216,
+      "mujeres_unidas_pct": 52.3703,
+      "autoadscripcion_indigena_pct": 22.2876,
+      "habla_lengua_indigena_pct": 8.1583,
+      "promedio_hijos_nacidos_vivos": 1.5139
+    },
+    "notas": {
+      "tasa_global_fecundidad": "Pendiente de método específico. El promedio de hijos nacidos vivos no se interpreta como TGF."
+    }
+  },
+  {
+    "_id": "02_3",
+    "fuente": {
+      "institucion": "INEGI",
+      "programa": "Encuesta Intercensal 2025",
+      "tabla_origen": "PERSONAS",
+      "periodo": 2025
+    },
+    "territorio": {
+      "cve_ent": "02",
+      "tamloc": "3",
+      "tamloc_descripcion": "De 15 000 a 49 999 habitantes"
+    },
+    "universo": {
+      "sexo": "Mujer",
+      "edad_min": 15,
+      "edad_max": 49
+    },
+    "conteos": {
+      "registros_microdato": 11641,
+      "poblacion_ponderada": 34276
+    },
+    "indicadores": {
+      "escolaridad_promedio": 10.1614,
+      "participacion_economica_pct": 55.8467,
+      "mujeres_unidas_pct": 53.4499,
+      "autoadscripcion_indigena_pct": 14.0426,
+      "habla_lengua_indigena_pct": 4.5765,
+      "promedio_hijos_nacidos_vivos": 1.5221
+    },
+    "notas": {
+      "tasa_global_fecundidad": "Pendiente de método específico. El promedio de hijos nacidos vivos no se interpreta como TGF."
+    }
+  },
+  {
+    "_id": "02_4",
+    "fuente": {
+      "institucion": "INEGI",
+      "programa": "Encuesta Intercensal 2025",
+      "tabla_origen": "PERSONAS",
+      "periodo": 2025
+    },
+    "territorio": {
+      "cve_ent": "02",
+      "tamloc": "4",
+      "tamloc_descripcion": "De 50 000 a 99 999 habitantes"
+    },
+    "universo": {
+      "sexo": "Mujer",
+      "edad_min": 15,
+      "edad_max": 49
+    },
+    "conteos": {
+      "registros_microdato": 2875,
+      "poblacion_ponderada": 21801
+    },
+    "indicadores": {
+      "escolaridad_promedio": 11.8077,
+      "participacion_economica_pct": 52.6118,
+      "mujeres_unidas_pct": 49.9289,
+      "autoadscripcion_indigena_pct": 3.157,
+      "habla_lengua_indigena_pct": 0.2615,
+      "promedio_hijos_nacidos_vivos": 1.1931
+    },
+    "notas": {
+      "tasa_global_fecundidad": "Pendiente de método específico. El promedio de hijos nacidos vivos no se interpreta como TGF."
+    }
+  },
+  {
+    "_id": "02_5",
+    "fuente": {
+      "institucion": "INEGI",
+      "programa": "Encuesta Intercensal 2025",
+      "tabla_origen": "PERSONAS",
+      "periodo": 2025
+    },
+    "territorio": {
+      "cve_ent": "02",
+      "tamloc": "5",
+      "tamloc_descripcion": "100 000 y más habitantes"
+    },
+    "universo": {
+      "sexo": "Mujer",
+      "edad_min": 15,
+      "edad_max": 49
+    },
+    "conteos": {
+      "registros_microdato": 11699,
+      "poblacion_ponderada": 915640
+    },
+    "indicadores": {
+      "escolaridad_promedio": 11.5014,
+      "participacion_economica_pct": 56.2369,
+      "mujeres_unidas_pct": 50.4656,
+      "autoadscripcion_indigena_pct": 7.8036,
+      "habla_lengua_indigena_pct": 0.8869,
+      "promedio_hijos_nacidos_vivos": 1.2327
+    },
+    "notas": {
+      "tasa_global_fecundidad": "Pendiente de método específico. El promedio de hijos nacidos vivos no se interpreta como TGF."
+    }
+  },
+  {
+    "_id": "03_1",
+    "fuente": {
+      "institucion": "INEGI",
+      "programa": "Encuesta Intercensal 2025",
+      "tabla_origen": "PERSONAS",
+      "periodo": 2025
+    },
+    "territorio": {
+      "cve_ent": "03",
+      "tamloc": "1",
+      "tamloc_descripcion": "Menos de 2 500 habitantes"
+    },
+    "universo": {
+      "sexo": "Mujer",
+      "edad_min": 15,
+      "edad_max": 49
+    },
+    "conteos": {
+      "registros_microdato": 4025,
+      "poblacion_ponderada": 18286
+    },
+    "indicadores": {
+      "escolaridad_promedio": 10.4021,
+      "participacion_economica_pct": 53.1746,
+      "mujeres_unidas_pct": 64.2814,
+      "autoadscripcion_indigena_pct": 14.3451,
+      "habla_lengua_indigena_pct": 4.8362,
+      "promedio_hijos_nacidos_vivos": 1.5865
+    },
+    "notas": {
+      "tasa_global_fecundidad": "Pendiente de método específico. El promedio de hijos nacidos vivos no se interpreta como TGF."
+    }
+  },
+  {
+    "_id": "03_2",
+    "fuente": {
+      "institucion": "INEGI",
+      "programa": "Encuesta Intercensal 2025",
+      "tabla_origen": "PERSONAS",
+      "periodo": 2025
+    },
+    "territorio": {
+      "cve_ent": "03",
+      "tamloc": "2",
+      "tamloc_descripcion": "De 2 500 a 14 999 habitantes"
+    },
+    "universo": {
+      "sexo": "Mujer",
+      "edad_min": 15,
+      "edad_max": 49
+    },
+    "conteos": {
+      "registros_microdato": 5076,
+      "poblacion_ponderada": 21528
+    },
+    "indicadores": {
+      "escolaridad_promedio": 11.196,
+      "participacion_economica_pct": 56.0409,
+      "mujeres_unidas_pct": 57.3686,
+      "autoadscripcion_indigena_pct": 10.7888,
+      "habla_lengua_indigena_pct": 3.2306,
+      "promedio_hijos_nacidos_vivos": 1.4923
+    },
+    "notas": {
+      "tasa_global_fecundidad": "Pendiente de método específico. El promedio de hijos nacidos vivos no se interpreta como TGF."
+    }
+  },
+  {
+    "_id": "03_3",
+    "fuente": {
+      "institucion": "INEGI",
+      "programa": "Encuesta Intercensal 2025",
+      "tabla_origen": "PERSONAS",
+      "periodo": 2025
+    },
+    "territorio": {
+      "cve_ent": "03",
+      "tamloc": "3",
+      "tamloc_descripcion": "De 15 000 a 49 999 habitantes"
+    },
+    "universo": {
+      "sexo": "Mujer",
+      "edad_min": 15,
+      "edad_max": 49
+    },
+    "conteos": {
+      "registros_microdato": 4923,
+      "poblacion_ponderada": 16961
+    },
+    "indicadores": {
+      "escolaridad_promedio": 11.8169,
+      "participacion_economica_pct": 54.2036,
+      "mujeres_unidas_pct": 52.7645,
+      "autoadscripcion_indigena_pct": 3.9578,
+      "habla_lengua_indigena_pct": 0.4247,
+      "promedio_hijos_nacidos_vivos": 1.4126
+    },
+    "notas": {
+      "tasa_global_fecundidad": "Pendiente de método específico. El promedio de hijos nacidos vivos no se interpreta como TGF."
+    }
+  },
+  {
+    "_id": "03_5",
+    "fuente": {
+      "institucion": "INEGI",
+      "programa": "Encuesta Intercensal 2025",
+      "tabla_origen": "PERSONAS",
+      "periodo": 2025
+    },
+    "territorio": {
+      "cve_ent": "03",
+      "tamloc": "5",
+      "tamloc_descripcion": "100 000 y más habitantes"
+    },
+    "universo": {
+      "sexo": "Mujer",
+      "edad_min": 15,
+      "edad_max": 49
+    },
+    "conteos": {
+      "registros_microdato": 9875,
+      "poblacion_ponderada": 210320
+    },
+    "indicadores": {
+      "escolaridad_promedio": 11.8951,
+      "participacion_economica_pct": 61.5669,
+      "mujeres_unidas_pct": 52.2948,
+      "autoadscripcion_indigena_pct": 11.7228,
+      "habla_lengua_indigena_pct": 1.8137,
+      "promedio_hijos_nacidos_vivos": 1.2742
+    },
+    "notas": {
+      "tasa_global_fecundidad": "Pendiente de método específico. El promedio de hijos nacidos vivos no se interpreta como TGF."
+    }
+  },
+  {
+    "_id": "04_1",
+    "fuente": {
+      "institucion": "INEGI",
+      "programa": "Encuesta Intercensal 2025",
+      "tabla_origen": "PERSONAS",
+      "periodo": 2025
+    },
+    "territorio": {
+      "cve_ent": "04",
+      "tamloc": "1",
+      "tamloc_descripcion": "Menos de 2 500 habitantes"
+    },
+    "universo": {
+      "sexo": "Mujer",
+      "edad_min": 15,
+      "edad_max": 49
+    },
+    "conteos": {
+      "registros_microdato": 19589,
+      "poblacion_ponderada": 66989
+    },
+    "indicadores": {
+      "escolaridad_promedio": 8.911,
+      "participacion_economica_pct": 31.9563,
+      "mujeres_unidas_pct": 65.1275,
+      "autoadscripcion_indigena_pct": 63.3813,
+      "habla_lengua_indigena_pct": 17.957,
+      "promedio_hijos_nacidos_vivos": 1.8074
+    },
+    "notas": {
+      "tasa_global_fecundidad": "Pendiente de método específico. El promedio de hijos nacidos vivos no se interpreta como TGF."
+    }
+  },
+  {
+    "_id": "04_2",
+    "fuente": {
+      "institucion": "INEGI",
+      "programa": "Encuesta Intercensal 2025",
+      "tabla_origen": "PERSONAS",
+      "periodo": 2025
+    },
+    "territorio": {
+      "cve_ent": "04",
+      "tamloc": "2",
+      "tamloc_descripcion": "De 2 500 a 14 999 habitantes"
+    },
+    "universo": {
+      "sexo": "Mujer",
+      "edad_min": 15,
+      "edad_max": 49
+    },
+    "conteos": {
+      "registros_microdato": 19068,
+      "poblacion_ponderada": 48522
+    },
+    "indicadores": {
+      "escolaridad_promedio": 10.754,
+      "participacion_economica_pct": 45.3683,
+      "mujeres_unidas_pct": 57.1973,
+      "autoadscripcion_indigena_pct": 60.7952,
+      "habla_lengua_indigena_pct": 13.396,
+      "promedio_hijos_nacidos_vivos": 1.4616
+    },
+    "notas": {
+      "tasa_global_fecundidad": "Pendiente de método específico. El promedio de hijos nacidos vivos no se interpreta como TGF."
+    }
+  },
+  {
+    "_id": "04_3",
+    "fuente": {
+      "institucion": "INEGI",
+      "programa": "Encuesta Intercensal 2025",
+      "tabla_origen": "PERSONAS",
+      "periodo": 2025
+    },
+    "territorio": {
+      "cve_ent": "04",
+      "tamloc": "3",
+      "tamloc_descripcion": "De 15 000 a 49 999 habitantes"
+    },
+    "universo": {
+      "sexo": "Mujer",
+      "edad_min": 15,
+      "edad_max": 49
+    },
+    "conteos": {
+      "registros_microdato": 6891,
+      "poblacion_ponderada": 24108
+    },
+    "indicadores": {
+      "escolaridad_promedio": 11.2533,
+      "participacion_economica_pct": 47.507,
+      "mujeres_unidas_pct": 52.0027,
+      "autoadscripcion_indigena_pct": 44.9772,
+      "habla_lengua_indigena_pct": 3.7472,
+      "promedio_hijos_nacidos_vivos": 1.387
+    },
+    "notas": {
+      "tasa_global_fecundidad": "Pendiente de método específico. El promedio de hijos nacidos vivos no se interpreta como TGF."
+    }
+  },
+  {
+    "_id": "04_5",
+    "fuente": {
+      "institucion": "INEGI",
+      "programa": "Encuesta Intercensal 2025",
+      "tabla_origen": "PERSONAS",
+      "periodo": 2025
+    },
+    "territorio": {
+      "cve_ent": "04",
+      "tamloc": "5",
+      "tamloc_descripcion": "100 000 y más habitantes"
+    },
+    "universo": {
+      "sexo": "Mujer",
+      "edad_min": 15,
+      "edad_max": 49
+    },
+    "conteos": {
+      "registros_microdato": 5718,
+      "poblacion_ponderada": 120118
+    },
+    "indicadores": {
+      "escolaridad_promedio": 12.4972,
+      "participacion_economica_pct": 57.564,
+      "mujeres_unidas_pct": 49.7059,
+      "autoadscripcion_indigena_pct": 19.2751,
+      "habla_lengua_indigena_pct": 1.814,
+      "promedio_hijos_nacidos_vivos": 1.1575
+    },
+    "notas": {
+      "tasa_global_fecundidad": "Pendiente de método específico. El promedio de hijos nacidos vivos no se interpreta como TGF."
+    }
+  },
+  {
+    "_id": "05_1",
+    "fuente": {
+      "institucion": "INEGI",
+      "programa": "Encuesta Intercensal 2025",
+      "tabla_origen": "PERSONAS",
+      "periodo": 2025
+    },
+    "territorio": {
+      "cve_ent": "05",
+      "tamloc": "1",
+      "tamloc_descripcion": "Menos de 2 500 habitantes"
+    },
+    "universo": {
+      "sexo": "Mujer",
+      "edad_min": 15,
+      "edad_max": 49
+    },
+    "conteos": {
+      "registros_microdato": 27843,
+      "poblacion_ponderada": 67601
+    },
+    "indicadores": {
+      "escolaridad_promedio": 10.3741,
+      "participacion_economica_pct": 39.5821,
+      "mujeres_unidas_pct": 57.8845,
+      "autoadscripcion_indigena_pct": 2.8059,
+      "habla_lengua_indigena_pct": 0.0977,
+      "promedio_hijos_nacidos_vivos": 1.6729
+    },
+    "notas": {
+      "tasa_global_fecundidad": "Pendiente de método específico. El promedio de hijos nacidos vivos no se interpreta como TGF."
+    }
+  },
+  {
+    "_id": "05_2",
+    "fuente": {
+      "institucion": "INEGI",
+      "programa": "Encuesta Intercensal 2025",
+      "tabla_origen": "PERSONAS",
+      "periodo": 2025
+    },
+    "territorio": {
+      "cve_ent": "05",
+      "tamloc": "2",
+      "tamloc_descripcion": "De 2 500 a 14 999 habitantes"
+    },
+    "universo": {
+      "sexo": "Mujer",
+      "edad_min": 15,
+      "edad_max": 49
+    },
+    "conteos": {
+      "registros_microdato": 15383,
+      "poblacion_ponderada": 30485
+    },
+    "indicadores": {
+      "escolaridad_promedio": 10.8648,
+      "participacion_economica_pct": 41.1713,
+      "mujeres_unidas_pct": 53.5446,
+      "autoadscripcion_indigena_pct": 1.555,
+      "habla_lengua_indigena_pct": 0.0951,
+      "promedio_hijos_nacidos_vivos": 1.6148
+    },
+    "notas": {
+      "tasa_global_fecundidad": "Pendiente de método específico. El promedio de hijos nacidos vivos no se interpreta como TGF."
+    }
+  },
+  {
+    "_id": "05_3",
+    "fuente": {
+      "institucion": "INEGI",
+      "programa": "Encuesta Intercensal 2025",
+      "tabla_origen": "PERSONAS",
+      "periodo": 2025
+    },
+    "territorio": {
+      "cve_ent": "05",
+      "tamloc": "3",
+      "tamloc_descripcion": "De 15 000 a 49 999 habitantes"
+    },
+    "universo": {
+      "sexo": "Mujer",
+      "edad_min": 15,
+      "edad_max": 49
+    },
+    "conteos": {
+      "registros_microdato": 24342,
+      "poblacion_ponderada": 87181
+    },
+    "indicadores": {
+      "escolaridad_promedio": 11.4553,
+      "participacion_economica_pct": 47.3525,
+      "mujeres_unidas_pct": 53.0343,
+      "autoadscripcion_indigena_pct": 2.2391,
+      "habla_lengua_indigena_pct": 0.0941,
+      "promedio_hijos_nacidos_vivos": 1.5503
+    },
+    "notas": {
+      "tasa_global_fecundidad": "Pendiente de método específico. El promedio de hijos nacidos vivos no se interpreta como TGF."
+    }
+  },
+  {
+    "_id": "05_4",
+    "fuente": {
+      "institucion": "INEGI",
+      "programa": "Encuesta Intercensal 2025",
+      "tabla_origen": "PERSONAS",
+      "periodo": 2025
+    },
+    "territorio": {
+      "cve_ent": "05",
+      "tamloc": "4",
+      "tamloc_descripcion": "De 50 000 a 99 999 habitantes"
+    },
+    "universo": {
+      "sexo": "Mujer",
+      "edad_min": 15,
+      "edad_max": 49
+    },
+    "conteos": {
+      "registros_microdato": 8912,
+      "poblacion_ponderada": 51979
+    },
+    "indicadores": {
+      "escolaridad_promedio": 11.3995,
+      "participacion_economica_pct": 48.6817,
+      "mujeres_unidas_pct": 52.2057,
+      "autoadscripcion_indigena_pct": 2.153,
+      "habla_lengua_indigena_pct": 0.0866,
+      "promedio_hijos_nacidos_vivos": 1.5222
+    },
+    "notas": {
+      "tasa_global_fecundidad": "Pendiente de método específico. El promedio de hijos nacidos vivos no se interpreta como TGF."
+    }
+  },
+  {
+    "_id": "05_5",
+    "fuente": {
+      "institucion": "INEGI",
+      "programa": "Encuesta Intercensal 2025",
+      "tabla_origen": "PERSONAS",
+      "periodo": 2025
+    },
+    "territorio": {
+      "cve_ent": "05",
+      "tamloc": "5",
+      "tamloc_descripcion": "100 000 y más habitantes"
+    },
+    "universo": {
+      "sexo": "Mujer",
+      "edad_min": 15,
+      "edad_max": 49
+    },
+    "conteos": {
+      "registros_microdato": 26354,
+      "poblacion_ponderada": 665584
+    },
+    "indicadores": {
+      "escolaridad_promedio": 11.9159,
+      "participacion_economica_pct": 53.1032,
+      "mujeres_unidas_pct": 51.5348,
+      "autoadscripcion_indigena_pct": 3.7405,
+      "habla_lengua_indigena_pct": 0.2818,
+      "promedio_hijos_nacidos_vivos": 1.4091
+    },
+    "notas": {
+      "tasa_global_fecundidad": "Pendiente de método específico. El promedio de hijos nacidos vivos no se interpreta como TGF."
+    }
+  },
+  {
+    "_id": "06_1",
+    "fuente": {
+      "institucion": "INEGI",
+      "programa": "Encuesta Intercensal 2025",
+      "tabla_origen": "PERSONAS",
+      "periodo": 2025
+    },
+    "territorio": {
+      "cve_ent": "06",
+      "tamloc": "1",
+      "tamloc_descripcion": "Menos de 2 500 habitantes"
+    },
+    "universo": {
+      "sexo": "Mujer",
+      "edad_min": 15,
+      "edad_max": 49
+    },
+    "conteos": {
+      "registros_microdato": 7707,
+      "poblacion_ponderada": 17868
+    },
+    "indicadores": {
+      "escolaridad_promedio": 10.2693,
+      "participacion_economica_pct": 48.7113,
+      "mujeres_unidas_pct": 56.7674,
+      "autoadscripcion_indigena_pct": 21.1417,
+      "habla_lengua_indigena_pct": 1.1932,
+      "promedio_hijos_nacidos_vivos": 1.5681
+    },
+    "notas": {
+      "tasa_global_fecundidad": "Pendiente de método específico. El promedio de hijos nacidos vivos no se interpreta como TGF."
+    }
+  },
+  {
+    "_id": "06_2",
+    "fuente": {
+      "institucion": "INEGI",
+      "programa": "Encuesta Intercensal 2025",
+      "tabla_origen": "PERSONAS",
+      "periodo": 2025
+    },
+    "territorio": {
+      "cve_ent": "06",
+      "tamloc": "2",
+      "tamloc_descripcion": "De 2 500 a 14 999 habitantes"
+    },
+    "universo": {
+      "sexo": "Mujer",
+      "edad_min": 15,
+      "edad_max": 49
+    },
+    "conteos": {
+      "registros_microdato": 11058,
+      "poblacion_ponderada": 25844
+    },
+    "indicadores": {
+      "escolaridad_promedio": 10.702,
+      "participacion_economica_pct": 56.0358,
+      "mujeres_unidas_pct": 51.6181,
+      "autoadscripcion_indigena_pct": 19.1213,
+      "habla_lengua_indigena_pct": 1.8887,
+      "promedio_hijos_nacidos_vivos": 1.4421
+    },
+    "notas": {
+      "tasa_global_fecundidad": "Pendiente de método específico. El promedio de hijos nacidos vivos no se interpreta como TGF."
+    }
+  },
+  {
+    "_id": "06_3",
+    "fuente": {
+      "institucion": "INEGI",
+      "programa": "Encuesta Intercensal 2025",
+      "tabla_origen": "PERSONAS",
+      "periodo": 2025
+    },
+    "territorio": {
+      "cve_ent": "06",
+      "tamloc": "3",
+      "tamloc_descripcion": "De 15 000 a 49 999 habitantes"
+    },
+    "universo": {
+      "sexo": "Mujer",
+      "edad_min": 15,
+      "edad_max": 49
+    },
+    "conteos": {
+      "registros_microdato": 1524,
+      "poblacion_ponderada": 3430
+    },
+    "indicadores": {
+      "escolaridad_promedio": 10.4043,
+      "participacion_economica_pct": 57.5554,
+      "mujeres_unidas_pct": 53.9359,
+      "autoadscripcion_indigena_pct": 10.2624,
+      "habla_lengua_indigena_pct": 0.2334,
+      "promedio_hijos_nacidos_vivos": 1.4732
+    },
+    "notas": {
+      "tasa_global_fecundidad": "Pendiente de método específico. El promedio de hijos nacidos vivos no se interpreta como TGF."
+    }
+  },
+  {
+    "_id": "06_4",
+    "fuente": {
+      "institucion": "INEGI",
+      "programa": "Encuesta Intercensal 2025",
+      "tabla_origen": "PERSONAS",
+      "periodo": 2025
+    },
+    "territorio": {
+      "cve_ent": "06",
+      "tamloc": "4",
+      "tamloc_descripcion": "De 50 000 a 99 999 habitantes"
+    },
+    "universo": {
+      "sexo": "Mujer",
+      "edad_min": 15,
+      "edad_max": 49
+    },
+    "conteos": {
+      "registros_microdato": 2929,
+      "poblacion_ponderada": 23917
+    },
+    "indicadores": {
+      "escolaridad_promedio": 10.3681,
+      "participacion_economica_pct": 55.958,
+      "mujeres_unidas_pct": 53.577,
+      "autoadscripcion_indigena_pct": 7.3118,
+      "habla_lengua_indigena_pct": 0.9202,
+      "promedio_hijos_nacidos_vivos": 1.4371
+    },
+    "notas": {
+      "tasa_global_fecundidad": "Pendiente de método específico. El promedio de hijos nacidos vivos no se interpreta como TGF."
+    }
+  },
+  {
+    "_id": "06_5",
+    "fuente": {
+      "institucion": "INEGI",
+      "programa": "Encuesta Intercensal 2025",
+      "tabla_origen": "PERSONAS",
+      "periodo": 2025
+    },
+    "territorio": {
+      "cve_ent": "06",
+      "tamloc": "5",
+      "tamloc_descripcion": "100 000 y más habitantes"
+    },
+    "universo": {
+      "sexo": "Mujer",
+      "edad_min": 15,
+      "edad_max": 49
+    },
+    "conteos": {
+      "registros_microdato": 10241,
+      "poblacion_ponderada": 132579
+    },
+    "indicadores": {
+      "escolaridad_promedio": 12.5311,
+      "participacion_economica_pct": 64.1566,
+      "mujeres_unidas_pct": 49.9834,
+      "autoadscripcion_indigena_pct": 11.0686,
+      "habla_lengua_indigena_pct": 0.5713,
+      "promedio_hijos_nacidos_vivos": 1.1788
+    },
+    "notas": {
+      "tasa_global_fecundidad": "Pendiente de método específico. El promedio de hijos nacidos vivos no se interpreta como TGF."
+    }
+  },
+  {
+    "_id": "07_1",
+    "fuente": {
+      "institucion": "INEGI",
+      "programa": "Encuesta Intercensal 2025",
+      "tabla_origen": "PERSONAS",
+      "periodo": 2025
+    },
+    "territorio": {
+      "cve_ent": "07",
+      "tamloc": "1",
+      "tamloc_descripcion": "Menos de 2 500 habitantes"
+    },
+    "universo": {
+      "sexo": "Mujer",
+      "edad_min": 15,
+      "edad_max": 49
+    },
+    "conteos": {
+      "registros_microdato": 355839,
+      "poblacion_ponderada": 784089
+    },
+    "indicadores": {
+      "escolaridad_promedio": 7.5326,
+      "participacion_economica_pct": 21.8484,
+      "mujeres_unidas_pct": 62.7723,
+      "autoadscripcion_indigena_pct": 56.0338,
+      "habla_lengua_indigena_pct": 44.8417,
+      "promedio_hijos_nacidos_vivos": 1.9454
+    },
+    "notas": {
+      "tasa_global_fecundidad": "Pendiente de método específico. El promedio de hijos nacidos vivos no se interpreta como TGF."
+    }
+  },
+  {
+    "_id": "07_2",
+    "fuente": {
+      "institucion": "INEGI",
+      "programa": "Encuesta Intercensal 2025",
+      "tabla_origen": "PERSONAS",
+      "periodo": 2025
+    },
+    "territorio": {
+      "cve_ent": "07",
+      "tamloc": "2",
+      "tamloc_descripcion": "De 2 500 a 14 999 habitantes"
+    },
+    "universo": {
+      "sexo": "Mujer",
+      "edad_min": 15,
+      "edad_max": 49
+    },
+    "conteos": {
+      "registros_microdato": 120663,
+      "poblacion_ponderada": 255286
+    },
+    "indicadores": {
+      "escolaridad_promedio": 9.1095,
+      "participacion_economica_pct": 33.9979,
+      "mujeres_unidas_pct": 57.4659,
+      "autoadscripcion_indigena_pct": 36.3143,
+      "habla_lengua_indigena_pct": 27.7426,
+      "promedio_hijos_nacidos_vivos": 1.6569
+    },
+    "notas": {
+      "tasa_global_fecundidad": "Pendiente de método específico. El promedio de hijos nacidos vivos no se interpreta como TGF."
+    }
+  },
+  {
+    "_id": "07_3",
+    "fuente": {
+      "institucion": "INEGI",
+      "programa": "Encuesta Intercensal 2025",
+      "tabla_origen": "PERSONAS",
+      "periodo": 2025
+    },
+    "territorio": {
+      "cve_ent": "07",
+      "tamloc": "3",
+      "tamloc_descripcion": "De 15 000 a 49 999 habitantes"
+    },
+    "universo": {
+      "sexo": "Mujer",
+      "edad_min": 15,
+      "edad_max": 49
+    },
+    "conteos": {
+      "registros_microdato": 55728,
+      "poblacion_ponderada": 174104
+    },
+    "indicadores": {
+      "escolaridad_promedio": 10.4714,
+      "participacion_economica_pct": 43.9436,
+      "mujeres_unidas_pct": 52.4157,
+      "autoadscripcion_indigena_pct": 16.3555,
+      "habla_lengua_indigena_pct": 7.0526,
+      "promedio_hijos_nacidos_vivos": 1.461
+    },
+    "notas": {
+      "tasa_global_fecundidad": "Pendiente de método específico. El promedio de hijos nacidos vivos no se interpreta como TGF."
+    }
+  },
+  {
+    "_id": "07_4",
+    "fuente": {
+      "institucion": "INEGI",
+      "programa": "Encuesta Intercensal 2025",
+      "tabla_origen": "PERSONAS",
+      "periodo": 2025
+    },
+    "territorio": {
+      "cve_ent": "07",
+      "tamloc": "4",
+      "tamloc_descripcion": "De 50 000 a 99 999 habitantes"
+    },
+    "universo": {
+      "sexo": "Mujer",
+      "edad_min": 15,
+      "edad_max": 49
+    },
+    "conteos": {
+      "registros_microdato": 6111,
+      "poblacion_ponderada": 33798
+    },
+    "indicadores": {
+      "escolaridad_promedio": 11.0441,
+      "participacion_economica_pct": 50.3645,
+      "mujeres_unidas_pct": 51.3634,
+      "autoadscripcion_indigena_pct": 17.101,
+      "habla_lengua_indigena_pct": 11.1815,
+      "promedio_hijos_nacidos_vivos": 1.3283
+    },
+    "notas": {
+      "tasa_global_fecundidad": "Pendiente de método específico. El promedio de hijos nacidos vivos no se interpreta como TGF."
+    }
+  },
+  {
+    "_id": "07_5",
+    "fuente": {
+      "institucion": "INEGI",
+      "programa": "Encuesta Intercensal 2025",
+      "tabla_origen": "PERSONAS",
+      "periodo": 2025
+    },
+    "territorio": {
+      "cve_ent": "07",
+      "tamloc": "5",
+      "tamloc_descripcion": "100 000 y más habitantes"
+    },
+    "universo": {
+      "sexo": "Mujer",
+      "edad_min": 15,
+      "edad_max": 49
+    },
+    "conteos": {
+      "registros_microdato": 15693,
+      "poblacion_ponderada": 330280
+    },
+    "indicadores": {
+      "escolaridad_promedio": 11.8419,
+      "participacion_economica_pct": 54.058,
+      "mujeres_unidas_pct": 47.032,
+      "autoadscripcion_indigena_pct": 12.7732,
+      "habla_lengua_indigena_pct": 7.3857,
+      "promedio_hijos_nacidos_vivos": 1.1935
+    },
+    "notas": {
+      "tasa_global_fecundidad": "Pendiente de método específico. El promedio de hijos nacidos vivos no se interpreta como TGF."
+    }
+  },
+  {
+    "_id": "08_1",
+    "fuente": {
+      "institucion": "INEGI",
+      "programa": "Encuesta Intercensal 2025",
+      "tabla_origen": "PERSONAS",
+      "periodo": 2025
+    },
+    "territorio": {
+      "cve_ent": "08",
+      "tamloc": "1",
+      "tamloc_descripcion": "Menos de 2 500 habitantes"
+    },
+    "universo": {
+      "sexo": "Mujer",
+      "edad_min": 15,
+      "edad_max": 49
+    },
+    "conteos": {
+      "registros_microdato": 60796,
+      "poblacion_ponderada": 110729
+    },
+    "indicadores": {
+      "escolaridad_promedio": 8.6682,
+      "participacion_economica_pct": 33.0195,
+      "mujeres_unidas_pct": 59.7708,
+      "autoadscripcion_indigena_pct": 29.2707,
+      "habla_lengua_indigena_pct": 19.9155,
+      "promedio_hijos_nacidos_vivos": 1.7672
+    },
+    "notas": {
+      "tasa_global_fecundidad": "Pendiente de método específico. El promedio de hijos nacidos vivos no se interpreta como TGF."
+    }
+  },
+  {
+    "_id": "08_2",
+    "fuente": {
+      "institucion": "INEGI",
+      "programa": "Encuesta Intercensal 2025",
+      "tabla_origen": "PERSONAS",
+      "periodo": 2025
+    },
+    "territorio": {
+      "cve_ent": "08",
+      "tamloc": "2",
+      "tamloc_descripcion": "De 2 500 a 14 999 habitantes"
+    },
+    "universo": {
+      "sexo": "Mujer",
+      "edad_min": 15,
+      "edad_max": 49
+    },
+    "conteos": {
+      "registros_microdato": 25052,
+      "poblacion_ponderada": 54068
+    },
+    "indicadores": {
+      "escolaridad_promedio": 10.534,
+      "participacion_economica_pct": 49.4464,
+      "mujeres_unidas_pct": 52.5541,
+      "autoadscripcion_indigena_pct": 9.44,
+      "habla_lengua_indigena_pct": 3.2693,
+      "promedio_hijos_nacidos_vivos": 1.6104
+    },
+    "notas": {
+      "tasa_global_fecundidad": "Pendiente de método específico. El promedio de hijos nacidos vivos no se interpreta como TGF."
+    }
+  },
+  {
+    "_id": "08_3",
+    "fuente": {
+      "institucion": "INEGI",
+      "programa": "Encuesta Intercensal 2025",
+      "tabla_origen": "PERSONAS",
+      "periodo": 2025
+    },
+    "territorio": {
+      "cve_ent": "08",
+      "tamloc": "3",
+      "tamloc_descripcion": "De 15 000 a 49 999 habitantes"
+    },
+    "universo": {
+      "sexo": "Mujer",
+      "edad_min": 15,
+      "edad_max": 49
+    },
+    "conteos": {
+      "registros_microdato": 18029,
+      "poblacion_ponderada": 55672
+    },
+    "indicadores": {
+      "escolaridad_promedio": 10.8969,
+      "participacion_economica_pct": 51.0259,
+      "mujeres_unidas_pct": 50.8148,
+      "autoadscripcion_indigena_pct": 8.6965,
+      "habla_lengua_indigena_pct": 3.6873,
+      "promedio_hijos_nacidos_vivos": 1.5181
+    },
+    "notas": {
+      "tasa_global_fecundidad": "Pendiente de método específico. El promedio de hijos nacidos vivos no se interpreta como TGF."
+    }
+  },
+  {
+    "_id": "08_4",
+    "fuente": {
+      "institucion": "INEGI",
+      "programa": "Encuesta Intercensal 2025",
+      "tabla_origen": "PERSONAS",
+      "periodo": 2025
+    },
+    "territorio": {
+      "cve_ent": "08",
+      "tamloc": "4",
+      "tamloc_descripcion": "De 50 000 a 99 999 habitantes"
+    },
+    "universo": {
+      "sexo": "Mujer",
+      "edad_min": 15,
+      "edad_max": 49
+    },
+    "conteos": {
+      "registros_microdato": 3337,
+      "poblacion_ponderada": 18140
+    },
+    "indicadores": {
+      "escolaridad_promedio": 11.7768,
+      "participacion_economica_pct": 56.6683,
+      "mujeres_unidas_pct": 48.2054,
+      "autoadscripcion_indigena_pct": 2.3026,
+      "habla_lengua_indigena_pct": 0.2816,
+      "promedio_hijos_nacidos_vivos": 1.4348
+    },
+    "notas": {
+      "tasa_global_fecundidad": "Pendiente de método específico. El promedio de hijos nacidos vivos no se interpreta como TGF."
+    }
+  },
+  {
+    "_id": "08_5",
+    "fuente": {
+      "institucion": "INEGI",
+      "programa": "Encuesta Intercensal 2025",
+      "tabla_origen": "PERSONAS",
+      "periodo": 2025
+    },
+    "territorio": {
+      "cve_ent": "08",
+      "tamloc": "5",
+      "tamloc_descripcion": "100 000 y más habitantes"
+    },
+    "universo": {
+      "sexo": "Mujer",
+      "edad_min": 15,
+      "edad_max": 49
+    },
+    "conteos": {
+      "registros_microdato": 18271,
+      "poblacion_ponderada": 801444
+    },
+    "indicadores": {
+      "escolaridad_promedio": 11.9553,
+      "participacion_economica_pct": 58.1439,
+      "mujeres_unidas_pct": 48.1644,
+      "autoadscripcion_indigena_pct": 7.1581,
+      "habla_lengua_indigena_pct": 1.4303,
+      "promedio_hijos_nacidos_vivos": 1.3272
+    },
+    "notas": {
+      "tasa_global_fecundidad": "Pendiente de método específico. El promedio de hijos nacidos vivos no se interpreta como TGF."
+    }
+  },
+  {
+    "_id": "09_1",
+    "fuente": {
+      "institucion": "INEGI",
+      "programa": "Encuesta Intercensal 2025",
+      "tabla_origen": "PERSONAS",
+      "periodo": 2025
+    },
+    "territorio": {
+      "cve_ent": "09",
+      "tamloc": "1",
+      "tamloc_descripcion": "Menos de 2 500 habitantes"
+    },
+    "universo": {
+      "sexo": "Mujer",
+      "edad_min": 15,
+      "edad_max": 49
+    },
+    "conteos": {
+      "registros_microdato": 8454,
+      "poblacion_ponderada": 27268
+    },
+    "indicadores": {
+      "escolaridad_promedio": 10.5015,
+      "participacion_economica_pct": 53.386,
+      "mujeres_unidas_pct": 52.6534,
+      "autoadscripcion_indigena_pct": 17.4926,
+      "habla_lengua_indigena_pct": 5.0801,
+      "promedio_hijos_nacidos_vivos": 1.398
+    },
+    "notas": {
+      "tasa_global_fecundidad": "Pendiente de método específico. El promedio de hijos nacidos vivos no se interpreta como TGF."
+    }
+  },
+  {
+    "_id": "09_2",
+    "fuente": {
+      "institucion": "INEGI",
+      "programa": "Encuesta Intercensal 2025",
+      "tabla_origen": "PERSONAS",
+      "periodo": 2025
+    },
+    "territorio": {
+      "cve_ent": "09",
+      "tamloc": "2",
+      "tamloc_descripcion": "De 2 500 a 14 999 habitantes"
+    },
+    "universo": {
+      "sexo": "Mujer",
+      "edad_min": 15,
+      "edad_max": 49
+    },
+    "conteos": {
+      "registros_microdato": 5288,
+      "poblacion_ponderada": 23580
+    },
+    "indicadores": {
+      "escolaridad_promedio": 11.435,
+      "participacion_economica_pct": 54.0423,
+      "mujeres_unidas_pct": 46.2453,
+      "autoadscripcion_indigena_pct": 17.9759,
+      "habla_lengua_indigena_pct": 1.8997,
+      "promedio_hijos_nacidos_vivos": 1.2754
+    },
+    "notas": {
+      "tasa_global_fecundidad": "Pendiente de método específico. El promedio de hijos nacidos vivos no se interpreta como TGF."
+    }
+  },
+  {
+    "_id": "09_3",
+    "fuente": {
+      "institucion": "INEGI",
+      "programa": "Encuesta Intercensal 2025",
+      "tabla_origen": "PERSONAS",
+      "periodo": 2025
+    },
+    "territorio": {
+      "cve_ent": "09",
+      "tamloc": "3",
+      "tamloc_descripcion": "De 15 000 a 49 999 habitantes"
+    },
+    "universo": {
+      "sexo": "Mujer",
+      "edad_min": 15,
+      "edad_max": 49
+    },
+    "conteos": {
+      "registros_microdato": 11486,
+      "poblacion_ponderada": 57346
+    },
+    "indicadores": {
+      "escolaridad_promedio": 11.6687,
+      "participacion_economica_pct": 53.2021,
+      "mujeres_unidas_pct": 45.6415,
+      "autoadscripcion_indigena_pct": 11.1696,
+      "habla_lengua_indigena_pct": 1.8827,
+      "promedio_hijos_nacidos_vivos": 1.16
+    },
+    "notas": {
+      "tasa_global_fecundidad": "Pendiente de método específico. El promedio de hijos nacidos vivos no se interpreta como TGF."
+    }
+  },
+  {
+    "_id": "09_5",
+    "fuente": {
+      "institucion": "INEGI",
+      "programa": "Encuesta Intercensal 2025",
+      "tabla_origen": "PERSONAS",
+      "periodo": 2025
+    },
+    "territorio": {
+      "cve_ent": "09",
+      "tamloc": "5",
+      "tamloc_descripcion": "100 000 y más habitantes"
+    },
+    "universo": {
+      "sexo": "Mujer",
+      "edad_min": 15,
+      "edad_max": 49
+    },
+    "conteos": {
+      "registros_microdato": 93757,
+      "poblacion_ponderada": 2341769
+    },
+    "indicadores": {
+      "escolaridad_promedio": 12.8533,
+      "participacion_economica_pct": 62.0686,
+      "mujeres_unidas_pct": 39.4041,
+      "autoadscripcion_indigena_pct": 5.2767,
+      "habla_lengua_indigena_pct": 1.3747,
+      "promedio_hijos_nacidos_vivos": 0.9055
+    },
+    "notas": {
+      "tasa_global_fecundidad": "Pendiente de método específico. El promedio de hijos nacidos vivos no se interpreta como TGF."
+    }
+  },
+  {
+    "_id": "10_1",
+    "fuente": {
+      "institucion": "INEGI",
+      "programa": "Encuesta Intercensal 2025",
+      "tabla_origen": "PERSONAS",
+      "periodo": 2025
+    },
+    "territorio": {
+      "cve_ent": "10",
+      "tamloc": "1",
+      "tamloc_descripcion": "Menos de 2 500 habitantes"
+    },
+    "universo": {
+      "sexo": "Mujer",
+      "edad_min": 15,
+      "edad_max": 49
+    },
+    "conteos": {
+      "registros_microdato": 53286,
+      "poblacion_ponderada": 119726
+    },
+    "indicadores": {
+      "escolaridad_promedio": 9.7119,
+      "participacion_economica_pct": 29.4624,
+      "mujeres_unidas_pct": 57.8611,
+      "autoadscripcion_indigena_pct": 13.8265,
+      "habla_lengua_indigena_pct": 9.3533,
+      "promedio_hijos_nacidos_vivos": 1.8195
+    },
+    "notas": {
+      "tasa_global_fecundidad": "Pendiente de método específico. El promedio de hijos nacidos vivos no se interpreta como TGF."
+    }
+  },
+  {
+    "_id": "10_2",
+    "fuente": {
+      "institucion": "INEGI",
+      "programa": "Encuesta Intercensal 2025",
+      "tabla_origen": "PERSONAS",
+      "periodo": 2025
+    },
+    "territorio": {
+      "cve_ent": "10",
+      "tamloc": "2",
+      "tamloc_descripcion": "De 2 500 a 14 999 habitantes"
+    },
+    "universo": {
+      "sexo": "Mujer",
+      "edad_min": 15,
+      "edad_max": 49
+    },
+    "conteos": {
+      "registros_microdato": 24957,
+      "poblacion_ponderada": 59984
+    },
+    "indicadores": {
+      "escolaridad_promedio": 10.876,
+      "participacion_economica_pct": 44.6875,
+      "mujeres_unidas_pct": 52.8511,
+      "autoadscripcion_indigena_pct": 3.4812,
+      "habla_lengua_indigena_pct": 0.2784,
+      "promedio_hijos_nacidos_vivos": 1.6717
+    },
+    "notas": {
+      "tasa_global_fecundidad": "Pendiente de método específico. El promedio de hijos nacidos vivos no se interpreta como TGF."
+    }
+  },
+  {
+    "_id": "10_3",
+    "fuente": {
+      "institucion": "INEGI",
+      "programa": "Encuesta Intercensal 2025",
+      "tabla_origen": "PERSONAS",
+      "periodo": 2025
+    },
+    "territorio": {
+      "cve_ent": "10",
+      "tamloc": "3",
+      "tamloc_descripcion": "De 15 000 a 49 999 habitantes"
+    },
+    "universo": {
+      "sexo": "Mujer",
+      "edad_min": 15,
+      "edad_max": 49
+    },
+    "conteos": {
+      "registros_microdato": 9029,
+      "poblacion_ponderada": 26078
+    },
+    "indicadores": {
+      "escolaridad_promedio": 11.2837,
+      "participacion_economica_pct": 47.6044,
+      "mujeres_unidas_pct": 49.8351,
+      "autoadscripcion_indigena_pct": 3.5907,
+      "habla_lengua_indigena_pct": 0.6557,
+      "promedio_hijos_nacidos_vivos": 1.56
+    },
+    "notas": {
+      "tasa_global_fecundidad": "Pendiente de método específico. El promedio de hijos nacidos vivos no se interpreta como TGF."
+    }
+  },
+  {
+    "_id": "10_4",
+    "fuente": {
+      "institucion": "INEGI",
+      "programa": "Encuesta Intercensal 2025",
+      "tabla_origen": "PERSONAS",
+      "periodo": 2025
+    },
+    "territorio": {
+      "cve_ent": "10",
+      "tamloc": "4",
+      "tamloc_descripcion": "De 50 000 a 99 999 habitantes"
+    },
+    "universo": {
+      "sexo": "Mujer",
+      "edad_min": 15,
+      "edad_max": 49
+    },
+    "conteos": {
+      "registros_microdato": 2868,
+      "poblacion_ponderada": 24708
+    },
+    "indicadores": {
+      "escolaridad_promedio": 12.2049,
+      "participacion_economica_pct": 55.0791,
+      "mujeres_unidas_pct": 48.2073,
+      "autoadscripcion_indigena_pct": 2.5062,
+      "habla_lengua_indigena_pct": 0.0,
+      "promedio_hijos_nacidos_vivos": 1.3637
+    },
+    "notas": {
+      "tasa_global_fecundidad": "Pendiente de método específico. El promedio de hijos nacidos vivos no se interpreta como TGF."
+    }
+  },
+  {
+    "_id": "10_5",
+    "fuente": {
+      "institucion": "INEGI",
+      "programa": "Encuesta Intercensal 2025",
+      "tabla_origen": "PERSONAS",
+      "periodo": 2025
+    },
+    "territorio": {
+      "cve_ent": "10",
+      "tamloc": "5",
+      "tamloc_descripcion": "100 000 y más habitantes"
+    },
+    "universo": {
+      "sexo": "Mujer",
+      "edad_min": 15,
+      "edad_max": 49
+    },
+    "conteos": {
+      "registros_microdato": 6523,
+      "poblacion_ponderada": 278847
+    },
+    "indicadores": {
+      "escolaridad_promedio": 12.0499,
+      "participacion_economica_pct": 54.8371,
+      "mujeres_unidas_pct": 45.2165,
+      "autoadscripcion_indigena_pct": 3.9209,
+      "habla_lengua_indigena_pct": 0.3602,
+      "promedio_hijos_nacidos_vivos": 1.3666
+    },
+    "notas": {
+      "tasa_global_fecundidad": "Pendiente de método específico. El promedio de hijos nacidos vivos no se interpreta como TGF."
+    }
+  },
+  {
+    "_id": "11_1",
+    "fuente": {
+      "institucion": "INEGI",
+      "programa": "Encuesta Intercensal 2025",
+      "tabla_origen": "PERSONAS",
+      "periodo": 2025
+    },
+    "territorio": {
+      "cve_ent": "11",
+      "tamloc": "1",
+      "tamloc_descripcion": "Menos de 2 500 habitantes"
+    },
+    "universo": {
+      "sexo": "Mujer",
+      "edad_min": 15,
+      "edad_max": 49
+    },
+    "conteos": {
+      "registros_microdato": 99002,
+      "poblacion_ponderada": 496243
+    },
+    "indicadores": {
+      "escolaridad_promedio": 9.4926,
+      "participacion_economica_pct": 35.8489,
+      "mujeres_unidas_pct": 55.7787,
+      "autoadscripcion_indigena_pct": 6.9838,
+      "habla_lengua_indigena_pct": 0.1804,
+      "promedio_hijos_nacidos_vivos": 1.4847
+    },
+    "notas": {
+      "tasa_global_fecundidad": "Pendiente de método específico. El promedio de hijos nacidos vivos no se interpreta como TGF."
+    }
+  },
+  {
+    "_id": "11_2",
+    "fuente": {
+      "institucion": "INEGI",
+      "programa": "Encuesta Intercensal 2025",
+      "tabla_origen": "PERSONAS",
+      "periodo": 2025
+    },
+    "territorio": {
+      "cve_ent": "11",
+      "tamloc": "2",
+      "tamloc_descripcion": "De 2 500 a 14 999 habitantes"
+    },
+    "universo": {
+      "sexo": "Mujer",
+      "edad_min": 15,
+      "edad_max": 49
+    },
+    "conteos": {
+      "registros_microdato": 32515,
+      "poblacion_ponderada": 187765
+    },
+    "indicadores": {
+      "escolaridad_promedio": 10.1637,
+      "participacion_economica_pct": 43.7776,
+      "mujeres_unidas_pct": 53.5798,
+      "autoadscripcion_indigena_pct": 6.2867,
+      "habla_lengua_indigena_pct": 0.3964,
+      "promedio_hijos_nacidos_vivos": 1.4137
+    },
+    "notas": {
+      "tasa_global_fecundidad": "Pendiente de método específico. El promedio de hijos nacidos vivos no se interpreta como TGF."
+    }
+  },
+  {
+    "_id": "11_3",
+    "fuente": {
+      "institucion": "INEGI",
+      "programa": "Encuesta Intercensal 2025",
+      "tabla_origen": "PERSONAS",
+      "periodo": 2025
+    },
+    "territorio": {
+      "cve_ent": "11",
+      "tamloc": "3",
+      "tamloc_descripcion": "De 15 000 a 49 999 habitantes"
+    },
+    "universo": {
+      "sexo": "Mujer",
+      "edad_min": 15,
+      "edad_max": 49
+    },
+    "conteos": {
+      "registros_microdato": 41797,
+      "poblacion_ponderada": 154385
+    },
+    "indicadores": {
+      "escolaridad_promedio": 11.1277,
+      "participacion_economica_pct": 52.7011,
+      "mujeres_unidas_pct": 49.221,
+      "autoadscripcion_indigena_pct": 5.0606,
+      "habla_lengua_indigena_pct": 0.2314,
+      "promedio_hijos_nacidos_vivos": 1.2592
+    },
+    "notas": {
+      "tasa_global_fecundidad": "Pendiente de método específico. El promedio de hijos nacidos vivos no se interpreta como TGF."
+    }
+  },
+  {
+    "_id": "11_4",
+    "fuente": {
+      "institucion": "INEGI",
+      "programa": "Encuesta Intercensal 2025",
+      "tabla_origen": "PERSONAS",
+      "periodo": 2025
+    },
+    "territorio": {
+      "cve_ent": "11",
+      "tamloc": "4",
+      "tamloc_descripcion": "De 50 000 a 99 999 habitantes"
+    },
+    "universo": {
+      "sexo": "Mujer",
+      "edad_min": 15,
+      "edad_max": 49
+    },
+    "conteos": {
+      "registros_microdato": 32875,
+      "poblacion_ponderada": 203554
+    },
+    "indicadores": {
+      "escolaridad_promedio": 11.0464,
+      "participacion_economica_pct": 56.2577,
+      "mujeres_unidas_pct": 47.1793,
+      "autoadscripcion_indigena_pct": 5.4485,
+      "habla_lengua_indigena_pct": 0.1951,
+      "promedio_hijos_nacidos_vivos": 1.282
+    },
+    "notas": {
+      "tasa_global_fecundidad": "Pendiente de método específico. El promedio de hijos nacidos vivos no se interpreta como TGF."
+    }
+  },
+  {
+    "_id": "11_5",
+    "fuente": {
+      "institucion": "INEGI",
+      "programa": "Encuesta Intercensal 2025",
+      "tabla_origen": "PERSONAS",
+      "periodo": 2025
+    },
+    "territorio": {
+      "cve_ent": "11",
+      "tamloc": "5",
+      "tamloc_descripcion": "100 000 y más habitantes"
+    },
+    "universo": {
+      "sexo": "Mujer",
+      "edad_min": 15,
+      "edad_max": 49
+    },
+    "conteos": {
+      "registros_microdato": 13419,
+      "poblacion_ponderada": 744253
+    },
+    "indicadores": {
+      "escolaridad_promedio": 11.4913,
+      "participacion_economica_pct": 57.1385,
+      "mujeres_unidas_pct": 49.1412,
+      "autoadscripcion_indigena_pct": 3.6718,
+      "habla_lengua_indigena_pct": 0.1305,
+      "promedio_hijos_nacidos_vivos": 1.268
+    },
+    "notas": {
+      "tasa_global_fecundidad": "Pendiente de método específico. El promedio de hijos nacidos vivos no se interpreta como TGF."
+    }
+  },
+  {
+    "_id": "12_1",
+    "fuente": {
+      "institucion": "INEGI",
+      "programa": "Encuesta Intercensal 2025",
+      "tabla_origen": "PERSONAS",
+      "periodo": 2025
+    },
+    "territorio": {
+      "cve_ent": "12",
+      "tamloc": "1",
+      "tamloc_descripcion": "Menos de 2 500 habitantes"
+    },
+    "universo": {
+      "sexo": "Mujer",
+      "edad_min": 15,
+      "edad_max": 49
+    },
+    "conteos": {
+      "registros_microdato": 173083,
+      "poblacion_ponderada": 329210
+    },
+    "indicadores": {
+      "escolaridad_promedio": 8.433,
+      "participacion_economica_pct": 30.776,
+      "mujeres_unidas_pct": 62.4916,
+      "autoadscripcion_indigena_pct": 52.366,
+      "habla_lengua_indigena_pct": 30.6502,
+      "promedio_hijos_nacidos_vivos": 1.9046
+    },
+    "notas": {
+      "tasa_global_fecundidad": "Pendiente de método específico. El promedio de hijos nacidos vivos no se interpreta como TGF."
+    }
+  },
+  {
+    "_id": "12_2",
+    "fuente": {
+      "institucion": "INEGI",
+      "programa": "Encuesta Intercensal 2025",
+      "tabla_origen": "PERSONAS",
+      "periodo": 2025
+    },
+    "territorio": {
+      "cve_ent": "12",
+      "tamloc": "2",
+      "tamloc_descripcion": "De 2 500 a 14 999 habitantes"
+    },
+    "universo": {
+      "sexo": "Mujer",
+      "edad_min": 15,
+      "edad_max": 49
+    },
+    "conteos": {
+      "registros_microdato": 74876,
+      "poblacion_ponderada": 160990
+    },
+    "indicadores": {
+      "escolaridad_promedio": 10.0795,
+      "participacion_economica_pct": 46.851,
+      "mujeres_unidas_pct": 56.1906,
+      "autoadscripcion_indigena_pct": 40.2565,
+      "habla_lengua_indigena_pct": 15.1832,
+      "promedio_hijos_nacidos_vivos": 1.6094
+    },
+    "notas": {
+      "tasa_global_fecundidad": "Pendiente de método específico. El promedio de hijos nacidos vivos no se interpreta como TGF."
+    }
+  },
+  {
+    "_id": "12_3",
+    "fuente": {
+      "institucion": "INEGI",
+      "programa": "Encuesta Intercensal 2025",
+      "tabla_origen": "PERSONAS",
+      "periodo": 2025
+    },
+    "territorio": {
+      "cve_ent": "12",
+      "tamloc": "3",
+      "tamloc_descripcion": "De 15 000 a 49 999 habitantes"
+    },
+    "universo": {
+      "sexo": "Mujer",
+      "edad_min": 15,
+      "edad_max": 49
+    },
+    "conteos": {
+      "registros_microdato": 25260,
+      "poblacion_ponderada": 75492
+    },
+    "indicadores": {
+      "escolaridad_promedio": 11.3886,
+      "participacion_economica_pct": 52.3106,
+      "mujeres_unidas_pct": 50.4822,
+      "autoadscripcion_indigena_pct": 23.8336,
+      "habla_lengua_indigena_pct": 6.3191,
+      "promedio_hijos_nacidos_vivos": 1.4416
+    },
+    "notas": {
+      "tasa_global_fecundidad": "Pendiente de método específico. El promedio de hijos nacidos vivos no se interpreta como TGF."
+    }
+  },
+  {
+    "_id": "12_4",
+    "fuente": {
+      "institucion": "INEGI",
+      "programa": "Encuesta Intercensal 2025",
+      "tabla_origen": "PERSONAS",
+      "periodo": 2025
+    },
+    "territorio": {
+      "cve_ent": "12",
+      "tamloc": "4",
+      "tamloc_descripcion": "De 50 000 a 99 999 habitantes"
+    },
+    "universo": {
+      "sexo": "Mujer",
+      "edad_min": 15,
+      "edad_max": 49
+    },
+    "conteos": {
+      "registros_microdato": 8104,
+      "poblacion_ponderada": 49193
+    },
+    "indicadores": {
+      "escolaridad_promedio": 11.2276,
+      "participacion_economica_pct": 57.9354,
+      "mujeres_unidas_pct": 46.9437,
+      "autoadscripcion_indigena_pct": 40.6643,
+      "habla_lengua_indigena_pct": 20.1248,
+      "promedio_hijos_nacidos_vivos": 1.3532
+    },
+    "notas": {
+      "tasa_global_fecundidad": "Pendiente de método específico. El promedio de hijos nacidos vivos no se interpreta como TGF."
+    }
+  },
+  {
+    "_id": "12_5",
+    "fuente": {
+      "institucion": "INEGI",
+      "programa": "Encuesta Intercensal 2025",
+      "tabla_origen": "PERSONAS",
+      "periodo": 2025
+    },
+    "territorio": {
+      "cve_ent": "12",
+      "tamloc": "5",
+      "tamloc_descripcion": "100 000 y más habitantes"
+    },
+    "universo": {
+      "sexo": "Mujer",
+      "edad_min": 15,
+      "edad_max": 49
+    },
+    "conteos": {
+      "registros_microdato": 9638,
+      "poblacion_ponderada": 274881
+    },
+    "indicadores": {
+      "escolaridad_promedio": 12.1488,
+      "participacion_economica_pct": 53.8399,
+      "mujeres_unidas_pct": 46.8528,
+      "autoadscripcion_indigena_pct": 14.7259,
+      "habla_lengua_indigena_pct": 2.36,
+      "promedio_hijos_nacidos_vivos": 1.2309
+    },
+    "notas": {
+      "tasa_global_fecundidad": "Pendiente de método específico. El promedio de hijos nacidos vivos no se interpreta como TGF."
+    }
+  },
+  {
+    "_id": "13_1",
+    "fuente": {
+      "institucion": "INEGI",
+      "programa": "Encuesta Intercensal 2025",
+      "tabla_origen": "PERSONAS",
+      "periodo": 2025
+    },
+    "territorio": {
+      "cve_ent": "13",
+      "tamloc": "1",
+      "tamloc_descripcion": "Menos de 2 500 habitantes"
+    },
+    "universo": {
+      "sexo": "Mujer",
+      "edad_min": 15,
+      "edad_max": 49
+    },
+    "conteos": {
+      "registros_microdato": 142546,
+      "poblacion_ponderada": 359991
+    },
+    "indicadores": {
+      "escolaridad_promedio": 10.3901,
+      "participacion_economica_pct": 40.5408,
+      "mujeres_unidas_pct": 54.5322,
+      "autoadscripcion_indigena_pct": 47.8277,
+      "habla_lengua_indigena_pct": 19.0286,
+      "promedio_hijos_nacidos_vivos": 1.502
+    },
+    "notas": {
+      "tasa_global_fecundidad": "Pendiente de método específico. El promedio de hijos nacidos vivos no se interpreta como TGF."
+    }
+  },
+  {
+    "_id": "13_2",
+    "fuente": {
+      "institucion": "INEGI",
+      "programa": "Encuesta Intercensal 2025",
+      "tabla_origen": "PERSONAS",
+      "periodo": 2025
+    },
+    "territorio": {
+      "cve_ent": "13",
+      "tamloc": "2",
+      "tamloc_descripcion": "De 2 500 a 14 999 habitantes"
+    },
+    "universo": {
+      "sexo": "Mujer",
+      "edad_min": 15,
+      "edad_max": 49
+    },
+    "conteos": {
+      "registros_microdato": 74008,
+      "poblacion_ponderada": 248750
+    },
+    "indicadores": {
+      "escolaridad_promedio": 11.4627,
+      "participacion_economica_pct": 51.9096,
+      "mujeres_unidas_pct": 50.5928,
+      "autoadscripcion_indigena_pct": 21.6458,
+      "habla_lengua_indigena_pct": 5.6484,
+      "promedio_hijos_nacidos_vivos": 1.3297
+    },
+    "notas": {
+      "tasa_global_fecundidad": "Pendiente de método específico. El promedio de hijos nacidos vivos no se interpreta como TGF."
+    }
+  },
+  {
+    "_id": "13_3",
+    "fuente": {
+      "institucion": "INEGI",
+      "programa": "Encuesta Intercensal 2025",
+      "tabla_origen": "PERSONAS",
+      "periodo": 2025
+    },
+    "territorio": {
+      "cve_ent": "13",
+      "tamloc": "3",
+      "tamloc_descripcion": "De 15 000 a 49 999 habitantes"
+    },
+    "universo": {
+      "sexo": "Mujer",
+      "edad_min": 15,
+      "edad_max": 49
+    },
+    "conteos": {
+      "registros_microdato": 38851,
+      "poblacion_ponderada": 156372
+    },
+    "indicadores": {
+      "escolaridad_promedio": 11.9825,
+      "participacion_economica_pct": 55.7557,
+      "mujeres_unidas_pct": 48.0726,
+      "autoadscripcion_indigena_pct": 19.2483,
+      "habla_lengua_indigena_pct": 3.6404,
+      "promedio_hijos_nacidos_vivos": 1.2424
+    },
+    "notas": {
+      "tasa_global_fecundidad": "Pendiente de método específico. El promedio de hijos nacidos vivos no se interpreta como TGF."
+    }
+  },
+  {
+    "_id": "13_4",
+    "fuente": {
+      "institucion": "INEGI",
+      "programa": "Encuesta Intercensal 2025",
+      "tabla_origen": "PERSONAS",
+      "periodo": 2025
+    },
+    "territorio": {
+      "cve_ent": "13",
+      "tamloc": "4",
+      "tamloc_descripcion": "De 50 000 a 99 999 habitantes"
+    },
+    "universo": {
+      "sexo": "Mujer",
+      "edad_min": 15,
+      "edad_max": 49
+    },
+    "conteos": {
+      "registros_microdato": 2950,
+      "poblacion_ponderada": 16695
+    },
+    "indicadores": {
+      "escolaridad_promedio": 11.802,
+      "participacion_economica_pct": 51.2459,
+      "mujeres_unidas_pct": 48.857,
+      "autoadscripcion_indigena_pct": 8.4033,
+      "habla_lengua_indigena_pct": 1.7947,
+      "promedio_hijos_nacidos_vivos": 1.282
+    },
+    "notas": {
+      "tasa_global_fecundidad": "Pendiente de método específico. El promedio de hijos nacidos vivos no se interpreta como TGF."
+    }
+  },
+  {
+    "_id": "13_5",
+    "fuente": {
+      "institucion": "INEGI",
+      "programa": "Encuesta Intercensal 2025",
+      "tabla_origen": "PERSONAS",
+      "periodo": 2025
+    },
+    "territorio": {
+      "cve_ent": "13",
+      "tamloc": "5",
+      "tamloc_descripcion": "100 000 y más habitantes"
+    },
+    "universo": {
+      "sexo": "Mujer",
+      "edad_min": 15,
+      "edad_max": 49
+    },
+    "conteos": {
+      "registros_microdato": 6287,
+      "poblacion_ponderada": 113772
+    },
+    "indicadores": {
+      "escolaridad_promedio": 12.7028,
+      "participacion_economica_pct": 60.4264,
+      "mujeres_unidas_pct": 41.8329,
+      "autoadscripcion_indigena_pct": 8.7072,
+      "habla_lengua_indigena_pct": 2.0832,
+      "promedio_hijos_nacidos_vivos": 1.0504
+    },
+    "notas": {
+      "tasa_global_fecundidad": "Pendiente de método específico. El promedio de hijos nacidos vivos no se interpreta como TGF."
+    }
+  },
+  {
+    "_id": "14_1",
+    "fuente": {
+      "institucion": "INEGI",
+      "programa": "Encuesta Intercensal 2025",
+      "tabla_origen": "PERSONAS",
+      "periodo": 2025
+    },
+    "territorio": {
+      "cve_ent": "14",
+      "tamloc": "1",
+      "tamloc_descripcion": "Menos de 2 500 habitantes"
+    },
+    "universo": {
+      "sexo": "Mujer",
+      "edad_min": 15,
+      "edad_max": 49
+    },
+    "conteos": {
+      "registros_microdato": 110685,
+      "poblacion_ponderada": 265446
+    },
+    "indicadores": {
+      "escolaridad_promedio": 9.7646,
+      "participacion_economica_pct": 41.8196,
+      "mujeres_unidas_pct": 56.3311,
+      "autoadscripcion_indigena_pct": 10.5237,
+      "habla_lengua_indigena_pct": 2.2086,
+      "promedio_hijos_nacidos_vivos": 1.5565
+    },
+    "notas": {
+      "tasa_global_fecundidad": "Pendiente de método específico. El promedio de hijos nacidos vivos no se interpreta como TGF."
+    }
+  },
+  {
+    "_id": "14_2",
+    "fuente": {
+      "institucion": "INEGI",
+      "programa": "Encuesta Intercensal 2025",
+      "tabla_origen": "PERSONAS",
+      "periodo": 2025
+    },
+    "territorio": {
+      "cve_ent": "14",
+      "tamloc": "2",
+      "tamloc_descripcion": "De 2 500 a 14 999 habitantes"
+    },
+    "universo": {
+      "sexo": "Mujer",
+      "edad_min": 15,
+      "edad_max": 49
+    },
+    "conteos": {
+      "registros_microdato": 112479,
+      "poblacion_ponderada": 341746
+    },
+    "indicadores": {
+      "escolaridad_promedio": 10.7382,
+      "participacion_economica_pct": 52.4585,
+      "mujeres_unidas_pct": 52.9273,
+      "autoadscripcion_indigena_pct": 7.2368,
+      "habla_lengua_indigena_pct": 0.5682,
+      "promedio_hijos_nacidos_vivos": 1.4488
+    },
+    "notas": {
+      "tasa_global_fecundidad": "Pendiente de método específico. El promedio de hijos nacidos vivos no se interpreta como TGF."
+    }
+  },
+  {
+    "_id": "14_3",
+    "fuente": {
+      "institucion": "INEGI",
+      "programa": "Encuesta Intercensal 2025",
+      "tabla_origen": "PERSONAS",
+      "periodo": 2025
+    },
+    "territorio": {
+      "cve_ent": "14",
+      "tamloc": "3",
+      "tamloc_descripcion": "De 15 000 a 49 999 habitantes"
+    },
+    "universo": {
+      "sexo": "Mujer",
+      "edad_min": 15,
+      "edad_max": 49
+    },
+    "conteos": {
+      "registros_microdato": 78617,
+      "poblacion_ponderada": 397663
+    },
+    "indicadores": {
+      "escolaridad_promedio": 10.7426,
+      "participacion_economica_pct": 55.2962,
+      "mujeres_unidas_pct": 50.9602,
+      "autoadscripcion_indigena_pct": 7.3085,
+      "habla_lengua_indigena_pct": 0.5817,
+      "promedio_hijos_nacidos_vivos": 1.4209
+    },
+    "notas": {
+      "tasa_global_fecundidad": "Pendiente de método específico. El promedio de hijos nacidos vivos no se interpreta como TGF."
+    }
+  },
+  {
+    "_id": "14_4",
+    "fuente": {
+      "institucion": "INEGI",
+      "programa": "Encuesta Intercensal 2025",
+      "tabla_origen": "PERSONAS",
+      "periodo": 2025
+    },
+    "territorio": {
+      "cve_ent": "14",
+      "tamloc": "4",
+      "tamloc_descripcion": "De 50 000 a 99 999 habitantes"
+    },
+    "universo": {
+      "sexo": "Mujer",
+      "edad_min": 15,
+      "edad_max": 49
+    },
+    "conteos": {
+      "registros_microdato": 20777,
+      "poblacion_ponderada": 145945
+    },
+    "indicadores": {
+      "escolaridad_promedio": 11.2395,
+      "participacion_economica_pct": 54.9344,
+      "mujeres_unidas_pct": 48.8867,
+      "autoadscripcion_indigena_pct": 3.1178,
+      "habla_lengua_indigena_pct": 0.2441,
+      "promedio_hijos_nacidos_vivos": 1.2997
+    },
+    "notas": {
+      "tasa_global_fecundidad": "Pendiente de método específico. El promedio de hijos nacidos vivos no se interpreta como TGF."
+    }
+  },
+  {
+    "_id": "14_5",
+    "fuente": {
+      "institucion": "INEGI",
+      "programa": "Encuesta Intercensal 2025",
+      "tabla_origen": "PERSONAS",
+      "periodo": 2025
+    },
+    "territorio": {
+      "cve_ent": "14",
+      "tamloc": "5",
+      "tamloc_descripcion": "100 000 y más habitantes"
+    },
+    "universo": {
+      "sexo": "Mujer",
+      "edad_min": 15,
+      "edad_max": 49
+    },
+    "conteos": {
+      "registros_microdato": 29395,
+      "poblacion_ponderada": 1178088
+    },
+    "indicadores": {
+      "escolaridad_promedio": 12.0437,
+      "participacion_economica_pct": 59.3153,
+      "mujeres_unidas_pct": 44.1308,
+      "autoadscripcion_indigena_pct": 5.8326,
+      "habla_lengua_indigena_pct": 0.4424,
+      "promedio_hijos_nacidos_vivos": 1.1671
+    },
+    "notas": {
+      "tasa_global_fecundidad": "Pendiente de método específico. El promedio de hijos nacidos vivos no se interpreta como TGF."
+    }
+  },
+  {
+    "_id": "15_1",
+    "fuente": {
+      "institucion": "INEGI",
+      "programa": "Encuesta Intercensal 2025",
+      "tabla_origen": "PERSONAS",
+      "periodo": 2025
+    },
+    "territorio": {
+      "cve_ent": "15",
+      "tamloc": "1",
+      "tamloc_descripcion": "Menos de 2 500 habitantes"
+    },
+    "universo": {
+      "sexo": "Mujer",
+      "edad_min": 15,
+      "edad_max": 49
+    },
+    "conteos": {
+      "registros_microdato": 194049,
+      "poblacion_ponderada": 720531
+    },
+    "indicadores": {
+      "escolaridad_promedio": 10.2462,
+      "participacion_economica_pct": 40.1509,
+      "mujeres_unidas_pct": 54.7577,
+      "autoadscripcion_indigena_pct": 34.03,
+      "habla_lengua_indigena_pct": 3.3107,
+      "promedio_hijos_nacidos_vivos": 1.5036
+    },
+    "notas": {
+      "tasa_global_fecundidad": "Pendiente de método específico. El promedio de hijos nacidos vivos no se interpreta como TGF."
+    }
+  },
+  {
+    "_id": "15_2",
+    "fuente": {
+      "institucion": "INEGI",
+      "programa": "Encuesta Intercensal 2025",
+      "tabla_origen": "PERSONAS",
+      "periodo": 2025
+    },
+    "territorio": {
+      "cve_ent": "15",
+      "tamloc": "2",
+      "tamloc_descripcion": "De 2 500 a 14 999 habitantes"
+    },
+    "universo": {
+      "sexo": "Mujer",
+      "edad_min": 15,
+      "edad_max": 49
+    },
+    "conteos": {
+      "registros_microdato": 220006,
+      "poblacion_ponderada": 965269
+    },
+    "indicadores": {
+      "escolaridad_promedio": 11.0938,
+      "participacion_economica_pct": 46.9547,
+      "mujeres_unidas_pct": 50.536,
+      "autoadscripcion_indigena_pct": 23.8071,
+      "habla_lengua_indigena_pct": 2.9924,
+      "promedio_hijos_nacidos_vivos": 1.3583
+    },
+    "notas": {
+      "tasa_global_fecundidad": "Pendiente de método específico. El promedio de hijos nacidos vivos no se interpreta como TGF."
+    }
+  },
+  {
+    "_id": "15_3",
+    "fuente": {
+      "institucion": "INEGI",
+      "programa": "Encuesta Intercensal 2025",
+      "tabla_origen": "PERSONAS",
+      "periodo": 2025
+    },
+    "territorio": {
+      "cve_ent": "15",
+      "tamloc": "3",
+      "tamloc_descripcion": "De 15 000 a 49 999 habitantes"
+    },
+    "universo": {
+      "sexo": "Mujer",
+      "edad_min": 15,
+      "edad_max": 49
+    },
+    "conteos": {
+      "registros_microdato": 108420,
+      "poblacion_ponderada": 567022
+    },
+    "indicadores": {
+      "escolaridad_promedio": 12.0142,
+      "participacion_economica_pct": 51.7761,
+      "mujeres_unidas_pct": 46.1575,
+      "autoadscripcion_indigena_pct": 9.3743,
+      "habla_lengua_indigena_pct": 1.2016,
+      "promedio_hijos_nacidos_vivos": 1.2024
+    },
+    "notas": {
+      "tasa_global_fecundidad": "Pendiente de método específico. El promedio de hijos nacidos vivos no se interpreta como TGF."
+    }
+  },
+  {
+    "_id": "15_4",
+    "fuente": {
+      "institucion": "INEGI",
+      "programa": "Encuesta Intercensal 2025",
+      "tabla_origen": "PERSONAS",
+      "periodo": 2025
+    },
+    "territorio": {
+      "cve_ent": "15",
+      "tamloc": "4",
+      "tamloc_descripcion": "De 50 000 a 99 999 habitantes"
+    },
+    "universo": {
+      "sexo": "Mujer",
+      "edad_min": 15,
+      "edad_max": 49
+    },
+    "conteos": {
+      "registros_microdato": 36037,
+      "poblacion_ponderada": 184673
+    },
+    "indicadores": {
+      "escolaridad_promedio": 12.0253,
+      "participacion_economica_pct": 51.3244,
+      "mujeres_unidas_pct": 45.9166,
+      "autoadscripcion_indigena_pct": 5.772,
+      "habla_lengua_indigena_pct": 0.7834,
+      "promedio_hijos_nacidos_vivos": 1.1604
+    },
+    "notas": {
+      "tasa_global_fecundidad": "Pendiente de método específico. El promedio de hijos nacidos vivos no se interpreta como TGF."
+    }
+  },
+  {
+    "_id": "15_5",
+    "fuente": {
+      "institucion": "INEGI",
+      "programa": "Encuesta Intercensal 2025",
+      "tabla_origen": "PERSONAS",
+      "periodo": 2025
+    },
+    "territorio": {
+      "cve_ent": "15",
+      "tamloc": "5",
+      "tamloc_descripcion": "100 000 y más habitantes"
+    },
+    "universo": {
+      "sexo": "Mujer",
+      "edad_min": 15,
+      "edad_max": 49
+    },
+    "conteos": {
+      "registros_microdato": 84965,
+      "poblacion_ponderada": 2449160
+    },
+    "indicadores": {
+      "escolaridad_promedio": 11.9972,
+      "participacion_economica_pct": 52.7083,
+      "mujeres_unidas_pct": 43.2931,
+      "autoadscripcion_indigena_pct": 6.4275,
+      "habla_lengua_indigena_pct": 1.3567,
+      "promedio_hijos_nacidos_vivos": 1.1118
+    },
+    "notas": {
+      "tasa_global_fecundidad": "Pendiente de método específico. El promedio de hijos nacidos vivos no se interpreta como TGF."
+    }
+  },
+  {
+    "_id": "16_1",
+    "fuente": {
+      "institucion": "INEGI",
+      "programa": "Encuesta Intercensal 2025",
+      "tabla_origen": "PERSONAS",
+      "periodo": 2025
+    },
+    "territorio": {
+      "cve_ent": "16",
+      "tamloc": "1",
+      "tamloc_descripcion": "Menos de 2 500 habitantes"
+    },
+    "universo": {
+      "sexo": "Mujer",
+      "edad_min": 15,
+      "edad_max": 49
+    },
+    "conteos": {
+      "registros_microdato": 138985,
+      "poblacion_ponderada": 340301
+    },
+    "indicadores": {
+      "escolaridad_promedio": 9.0999,
+      "participacion_economica_pct": 33.8164,
+      "mujeres_unidas_pct": 59.3214,
+      "autoadscripcion_indigena_pct": 25.1698,
+      "habla_lengua_indigena_pct": 3.4358,
+      "promedio_hijos_nacidos_vivos": 1.6241
+    },
+    "notas": {
+      "tasa_global_fecundidad": "Pendiente de método específico. El promedio de hijos nacidos vivos no se interpreta como TGF."
+    }
+  },
+  {
+    "_id": "16_2",
+    "fuente": {
+      "institucion": "INEGI",
+      "programa": "Encuesta Intercensal 2025",
+      "tabla_origen": "PERSONAS",
+      "periodo": 2025
+    },
+    "territorio": {
+      "cve_ent": "16",
+      "tamloc": "2",
+      "tamloc_descripcion": "De 2 500 a 14 999 habitantes"
+    },
+    "universo": {
+      "sexo": "Mujer",
+      "edad_min": 15,
+      "edad_max": 49
+    },
+    "conteos": {
+      "registros_microdato": 111211,
+      "poblacion_ponderada": 269770
+    },
+    "indicadores": {
+      "escolaridad_promedio": 9.8375,
+      "participacion_economica_pct": 44.6228,
+      "mujeres_unidas_pct": 55.827,
+      "autoadscripcion_indigena_pct": 32.616,
+      "habla_lengua_indigena_pct": 11.5594,
+      "promedio_hijos_nacidos_vivos": 1.5182
+    },
+    "notas": {
+      "tasa_global_fecundidad": "Pendiente de método específico. El promedio de hijos nacidos vivos no se interpreta como TGF."
+    }
+  },
+  {
+    "_id": "16_3",
+    "fuente": {
+      "institucion": "INEGI",
+      "programa": "Encuesta Intercensal 2025",
+      "tabla_origen": "PERSONAS",
+      "periodo": 2025
+    },
+    "territorio": {
+      "cve_ent": "16",
+      "tamloc": "3",
+      "tamloc_descripcion": "De 15 000 a 49 999 habitantes"
+    },
+    "universo": {
+      "sexo": "Mujer",
+      "edad_min": 15,
+      "edad_max": 49
+    },
+    "conteos": {
+      "registros_microdato": 44714,
+      "poblacion_ponderada": 148234
+    },
+    "indicadores": {
+      "escolaridad_promedio": 10.3943,
+      "participacion_economica_pct": 51.3165,
+      "mujeres_unidas_pct": 52.899,
+      "autoadscripcion_indigena_pct": 21.2759,
+      "habla_lengua_indigena_pct": 1.9521,
+      "promedio_hijos_nacidos_vivos": 1.4625
+    },
+    "notas": {
+      "tasa_global_fecundidad": "Pendiente de método específico. El promedio de hijos nacidos vivos no se interpreta como TGF."
+    }
+  },
+  {
+    "_id": "16_4",
+    "fuente": {
+      "institucion": "INEGI",
+      "programa": "Encuesta Intercensal 2025",
+      "tabla_origen": "PERSONAS",
+      "periodo": 2025
+    },
+    "territorio": {
+      "cve_ent": "16",
+      "tamloc": "4",
+      "tamloc_descripcion": "De 50 000 a 99 999 habitantes"
+    },
+    "universo": {
+      "sexo": "Mujer",
+      "edad_min": 15,
+      "edad_max": 49
+    },
+    "conteos": {
+      "registros_microdato": 23757,
+      "poblacion_ponderada": 156543
+    },
+    "indicadores": {
+      "escolaridad_promedio": 11.0213,
+      "participacion_economica_pct": 52.9157,
+      "mujeres_unidas_pct": 49.0685,
+      "autoadscripcion_indigena_pct": 12.4195,
+      "habla_lengua_indigena_pct": 0.3783,
+      "promedio_hijos_nacidos_vivos": 1.3381
+    },
+    "notas": {
+      "tasa_global_fecundidad": "Pendiente de método específico. El promedio de hijos nacidos vivos no se interpreta como TGF."
+    }
+  },
+  {
+    "_id": "16_5",
+    "fuente": {
+      "institucion": "INEGI",
+      "programa": "Encuesta Intercensal 2025",
+      "tabla_origen": "PERSONAS",
+      "periodo": 2025
+    },
+    "territorio": {
+      "cve_ent": "16",
+      "tamloc": "5",
+      "tamloc_descripcion": "100 000 y más habitantes"
+    },
+    "universo": {
+      "sexo": "Mujer",
+      "edad_min": 15,
+      "edad_max": 49
+    },
+    "conteos": {
+      "registros_microdato": 12077,
+      "poblacion_ponderada": 372959
+    },
+    "indicadores": {
+      "escolaridad_promedio": 12.1573,
+      "participacion_economica_pct": 57.6924,
+      "mujeres_unidas_pct": 45.5448,
+      "autoadscripcion_indigena_pct": 13.871,
+      "habla_lengua_indigena_pct": 0.6179,
+      "promedio_hijos_nacidos_vivos": 1.1907
+    },
+    "notas": {
+      "tasa_global_fecundidad": "Pendiente de método específico. El promedio de hijos nacidos vivos no se interpreta como TGF."
+    }
+  },
+  {
+    "_id": "17_1",
+    "fuente": {
+      "institucion": "INEGI",
+      "programa": "Encuesta Intercensal 2025",
+      "tabla_origen": "PERSONAS",
+      "periodo": 2025
+    },
+    "territorio": {
+      "cve_ent": "17",
+      "tamloc": "1",
+      "tamloc_descripcion": "Menos de 2 500 habitantes"
+    },
+    "universo": {
+      "sexo": "Mujer",
+      "edad_min": 15,
+      "edad_max": 49
+    },
+    "conteos": {
+      "registros_microdato": 35244,
+      "poblacion_ponderada": 100264
+    },
+    "indicadores": {
+      "escolaridad_promedio": 10.3573,
+      "participacion_economica_pct": 47.6417,
+      "mujeres_unidas_pct": 54.3963,
+      "autoadscripcion_indigena_pct": 30.4929,
+      "habla_lengua_indigena_pct": 2.4628,
+      "promedio_hijos_nacidos_vivos": 1.4652
+    },
+    "notas": {
+      "tasa_global_fecundidad": "Pendiente de método específico. El promedio de hijos nacidos vivos no se interpreta como TGF."
+    }
+  },
+  {
+    "_id": "17_2",
+    "fuente": {
+      "institucion": "INEGI",
+      "programa": "Encuesta Intercensal 2025",
+      "tabla_origen": "PERSONAS",
+      "periodo": 2025
+    },
+    "territorio": {
+      "cve_ent": "17",
+      "tamloc": "2",
+      "tamloc_descripcion": "De 2 500 a 14 999 habitantes"
+    },
+    "universo": {
+      "sexo": "Mujer",
+      "edad_min": 15,
+      "edad_max": 49
+    },
+    "conteos": {
+      "registros_microdato": 48219,
+      "poblacion_ponderada": 130797
+    },
+    "indicadores": {
+      "escolaridad_promedio": 10.9537,
+      "participacion_economica_pct": 52.0102,
+      "mujeres_unidas_pct": 50.1217,
+      "autoadscripcion_indigena_pct": 31.9778,
+      "habla_lengua_indigena_pct": 2.2924,
+      "promedio_hijos_nacidos_vivos": 1.3675
+    },
+    "notas": {
+      "tasa_global_fecundidad": "Pendiente de método específico. El promedio de hijos nacidos vivos no se interpreta como TGF."
+    }
+  },
+  {
+    "_id": "17_3",
+    "fuente": {
+      "institucion": "INEGI",
+      "programa": "Encuesta Intercensal 2025",
+      "tabla_origen": "PERSONAS",
+      "periodo": 2025
+    },
+    "territorio": {
+      "cve_ent": "17",
+      "tamloc": "3",
+      "tamloc_descripcion": "De 15 000 a 49 999 habitantes"
+    },
+    "universo": {
+      "sexo": "Mujer",
+      "edad_min": 15,
+      "edad_max": 49
+    },
+    "conteos": {
+      "registros_microdato": 23422,
+      "poblacion_ponderada": 64447
+    },
+    "indicadores": {
+      "escolaridad_promedio": 11.244,
+      "participacion_economica_pct": 53.0389,
+      "mujeres_unidas_pct": 48.8528,
+      "autoadscripcion_indigena_pct": 23.6381,
+      "habla_lengua_indigena_pct": 0.6584,
+      "promedio_hijos_nacidos_vivos": 1.2968
+    },
+    "notas": {
+      "tasa_global_fecundidad": "Pendiente de método específico. El promedio de hijos nacidos vivos no se interpreta como TGF."
+    }
+  },
+  {
+    "_id": "17_4",
+    "fuente": {
+      "institucion": "INEGI",
+      "programa": "Encuesta Intercensal 2025",
+      "tabla_origen": "PERSONAS",
+      "periodo": 2025
+    },
+    "territorio": {
+      "cve_ent": "17",
+      "tamloc": "4",
+      "tamloc_descripcion": "De 50 000 a 99 999 habitantes"
+    },
+    "universo": {
+      "sexo": "Mujer",
+      "edad_min": 15,
+      "edad_max": 49
+    },
+    "conteos": {
+      "registros_microdato": 2514,
+      "poblacion_ponderada": 18683
+    },
+    "indicadores": {
+      "escolaridad_promedio": 11.4276,
+      "participacion_economica_pct": 56.051,
+      "mujeres_unidas_pct": 50.7199,
+      "autoadscripcion_indigena_pct": 11.283,
+      "habla_lengua_indigena_pct": 0.4657,
+      "promedio_hijos_nacidos_vivos": 1.2861
+    },
+    "notas": {
+      "tasa_global_fecundidad": "Pendiente de método específico. El promedio de hijos nacidos vivos no se interpreta como TGF."
+    }
+  },
+  {
+    "_id": "17_5",
+    "fuente": {
+      "institucion": "INEGI",
+      "programa": "Encuesta Intercensal 2025",
+      "tabla_origen": "PERSONAS",
+      "periodo": 2025
+    },
+    "territorio": {
+      "cve_ent": "17",
+      "tamloc": "5",
+      "tamloc_descripcion": "100 000 y más habitantes"
+    },
+    "universo": {
+      "sexo": "Mujer",
+      "edad_min": 15,
+      "edad_max": 49
+    },
+    "conteos": {
+      "registros_microdato": 13140,
+      "poblacion_ponderada": 208442
+    },
+    "indicadores": {
+      "escolaridad_promedio": 12.1621,
+      "participacion_economica_pct": 58.0524,
+      "mujeres_unidas_pct": 44.192,
+      "autoadscripcion_indigena_pct": 11.6074,
+      "habla_lengua_indigena_pct": 1.2622,
+      "promedio_hijos_nacidos_vivos": 1.1245
+    },
+    "notas": {
+      "tasa_global_fecundidad": "Pendiente de método específico. El promedio de hijos nacidos vivos no se interpreta como TGF."
+    }
+  },
+  {
+    "_id": "18_1",
+    "fuente": {
+      "institucion": "INEGI",
+      "programa": "Encuesta Intercensal 2025",
+      "tabla_origen": "PERSONAS",
+      "periodo": 2025
+    },
+    "territorio": {
+      "cve_ent": "18",
+      "tamloc": "1",
+      "tamloc_descripcion": "Menos de 2 500 habitantes"
+    },
+    "universo": {
+      "sexo": "Mujer",
+      "edad_min": 15,
+      "edad_max": 49
+    },
+    "conteos": {
+      "registros_microdato": 31828,
+      "poblacion_ponderada": 81111
+    },
+    "indicadores": {
+      "escolaridad_promedio": 9.9886,
+      "participacion_economica_pct": 37.4069,
+      "mujeres_unidas_pct": 59.1052,
+      "autoadscripcion_indigena_pct": 25.8254,
+      "habla_lengua_indigena_pct": 17.7432,
+      "promedio_hijos_nacidos_vivos": 1.7496
+    },
+    "notas": {
+      "tasa_global_fecundidad": "Pendiente de método específico. El promedio de hijos nacidos vivos no se interpreta como TGF."
+    }
+  },
+  {
+    "_id": "18_2",
+    "fuente": {
+      "institucion": "INEGI",
+      "programa": "Encuesta Intercensal 2025",
+      "tabla_origen": "PERSONAS",
+      "periodo": 2025
+    },
+    "territorio": {
+      "cve_ent": "18",
+      "tamloc": "2",
+      "tamloc_descripcion": "De 2 500 a 14 999 habitantes"
+    },
+    "universo": {
+      "sexo": "Mujer",
+      "edad_min": 15,
+      "edad_max": 49
+    },
+    "conteos": {
+      "registros_microdato": 20850,
+      "poblacion_ponderada": 69447
+    },
+    "indicadores": {
+      "escolaridad_promedio": 11.0985,
+      "participacion_economica_pct": 53.5694,
+      "mujeres_unidas_pct": 54.7428,
+      "autoadscripcion_indigena_pct": 11.2445,
+      "habla_lengua_indigena_pct": 4.8171,
+      "promedio_hijos_nacidos_vivos": 1.5135
+    },
+    "notas": {
+      "tasa_global_fecundidad": "Pendiente de método específico. El promedio de hijos nacidos vivos no se interpreta como TGF."
+    }
+  },
+  {
+    "_id": "18_3",
+    "fuente": {
+      "institucion": "INEGI",
+      "programa": "Encuesta Intercensal 2025",
+      "tabla_origen": "PERSONAS",
+      "periodo": 2025
+    },
+    "territorio": {
+      "cve_ent": "18",
+      "tamloc": "3",
+      "tamloc_descripcion": "De 15 000 a 49 999 habitantes"
+    },
+    "universo": {
+      "sexo": "Mujer",
+      "edad_min": 15,
+      "edad_max": 49
+    },
+    "conteos": {
+      "registros_microdato": 16196,
+      "poblacion_ponderada": 84325
+    },
+    "indicadores": {
+      "escolaridad_promedio": 11.8497,
+      "participacion_economica_pct": 62.0582,
+      "mujeres_unidas_pct": 51.1984,
+      "autoadscripcion_indigena_pct": 5.8372,
+      "habla_lengua_indigena_pct": 1.2276,
+      "promedio_hijos_nacidos_vivos": 1.3726
+    },
+    "notas": {
+      "tasa_global_fecundidad": "Pendiente de método específico. El promedio de hijos nacidos vivos no se interpreta como TGF."
+    }
+  },
+  {
+    "_id": "18_5",
+    "fuente": {
+      "institucion": "INEGI",
+      "programa": "Encuesta Intercensal 2025",
+      "tabla_origen": "PERSONAS",
+      "periodo": 2025
+    },
+    "territorio": {
+      "cve_ent": "18",
+      "tamloc": "5",
+      "tamloc_descripcion": "100 000 y más habitantes"
+    },
+    "universo": {
+      "sexo": "Mujer",
+      "edad_min": 15,
+      "edad_max": 49
+    },
+    "conteos": {
+      "registros_microdato": 3140,
+      "poblacion_ponderada": 101114
+    },
+    "indicadores": {
+      "escolaridad_promedio": 12.9383,
+      "participacion_economica_pct": 64.4879,
+      "mujeres_unidas_pct": 44.826,
+      "autoadscripcion_indigena_pct": 6.7381,
+      "habla_lengua_indigena_pct": 2.0604,
+      "promedio_hijos_nacidos_vivos": 1.2165
+    },
+    "notas": {
+      "tasa_global_fecundidad": "Pendiente de método específico. El promedio de hijos nacidos vivos no se interpreta como TGF."
+    }
+  },
+  {
+    "_id": "19_1",
+    "fuente": {
+      "institucion": "INEGI",
+      "programa": "Encuesta Intercensal 2025",
+      "tabla_origen": "PERSONAS",
+      "periodo": 2025
+    },
+    "territorio": {
+      "cve_ent": "19",
+      "tamloc": "1",
+      "tamloc_descripcion": "Menos de 2 500 habitantes"
+    },
+    "universo": {
+      "sexo": "Mujer",
+      "edad_min": 15,
+      "edad_max": 49
+    },
+    "conteos": {
+      "registros_microdato": 25119,
+      "poblacion_ponderada": 60651
+    },
+    "indicadores": {
+      "escolaridad_promedio": 10.0674,
+      "participacion_economica_pct": 35.3956,
+      "mujeres_unidas_pct": 61.4647,
+      "autoadscripcion_indigena_pct": 3.5296,
+      "habla_lengua_indigena_pct": 1.2532,
+      "promedio_hijos_nacidos_vivos": 1.6215
+    },
+    "notas": {
+      "tasa_global_fecundidad": "Pendiente de método específico. El promedio de hijos nacidos vivos no se interpreta como TGF."
+    }
+  },
+  {
+    "_id": "19_2",
+    "fuente": {
+      "institucion": "INEGI",
+      "programa": "Encuesta Intercensal 2025",
+      "tabla_origen": "PERSONAS",
+      "periodo": 2025
+    },
+    "territorio": {
+      "cve_ent": "19",
+      "tamloc": "2",
+      "tamloc_descripcion": "De 2 500 a 14 999 habitantes"
+    },
+    "universo": {
+      "sexo": "Mujer",
+      "edad_min": 15,
+      "edad_max": 49
+    },
+    "conteos": {
+      "registros_microdato": 31392,
+      "poblacion_ponderada": 119450
+    },
+    "indicadores": {
+      "escolaridad_promedio": 10.9531,
+      "participacion_economica_pct": 45.4266,
+      "mujeres_unidas_pct": 60.4708,
+      "autoadscripcion_indigena_pct": 6.7578,
+      "habla_lengua_indigena_pct": 2.5687,
+      "promedio_hijos_nacidos_vivos": 1.4641
+    },
+    "notas": {
+      "tasa_global_fecundidad": "Pendiente de método específico. El promedio de hijos nacidos vivos no se interpreta como TGF."
+    }
+  },
+  {
+    "_id": "19_3",
+    "fuente": {
+      "institucion": "INEGI",
+      "programa": "Encuesta Intercensal 2025",
+      "tabla_origen": "PERSONAS",
+      "periodo": 2025
+    },
+    "territorio": {
+      "cve_ent": "19",
+      "tamloc": "3",
+      "tamloc_descripcion": "De 15 000 a 49 999 habitantes"
+    },
+    "universo": {
+      "sexo": "Mujer",
+      "edad_min": 15,
+      "edad_max": 49
+    },
+    "conteos": {
+      "registros_microdato": 44301,
+      "poblacion_ponderada": 250455
+    },
+    "indicadores": {
+      "escolaridad_promedio": 10.5684,
+      "participacion_economica_pct": 47.7592,
+      "mujeres_unidas_pct": 60.9582,
+      "autoadscripcion_indigena_pct": 8.6568,
+      "habla_lengua_indigena_pct": 3.8163,
+      "promedio_hijos_nacidos_vivos": 1.4891
+    },
+    "notas": {
+      "tasa_global_fecundidad": "Pendiente de método específico. El promedio de hijos nacidos vivos no se interpreta como TGF."
+    }
+  },
+  {
+    "_id": "19_4",
+    "fuente": {
+      "institucion": "INEGI",
+      "programa": "Encuesta Intercensal 2025",
+      "tabla_origen": "PERSONAS",
+      "periodo": 2025
+    },
+    "territorio": {
+      "cve_ent": "19",
+      "tamloc": "4",
+      "tamloc_descripcion": "De 50 000 a 99 999 habitantes"
+    },
+    "universo": {
+      "sexo": "Mujer",
+      "edad_min": 15,
+      "edad_max": 49
+    },
+    "conteos": {
+      "registros_microdato": 14147,
+      "poblacion_ponderada": 106976
+    },
+    "indicadores": {
+      "escolaridad_promedio": 12.1956,
+      "participacion_economica_pct": 50.5684,
+      "mujeres_unidas_pct": 55.6521,
+      "autoadscripcion_indigena_pct": 3.1515,
+      "habla_lengua_indigena_pct": 0.776,
+      "promedio_hijos_nacidos_vivos": 1.2746
+    },
+    "notas": {
+      "tasa_global_fecundidad": "Pendiente de método específico. El promedio de hijos nacidos vivos no se interpreta como TGF."
+    }
+  },
+  {
+    "_id": "19_5",
+    "fuente": {
+      "institucion": "INEGI",
+      "programa": "Encuesta Intercensal 2025",
+      "tabla_origen": "PERSONAS",
+      "periodo": 2025
+    },
+    "territorio": {
+      "cve_ent": "19",
+      "tamloc": "5",
+      "tamloc_descripcion": "100 000 y más habitantes"
+    },
+    "universo": {
+      "sexo": "Mujer",
+      "edad_min": 15,
+      "edad_max": 49
+    },
+    "conteos": {
+      "registros_microdato": 41026,
+      "poblacion_ponderada": 1162564
+    },
+    "indicadores": {
+      "escolaridad_promedio": 12.2638,
+      "participacion_economica_pct": 53.4271,
+      "mujeres_unidas_pct": 48.9352,
+      "autoadscripcion_indigena_pct": 5.4169,
+      "habla_lengua_indigena_pct": 2.1442,
+      "promedio_hijos_nacidos_vivos": 1.1428
+    },
+    "notas": {
+      "tasa_global_fecundidad": "Pendiente de método específico. El promedio de hijos nacidos vivos no se interpreta como TGF."
+    }
+  },
+  {
+    "_id": "20_1",
+    "fuente": {
+      "institucion": "INEGI",
+      "programa": "Encuesta Intercensal 2025",
+      "tabla_origen": "PERSONAS",
+      "periodo": 2025
+    },
+    "territorio": {
+      "cve_ent": "20",
+      "tamloc": "1",
+      "tamloc_descripcion": "Menos de 2 500 habitantes"
+    },
+    "universo": {
+      "sexo": "Mujer",
+      "edad_min": 15,
+      "edad_max": 49
+    },
+    "conteos": {
+      "registros_microdato": 382896,
+      "poblacion_ponderada": 533025
+    },
+    "indicadores": {
+      "escolaridad_promedio": 8.9734,
+      "participacion_economica_pct": 35.4526,
+      "mujeres_unidas_pct": 58.9378,
+      "autoadscripcion_indigena_pct": 81.1954,
+      "habla_lengua_indigena_pct": 38.9981,
+      "promedio_hijos_nacidos_vivos": 1.681
+    },
+    "notas": {
+      "tasa_global_fecundidad": "Pendiente de método específico. El promedio de hijos nacidos vivos no se interpreta como TGF."
+    }
+  },
+  {
+    "_id": "20_2",
+    "fuente": {
+      "institucion": "INEGI",
+      "programa": "Encuesta Intercensal 2025",
+      "tabla_origen": "PERSONAS",
+      "periodo": 2025
+    },
+    "territorio": {
+      "cve_ent": "20",
+      "tamloc": "2",
+      "tamloc_descripcion": "De 2 500 a 14 999 habitantes"
+    },
+    "universo": {
+      "sexo": "Mujer",
+      "edad_min": 15,
+      "edad_max": 49
+    },
+    "conteos": {
+      "registros_microdato": 161422,
+      "poblacion_ponderada": 247057
+    },
+    "indicadores": {
+      "escolaridad_promedio": 10.5409,
+      "participacion_economica_pct": 50.5781,
+      "mujeres_unidas_pct": 52.3417,
+      "autoadscripcion_indigena_pct": 64.6164,
+      "habla_lengua_indigena_pct": 27.181,
+      "promedio_hijos_nacidos_vivos": 1.3875
+    },
+    "notas": {
+      "tasa_global_fecundidad": "Pendiente de método específico. El promedio de hijos nacidos vivos no se interpreta como TGF."
+    }
+  },
+  {
+    "_id": "20_3",
+    "fuente": {
+      "institucion": "INEGI",
+      "programa": "Encuesta Intercensal 2025",
+      "tabla_origen": "PERSONAS",
+      "periodo": 2025
+    },
+    "territorio": {
+      "cve_ent": "20",
+      "tamloc": "3",
+      "tamloc_descripcion": "De 15 000 a 49 999 habitantes"
+    },
+    "universo": {
+      "sexo": "Mujer",
+      "edad_min": 15,
+      "edad_max": 49
+    },
+    "conteos": {
+      "registros_microdato": 55653,
+      "poblacion_ponderada": 137316
+    },
+    "indicadores": {
+      "escolaridad_promedio": 11.6017,
+      "participacion_economica_pct": 57.3278,
+      "mujeres_unidas_pct": 46.5254,
+      "autoadscripcion_indigena_pct": 46.5935,
+      "habla_lengua_indigena_pct": 8.2177,
+      "promedio_hijos_nacidos_vivos": 1.221
+    },
+    "notas": {
+      "tasa_global_fecundidad": "Pendiente de método específico. El promedio de hijos nacidos vivos no se interpreta como TGF."
+    }
+  },
+  {
+    "_id": "20_4",
+    "fuente": {
+      "institucion": "INEGI",
+      "programa": "Encuesta Intercensal 2025",
+      "tabla_origen": "PERSONAS",
+      "periodo": 2025
+    },
+    "territorio": {
+      "cve_ent": "20",
+      "tamloc": "4",
+      "tamloc_descripcion": "De 50 000 a 99 999 habitantes"
+    },
+    "universo": {
+      "sexo": "Mujer",
+      "edad_min": 15,
+      "edad_max": 49
+    },
+    "conteos": {
+      "registros_microdato": 12389,
+      "poblacion_ponderada": 85172
+    },
+    "indicadores": {
+      "escolaridad_promedio": 11.8638,
+      "participacion_economica_pct": 54.8104,
+      "mujeres_unidas_pct": 46.0861,
+      "autoadscripcion_indigena_pct": 50.3458,
+      "habla_lengua_indigena_pct": 18.3435,
+      "promedio_hijos_nacidos_vivos": 1.201
+    },
+    "notas": {
+      "tasa_global_fecundidad": "Pendiente de método específico. El promedio de hijos nacidos vivos no se interpreta como TGF."
+    }
+  },
+  {
+    "_id": "20_5",
+    "fuente": {
+      "institucion": "INEGI",
+      "programa": "Encuesta Intercensal 2025",
+      "tabla_origen": "PERSONAS",
+      "periodo": 2025
+    },
+    "territorio": {
+      "cve_ent": "20",
+      "tamloc": "5",
+      "tamloc_descripcion": "100 000 y más habitantes"
+    },
+    "universo": {
+      "sexo": "Mujer",
+      "edad_min": 15,
+      "edad_max": 49
+    },
+    "conteos": {
+      "registros_microdato": 6514,
+      "poblacion_ponderada": 96207
+    },
+    "indicadores": {
+      "escolaridad_promedio": 12.6195,
+      "participacion_economica_pct": 56.4511,
+      "mujeres_unidas_pct": 41.7246,
+      "autoadscripcion_indigena_pct": 26.1705,
+      "habla_lengua_indigena_pct": 6.6143,
+      "promedio_hijos_nacidos_vivos": 1.0308
+    },
+    "notas": {
+      "tasa_global_fecundidad": "Pendiente de método específico. El promedio de hijos nacidos vivos no se interpreta como TGF."
+    }
+  },
+  {
+    "_id": "21_1",
+    "fuente": {
+      "institucion": "INEGI",
+      "programa": "Encuesta Intercensal 2025",
+      "tabla_origen": "PERSONAS",
+      "periodo": 2025
+    },
+    "territorio": {
+      "cve_ent": "21",
+      "tamloc": "1",
+      "tamloc_descripcion": "Menos de 2 500 habitantes"
+    },
+    "universo": {
+      "sexo": "Mujer",
+      "edad_min": 15,
+      "edad_max": 49
+    },
+    "conteos": {
+      "registros_microdato": 254159,
+      "poblacion_ponderada": 498968
+    },
+    "indicadores": {
+      "escolaridad_promedio": 9.3299,
+      "participacion_economica_pct": 37.0221,
+      "mujeres_unidas_pct": 57.8559,
+      "autoadscripcion_indigena_pct": 52.8512,
+      "habla_lengua_indigena_pct": 19.563,
+      "promedio_hijos_nacidos_vivos": 1.6636
+    },
+    "notas": {
+      "tasa_global_fecundidad": "Pendiente de método específico. El promedio de hijos nacidos vivos no se interpreta como TGF."
+    }
+  },
+  {
+    "_id": "21_2",
+    "fuente": {
+      "institucion": "INEGI",
+      "programa": "Encuesta Intercensal 2025",
+      "tabla_origen": "PERSONAS",
+      "periodo": 2025
+    },
+    "territorio": {
+      "cve_ent": "21",
+      "tamloc": "2",
+      "tamloc_descripcion": "De 2 500 a 14 999 habitantes"
+    },
+    "universo": {
+      "sexo": "Mujer",
+      "edad_min": 15,
+      "edad_max": 49
+    },
+    "conteos": {
+      "registros_microdato": 214476,
+      "poblacion_ponderada": 469911
+    },
+    "indicadores": {
+      "escolaridad_promedio": 10.0061,
+      "participacion_economica_pct": 44.1819,
+      "mujeres_unidas_pct": 53.4317,
+      "autoadscripcion_indigena_pct": 32.4872,
+      "habla_lengua_indigena_pct": 8.5753,
+      "promedio_hijos_nacidos_vivos": 1.5318
+    },
+    "notas": {
+      "tasa_global_fecundidad": "Pendiente de método específico. El promedio de hijos nacidos vivos no se interpreta como TGF."
+    }
+  },
+  {
+    "_id": "21_3",
+    "fuente": {
+      "institucion": "INEGI",
+      "programa": "Encuesta Intercensal 2025",
+      "tabla_origen": "PERSONAS",
+      "periodo": 2025
+    },
+    "territorio": {
+      "cve_ent": "21",
+      "tamloc": "3",
+      "tamloc_descripcion": "De 15 000 a 49 999 habitantes"
+    },
+    "universo": {
+      "sexo": "Mujer",
+      "edad_min": 15,
+      "edad_max": 49
+    },
+    "conteos": {
+      "registros_microdato": 69543,
+      "poblacion_ponderada": 242042
+    },
+    "indicadores": {
+      "escolaridad_promedio": 11.1109,
+      "participacion_economica_pct": 51.286,
+      "mujeres_unidas_pct": 49.7466,
+      "autoadscripcion_indigena_pct": 20.8663,
+      "habla_lengua_indigena_pct": 4.4155,
+      "promedio_hijos_nacidos_vivos": 1.3506
+    },
+    "notas": {
+      "tasa_global_fecundidad": "Pendiente de método específico. El promedio de hijos nacidos vivos no se interpreta como TGF."
+    }
+  },
+  {
+    "_id": "21_4",
+    "fuente": {
+      "institucion": "INEGI",
+      "programa": "Encuesta Intercensal 2025",
+      "tabla_origen": "PERSONAS",
+      "periodo": 2025
+    },
+    "territorio": {
+      "cve_ent": "21",
+      "tamloc": "4",
+      "tamloc_descripcion": "De 50 000 a 99 999 habitantes"
+    },
+    "universo": {
+      "sexo": "Mujer",
+      "edad_min": 15,
+      "edad_max": 49
+    },
+    "conteos": {
+      "registros_microdato": 18132,
+      "poblacion_ponderada": 146493
+    },
+    "indicadores": {
+      "escolaridad_promedio": 12.1908,
+      "participacion_economica_pct": 53.5578,
+      "mujeres_unidas_pct": 43.8331,
+      "autoadscripcion_indigena_pct": 14.9999,
+      "habla_lengua_indigena_pct": 1.7532,
+      "promedio_hijos_nacidos_vivos": 1.1783
+    },
+    "notas": {
+      "tasa_global_fecundidad": "Pendiente de método específico. El promedio de hijos nacidos vivos no se interpreta como TGF."
+    }
+  },
+  {
+    "_id": "21_5",
+    "fuente": {
+      "institucion": "INEGI",
+      "programa": "Encuesta Intercensal 2025",
+      "tabla_origen": "PERSONAS",
+      "periodo": 2025
+    },
+    "territorio": {
+      "cve_ent": "21",
+      "tamloc": "5",
+      "tamloc_descripcion": "100 000 y más habitantes"
+    },
+    "universo": {
+      "sexo": "Mujer",
+      "edad_min": 15,
+      "edad_max": 49
+    },
+    "conteos": {
+      "registros_microdato": 10230,
+      "poblacion_ponderada": 537667
+    },
+    "indicadores": {
+      "escolaridad_promedio": 12.3604,
+      "participacion_economica_pct": 55.3358,
+      "mujeres_unidas_pct": 40.9988,
+      "autoadscripcion_indigena_pct": 16.1648,
+      "habla_lengua_indigena_pct": 3.3823,
+      "promedio_hijos_nacidos_vivos": 1.116
+    },
+    "notas": {
+      "tasa_global_fecundidad": "Pendiente de método específico. El promedio de hijos nacidos vivos no se interpreta como TGF."
+    }
+  },
+  {
+    "_id": "22_1",
+    "fuente": {
+      "institucion": "INEGI",
+      "programa": "Encuesta Intercensal 2025",
+      "tabla_origen": "PERSONAS",
+      "periodo": 2025
+    },
+    "territorio": {
+      "cve_ent": "22",
+      "tamloc": "1",
+      "tamloc_descripcion": "Menos de 2 500 habitantes"
+    },
+    "universo": {
+      "sexo": "Mujer",
+      "edad_min": 15,
+      "edad_max": 49
+    },
+    "conteos": {
+      "registros_microdato": 40472,
+      "poblacion_ponderada": 155975
+    },
+    "indicadores": {
+      "escolaridad_promedio": 9.8695,
+      "participacion_economica_pct": 44.5103,
+      "mujeres_unidas_pct": 55.2902,
+      "autoadscripcion_indigena_pct": 29.08,
+      "habla_lengua_indigena_pct": 3.4055,
+      "promedio_hijos_nacidos_vivos": 1.4986
+    },
+    "notas": {
+      "tasa_global_fecundidad": "Pendiente de método específico. El promedio de hijos nacidos vivos no se interpreta como TGF."
+    }
+  },
+  {
+    "_id": "22_2",
+    "fuente": {
+      "institucion": "INEGI",
+      "programa": "Encuesta Intercensal 2025",
+      "tabla_origen": "PERSONAS",
+      "periodo": 2025
+    },
+    "territorio": {
+      "cve_ent": "22",
+      "tamloc": "2",
+      "tamloc_descripcion": "De 2 500 a 14 999 habitantes"
+    },
+    "universo": {
+      "sexo": "Mujer",
+      "edad_min": 15,
+      "edad_max": 49
+    },
+    "conteos": {
+      "registros_microdato": 25581,
+      "poblacion_ponderada": 174636
+    },
+    "indicadores": {
+      "escolaridad_promedio": 11.4773,
+      "participacion_economica_pct": 55.2239,
+      "mujeres_unidas_pct": 51.8897,
+      "autoadscripcion_indigena_pct": 13.9698,
+      "habla_lengua_indigena_pct": 0.8495,
+      "promedio_hijos_nacidos_vivos": 1.2238
+    },
+    "notas": {
+      "tasa_global_fecundidad": "Pendiente de método específico. El promedio de hijos nacidos vivos no se interpreta como TGF."
+    }
+  },
+  {
+    "_id": "22_3",
+    "fuente": {
+      "institucion": "INEGI",
+      "programa": "Encuesta Intercensal 2025",
+      "tabla_origen": "PERSONAS",
+      "periodo": 2025
+    },
+    "territorio": {
+      "cve_ent": "22",
+      "tamloc": "3",
+      "tamloc_descripcion": "De 15 000 a 49 999 habitantes"
+    },
+    "universo": {
+      "sexo": "Mujer",
+      "edad_min": 15,
+      "edad_max": 49
+    },
+    "conteos": {
+      "registros_microdato": 15589,
+      "poblacion_ponderada": 105604
+    },
+    "indicadores": {
+      "escolaridad_promedio": 12.2059,
+      "participacion_economica_pct": 61.5562,
+      "mujeres_unidas_pct": 50.3229,
+      "autoadscripcion_indigena_pct": 8.1171,
+      "habla_lengua_indigena_pct": 0.8013,
+      "promedio_hijos_nacidos_vivos": 1.152
+    },
+    "notas": {
+      "tasa_global_fecundidad": "Pendiente de método específico. El promedio de hijos nacidos vivos no se interpreta como TGF."
+    }
+  },
+  {
+    "_id": "22_5",
+    "fuente": {
+      "institucion": "INEGI",
+      "programa": "Encuesta Intercensal 2025",
+      "tabla_origen": "PERSONAS",
+      "periodo": 2025
+    },
+    "territorio": {
+      "cve_ent": "22",
+      "tamloc": "5",
+      "tamloc_descripcion": "100 000 y más habitantes"
+    },
+    "universo": {
+      "sexo": "Mujer",
+      "edad_min": 15,
+      "edad_max": 49
+    },
+    "conteos": {
+      "registros_microdato": 8751,
+      "poblacion_ponderada": 311049
+    },
+    "indicadores": {
+      "escolaridad_promedio": 12.5519,
+      "participacion_economica_pct": 61.7142,
+      "mujeres_unidas_pct": 44.5785,
+      "autoadscripcion_indigena_pct": 7.7359,
+      "habla_lengua_indigena_pct": 0.6349,
+      "promedio_hijos_nacidos_vivos": 1.0325
+    },
+    "notas": {
+      "tasa_global_fecundidad": "Pendiente de método específico. El promedio de hijos nacidos vivos no se interpreta como TGF."
+    }
+  },
+  {
+    "_id": "23_1",
+    "fuente": {
+      "institucion": "INEGI",
+      "programa": "Encuesta Intercensal 2025",
+      "tabla_origen": "PERSONAS",
+      "periodo": 2025
+    },
+    "territorio": {
+      "cve_ent": "23",
+      "tamloc": "1",
+      "tamloc_descripcion": "Menos de 2 500 habitantes"
+    },
+    "universo": {
+      "sexo": "Mujer",
+      "edad_min": 15,
+      "edad_max": 49
+    },
+    "conteos": {
+      "registros_microdato": 14898,
+      "poblacion_ponderada": 56770
+    },
+    "indicadores": {
+      "escolaridad_promedio": 9.2778,
+      "participacion_economica_pct": 31.7979,
+      "mujeres_unidas_pct": 63.8957,
+      "autoadscripcion_indigena_pct": 59.9161,
+      "habla_lengua_indigena_pct": 32.3377,
+      "promedio_hijos_nacidos_vivos": 1.6903
+    },
+    "notas": {
+      "tasa_global_fecundidad": "Pendiente de método específico. El promedio de hijos nacidos vivos no se interpreta como TGF."
+    }
+  },
+  {
+    "_id": "23_2",
+    "fuente": {
+      "institucion": "INEGI",
+      "programa": "Encuesta Intercensal 2025",
+      "tabla_origen": "PERSONAS",
+      "periodo": 2025
+    },
+    "territorio": {
+      "cve_ent": "23",
+      "tamloc": "2",
+      "tamloc_descripcion": "De 2 500 a 14 999 habitantes"
+    },
+    "universo": {
+      "sexo": "Mujer",
+      "edad_min": 15,
+      "edad_max": 49
+    },
+    "conteos": {
+      "registros_microdato": 11670,
+      "poblacion_ponderada": 34957
+    },
+    "indicadores": {
+      "escolaridad_promedio": 10.6511,
+      "participacion_economica_pct": 47.4676,
+      "mujeres_unidas_pct": 56.9314,
+      "autoadscripcion_indigena_pct": 52.1976,
+      "habla_lengua_indigena_pct": 19.7238,
+      "promedio_hijos_nacidos_vivos": 1.434
+    },
+    "notas": {
+      "tasa_global_fecundidad": "Pendiente de método específico. El promedio de hijos nacidos vivos no se interpreta como TGF."
+    }
+  },
+  {
+    "_id": "23_3",
+    "fuente": {
+      "institucion": "INEGI",
+      "programa": "Encuesta Intercensal 2025",
+      "tabla_origen": "PERSONAS",
+      "periodo": 2025
+    },
+    "territorio": {
+      "cve_ent": "23",
+      "tamloc": "3",
+      "tamloc_descripcion": "De 15 000 a 49 999 habitantes"
+    },
+    "universo": {
+      "sexo": "Mujer",
+      "edad_min": 15,
+      "edad_max": 49
+    },
+    "conteos": {
+      "registros_microdato": 9782,
+      "poblacion_ponderada": 42065
+    },
+    "indicadores": {
+      "escolaridad_promedio": 10.8624,
+      "participacion_economica_pct": 57.1316,
+      "mujeres_unidas_pct": 55.865,
+      "autoadscripcion_indigena_pct": 38.8804,
+      "habla_lengua_indigena_pct": 18.12,
+      "promedio_hijos_nacidos_vivos": 1.2596
+    },
+    "notas": {
+      "tasa_global_fecundidad": "Pendiente de método específico. El promedio de hijos nacidos vivos no se interpreta como TGF."
+    }
+  },
+  {
+    "_id": "23_4",
+    "fuente": {
+      "institucion": "INEGI",
+      "programa": "Encuesta Intercensal 2025",
+      "tabla_origen": "PERSONAS",
+      "periodo": 2025
+    },
+    "territorio": {
+      "cve_ent": "23",
+      "tamloc": "4",
+      "tamloc_descripcion": "De 50 000 a 99 999 habitantes"
+    },
+    "universo": {
+      "sexo": "Mujer",
+      "edad_min": 15,
+      "edad_max": 49
+    },
+    "conteos": {
+      "registros_microdato": 3530,
+      "poblacion_ponderada": 23979
+    },
+    "indicadores": {
+      "escolaridad_promedio": 11.5124,
+      "participacion_economica_pct": 60.6283,
+      "mujeres_unidas_pct": 52.7086,
+      "autoadscripcion_indigena_pct": 13.9664,
+      "habla_lengua_indigena_pct": 2.865,
+      "promedio_hijos_nacidos_vivos": 1.2106
+    },
+    "notas": {
+      "tasa_global_fecundidad": "Pendiente de método específico. El promedio de hijos nacidos vivos no se interpreta como TGF."
+    }
+  },
+  {
+    "_id": "23_5",
+    "fuente": {
+      "institucion": "INEGI",
+      "programa": "Encuesta Intercensal 2025",
+      "tabla_origen": "PERSONAS",
+      "periodo": 2025
+    },
+    "territorio": {
+      "cve_ent": "23",
+      "tamloc": "5",
+      "tamloc_descripcion": "100 000 y más habitantes"
+    },
+    "universo": {
+      "sexo": "Mujer",
+      "edad_min": 15,
+      "edad_max": 49
+    },
+    "conteos": {
+      "registros_microdato": 10703,
+      "poblacion_ponderada": 464835
+    },
+    "indicadores": {
+      "escolaridad_promedio": 11.575,
+      "participacion_economica_pct": 57.6373,
+      "mujeres_unidas_pct": 55.2385,
+      "autoadscripcion_indigena_pct": 23.6259,
+      "habla_lengua_indigena_pct": 6.3781,
+      "promedio_hijos_nacidos_vivos": 1.1653
+    },
+    "notas": {
+      "tasa_global_fecundidad": "Pendiente de método específico. El promedio de hijos nacidos vivos no se interpreta como TGF."
+    }
+  },
+  {
+    "_id": "24_1",
+    "fuente": {
+      "institucion": "INEGI",
+      "programa": "Encuesta Intercensal 2025",
+      "tabla_origen": "PERSONAS",
+      "periodo": 2025
+    },
+    "territorio": {
+      "cve_ent": "24",
+      "tamloc": "1",
+      "tamloc_descripcion": "Menos de 2 500 habitantes"
+    },
+    "universo": {
+      "sexo": "Mujer",
+      "edad_min": 15,
+      "edad_max": 49
+    },
+    "conteos": {
+      "registros_microdato": 103656,
+      "poblacion_ponderada": 237201
+    },
+    "indicadores": {
+      "escolaridad_promedio": 9.7013,
+      "participacion_economica_pct": 31.9084,
+      "mujeres_unidas_pct": 60.019,
+      "autoadscripcion_indigena_pct": 41.0682,
+      "habla_lengua_indigena_pct": 22.3773,
+      "promedio_hijos_nacidos_vivos": 1.6338
+    },
+    "notas": {
+      "tasa_global_fecundidad": "Pendiente de método específico. El promedio de hijos nacidos vivos no se interpreta como TGF."
+    }
+  },
+  {
+    "_id": "24_2",
+    "fuente": {
+      "institucion": "INEGI",
+      "programa": "Encuesta Intercensal 2025",
+      "tabla_origen": "PERSONAS",
+      "periodo": 2025
+    },
+    "territorio": {
+      "cve_ent": "24",
+      "tamloc": "2",
+      "tamloc_descripcion": "De 2 500 a 14 999 habitantes"
+    },
+    "universo": {
+      "sexo": "Mujer",
+      "edad_min": 15,
+      "edad_max": 49
+    },
+    "conteos": {
+      "registros_microdato": 38256,
+      "poblacion_ponderada": 83998
+    },
+    "indicadores": {
+      "escolaridad_promedio": 10.6972,
+      "participacion_economica_pct": 47.5436,
+      "mujeres_unidas_pct": 53.9268,
+      "autoadscripcion_indigena_pct": 18.6914,
+      "habla_lengua_indigena_pct": 4.8137,
+      "promedio_hijos_nacidos_vivos": 1.4966
+    },
+    "notas": {
+      "tasa_global_fecundidad": "Pendiente de método específico. El promedio de hijos nacidos vivos no se interpreta como TGF."
+    }
+  },
+  {
+    "_id": "24_3",
+    "fuente": {
+      "institucion": "INEGI",
+      "programa": "Encuesta Intercensal 2025",
+      "tabla_origen": "PERSONAS",
+      "periodo": 2025
+    },
+    "territorio": {
+      "cve_ent": "24",
+      "tamloc": "3",
+      "tamloc_descripcion": "De 15 000 a 49 999 habitantes"
+    },
+    "universo": {
+      "sexo": "Mujer",
+      "edad_min": 15,
+      "edad_max": 49
+    },
+    "conteos": {
+      "registros_microdato": 15925,
+      "poblacion_ponderada": 44858
+    },
+    "indicadores": {
+      "escolaridad_promedio": 11.3357,
+      "participacion_economica_pct": 53.1094,
+      "mujeres_unidas_pct": 52.0788,
+      "autoadscripcion_indigena_pct": 12.3126,
+      "habla_lengua_indigena_pct": 1.4568,
+      "promedio_hijos_nacidos_vivos": 1.4058
+    },
+    "notas": {
+      "tasa_global_fecundidad": "Pendiente de método específico. El promedio de hijos nacidos vivos no se interpreta como TGF."
+    }
+  },
+  {
+    "_id": "24_4",
+    "fuente": {
+      "institucion": "INEGI",
+      "programa": "Encuesta Intercensal 2025",
+      "tabla_origen": "PERSONAS",
+      "periodo": 2025
+    },
+    "territorio": {
+      "cve_ent": "24",
+      "tamloc": "4",
+      "tamloc_descripcion": "De 50 000 a 99 999 habitantes"
+    },
+    "universo": {
+      "sexo": "Mujer",
+      "edad_min": 15,
+      "edad_max": 49
+    },
+    "conteos": {
+      "registros_microdato": 6009,
+      "poblacion_ponderada": 42797
+    },
+    "indicadores": {
+      "escolaridad_promedio": 11.768,
+      "participacion_economica_pct": 59.2624,
+      "mujeres_unidas_pct": 47.1381,
+      "autoadscripcion_indigena_pct": 4.1298,
+      "habla_lengua_indigena_pct": 0.332,
+      "promedio_hijos_nacidos_vivos": 1.3176
+    },
+    "notas": {
+      "tasa_global_fecundidad": "Pendiente de método específico. El promedio de hijos nacidos vivos no se interpreta como TGF."
+    }
+  },
+  {
+    "_id": "24_5",
+    "fuente": {
+      "institucion": "INEGI",
+      "programa": "Encuesta Intercensal 2025",
+      "tabla_origen": "PERSONAS",
+      "periodo": 2025
+    },
+    "territorio": {
+      "cve_ent": "24",
+      "tamloc": "5",
+      "tamloc_descripcion": "100 000 y más habitantes"
+    },
+    "universo": {
+      "sexo": "Mujer",
+      "edad_min": 15,
+      "edad_max": 49
+    },
+    "conteos": {
+      "registros_microdato": 13714,
+      "poblacion_ponderada": 361176
+    },
+    "indicadores": {
+      "escolaridad_promedio": 12.5116,
+      "participacion_economica_pct": 61.2775,
+      "mujeres_unidas_pct": 45.1455,
+      "autoadscripcion_indigena_pct": 5.9087,
+      "habla_lengua_indigena_pct": 0.5979,
+      "promedio_hijos_nacidos_vivos": 1.1852
+    },
+    "notas": {
+      "tasa_global_fecundidad": "Pendiente de método específico. El promedio de hijos nacidos vivos no se interpreta como TGF."
+    }
+  },
+  {
+    "_id": "25_1",
+    "fuente": {
+      "institucion": "INEGI",
+      "programa": "Encuesta Intercensal 2025",
+      "tabla_origen": "PERSONAS",
+      "periodo": 2025
+    },
+    "territorio": {
+      "cve_ent": "25",
+      "tamloc": "1",
+      "tamloc_descripcion": "Menos de 2 500 habitantes"
+    },
+    "universo": {
+      "sexo": "Mujer",
+      "edad_min": 15,
+      "edad_max": 49
+    },
+    "conteos": {
+      "registros_microdato": 32070,
+      "poblacion_ponderada": 168904
+    },
+    "indicadores": {
+      "escolaridad_promedio": 10.7404,
+      "participacion_economica_pct": 36.4328,
+      "mujeres_unidas_pct": 55.8875,
+      "autoadscripcion_indigena_pct": 16.8488,
+      "habla_lengua_indigena_pct": 1.1105,
+      "promedio_hijos_nacidos_vivos": 1.6347
+    },
+    "notas": {
+      "tasa_global_fecundidad": "Pendiente de método específico. El promedio de hijos nacidos vivos no se interpreta como TGF."
+    }
+  },
+  {
+    "_id": "25_2",
+    "fuente": {
+      "institucion": "INEGI",
+      "programa": "Encuesta Intercensal 2025",
+      "tabla_origen": "PERSONAS",
+      "periodo": 2025
+    },
+    "territorio": {
+      "cve_ent": "25",
+      "tamloc": "2",
+      "tamloc_descripcion": "De 2 500 a 14 999 habitantes"
+    },
+    "universo": {
+      "sexo": "Mujer",
+      "edad_min": 15,
+      "edad_max": 49
+    },
+    "conteos": {
+      "registros_microdato": 19990,
+      "poblacion_ponderada": 91674
+    },
+    "indicadores": {
+      "escolaridad_promedio": 11.6093,
+      "participacion_economica_pct": 43.6349,
+      "mujeres_unidas_pct": 50.06,
+      "autoadscripcion_indigena_pct": 14.5285,
+      "habla_lengua_indigena_pct": 1.8308,
+      "promedio_hijos_nacidos_vivos": 1.4795
+    },
+    "notas": {
+      "tasa_global_fecundidad": "Pendiente de método específico. El promedio de hijos nacidos vivos no se interpreta como TGF."
+    }
+  },
+  {
+    "_id": "25_3",
+    "fuente": {
+      "institucion": "INEGI",
+      "programa": "Encuesta Intercensal 2025",
+      "tabla_origen": "PERSONAS",
+      "periodo": 2025
+    },
+    "territorio": {
+      "cve_ent": "25",
+      "tamloc": "3",
+      "tamloc_descripcion": "De 15 000 a 49 999 habitantes"
+    },
+    "universo": {
+      "sexo": "Mujer",
+      "edad_min": 15,
+      "edad_max": 49
+    },
+    "conteos": {
+      "registros_microdato": 18047,
+      "poblacion_ponderada": 62235
+    },
+    "indicadores": {
+      "escolaridad_promedio": 11.3278,
+      "participacion_economica_pct": 50.7576,
+      "mujeres_unidas_pct": 50.3987,
+      "autoadscripcion_indigena_pct": 10.9364,
+      "habla_lengua_indigena_pct": 1.2906,
+      "promedio_hijos_nacidos_vivos": 1.5129
+    },
+    "notas": {
+      "tasa_global_fecundidad": "Pendiente de método específico. El promedio de hijos nacidos vivos no se interpreta como TGF."
+    }
+  },
+  {
+    "_id": "25_4",
+    "fuente": {
+      "institucion": "INEGI",
+      "programa": "Encuesta Intercensal 2025",
+      "tabla_origen": "PERSONAS",
+      "periodo": 2025
+    },
+    "territorio": {
+      "cve_ent": "25",
+      "tamloc": "4",
+      "tamloc_descripcion": "De 50 000 a 99 999 habitantes"
+    },
+    "universo": {
+      "sexo": "Mujer",
+      "edad_min": 15,
+      "edad_max": 49
+    },
+    "conteos": {
+      "registros_microdato": 5445,
+      "poblacion_ponderada": 40813
+    },
+    "indicadores": {
+      "escolaridad_promedio": 13.1921,
+      "participacion_economica_pct": 50.2957,
+      "mujeres_unidas_pct": 50.0858,
+      "autoadscripcion_indigena_pct": 4.4947,
+      "habla_lengua_indigena_pct": 0.0539,
+      "promedio_hijos_nacidos_vivos": 1.2801
+    },
+    "notas": {
+      "tasa_global_fecundidad": "Pendiente de método específico. El promedio de hijos nacidos vivos no se interpreta como TGF."
+    }
+  },
+  {
+    "_id": "25_5",
+    "fuente": {
+      "institucion": "INEGI",
+      "programa": "Encuesta Intercensal 2025",
+      "tabla_origen": "PERSONAS",
+      "periodo": 2025
+    },
+    "territorio": {
+      "cve_ent": "25",
+      "tamloc": "5",
+      "tamloc_descripcion": "100 000 y más habitantes"
+    },
+    "universo": {
+      "sexo": "Mujer",
+      "edad_min": 15,
+      "edad_max": 49
+    },
+    "conteos": {
+      "registros_microdato": 8567,
+      "poblacion_ponderada": 425196
+    },
+    "indicadores": {
+      "escolaridad_promedio": 13.0826,
+      "participacion_economica_pct": 56.0678,
+      "mujeres_unidas_pct": 46.715,
+      "autoadscripcion_indigena_pct": 4.9813,
+      "habla_lengua_indigena_pct": 0.3824,
+      "promedio_hijos_nacidos_vivos": 1.1961
+    },
+    "notas": {
+      "tasa_global_fecundidad": "Pendiente de método específico. El promedio de hijos nacidos vivos no se interpreta como TGF."
+    }
+  },
+  {
+    "_id": "26_1",
+    "fuente": {
+      "institucion": "INEGI",
+      "programa": "Encuesta Intercensal 2025",
+      "tabla_origen": "PERSONAS",
+      "periodo": 2025
+    },
+    "territorio": {
+      "cve_ent": "26",
+      "tamloc": "1",
+      "tamloc_descripcion": "Menos de 2 500 habitantes"
+    },
+    "universo": {
+      "sexo": "Mujer",
+      "edad_min": 15,
+      "edad_max": 49
+    },
+    "conteos": {
+      "registros_microdato": 31321,
+      "poblacion_ponderada": 80020
+    },
+    "indicadores": {
+      "escolaridad_promedio": 10.3217,
+      "participacion_economica_pct": 41.511,
+      "mujeres_unidas_pct": 56.6408,
+      "autoadscripcion_indigena_pct": 42.4691,
+      "habla_lengua_indigena_pct": 7.1481,
+      "promedio_hijos_nacidos_vivos": 1.6641
+    },
+    "notas": {
+      "tasa_global_fecundidad": "Pendiente de método específico. El promedio de hijos nacidos vivos no se interpreta como TGF."
+    }
+  },
+  {
+    "_id": "26_2",
+    "fuente": {
+      "institucion": "INEGI",
+      "programa": "Encuesta Intercensal 2025",
+      "tabla_origen": "PERSONAS",
+      "periodo": 2025
+    },
+    "territorio": {
+      "cve_ent": "26",
+      "tamloc": "2",
+      "tamloc_descripcion": "De 2 500 a 14 999 habitantes"
+    },
+    "universo": {
+      "sexo": "Mujer",
+      "edad_min": 15,
+      "edad_max": 49
+    },
+    "conteos": {
+      "registros_microdato": 32192,
+      "poblacion_ponderada": 73995
+    },
+    "indicadores": {
+      "escolaridad_promedio": 11.0748,
+      "participacion_economica_pct": 45.6386,
+      "mujeres_unidas_pct": 51.2679,
+      "autoadscripcion_indigena_pct": 26.8567,
+      "habla_lengua_indigena_pct": 4.9273,
+      "promedio_hijos_nacidos_vivos": 1.5654
+    },
+    "notas": {
+      "tasa_global_fecundidad": "Pendiente de método específico. El promedio de hijos nacidos vivos no se interpreta como TGF."
+    }
+  },
+  {
+    "_id": "26_3",
+    "fuente": {
+      "institucion": "INEGI",
+      "programa": "Encuesta Intercensal 2025",
+      "tabla_origen": "PERSONAS",
+      "periodo": 2025
+    },
+    "territorio": {
+      "cve_ent": "26",
+      "tamloc": "3",
+      "tamloc_descripcion": "De 15 000 a 49 999 habitantes"
+    },
+    "universo": {
+      "sexo": "Mujer",
+      "edad_min": 15,
+      "edad_max": 49
+    },
+    "conteos": {
+      "registros_microdato": 14901,
+      "poblacion_ponderada": 54268
+    },
+    "indicadores": {
+      "escolaridad_promedio": 11.3208,
+      "participacion_economica_pct": 50.7562,
+      "mujeres_unidas_pct": 49.9254,
+      "autoadscripcion_indigena_pct": 11.3268,
+      "habla_lengua_indigena_pct": 1.7508,
+      "promedio_hijos_nacidos_vivos": 1.4983
+    },
+    "notas": {
+      "tasa_global_fecundidad": "Pendiente de método específico. El promedio de hijos nacidos vivos no se interpreta como TGF."
+    }
+  },
+  {
+    "_id": "26_4",
+    "fuente": {
+      "institucion": "INEGI",
+      "programa": "Encuesta Intercensal 2025",
+      "tabla_origen": "PERSONAS",
+      "periodo": 2025
+    },
+    "territorio": {
+      "cve_ent": "26",
+      "tamloc": "4",
+      "tamloc_descripcion": "De 50 000 a 99 999 habitantes"
+    },
+    "universo": {
+      "sexo": "Mujer",
+      "edad_min": 15,
+      "edad_max": 49
+    },
+    "conteos": {
+      "registros_microdato": 11218,
+      "poblacion_ponderada": 65907
+    },
+    "indicadores": {
+      "escolaridad_promedio": 11.3006,
+      "participacion_economica_pct": 50.8922,
+      "mujeres_unidas_pct": 51.6587,
+      "autoadscripcion_indigena_pct": 5.7114,
+      "habla_lengua_indigena_pct": 0.5524,
+      "promedio_hijos_nacidos_vivos": 1.5201
+    },
+    "notas": {
+      "tasa_global_fecundidad": "Pendiente de método específico. El promedio de hijos nacidos vivos no se interpreta como TGF."
+    }
+  },
+  {
+    "_id": "26_5",
+    "fuente": {
+      "institucion": "INEGI",
+      "programa": "Encuesta Intercensal 2025",
+      "tabla_origen": "PERSONAS",
+      "periodo": 2025
+    },
+    "territorio": {
+      "cve_ent": "26",
+      "tamloc": "5",
+      "tamloc_descripcion": "100 000 y más habitantes"
+    },
+    "universo": {
+      "sexo": "Mujer",
+      "edad_min": 15,
+      "edad_max": 49
+    },
+    "conteos": {
+      "registros_microdato": 19536,
+      "poblacion_ponderada": 527421
+    },
+    "indicadores": {
+      "escolaridad_promedio": 12.4652,
+      "participacion_economica_pct": 57.4836,
+      "mujeres_unidas_pct": 46.329,
+      "autoadscripcion_indigena_pct": 7.0405,
+      "habla_lengua_indigena_pct": 0.4327,
+      "promedio_hijos_nacidos_vivos": 1.2661
+    },
+    "notas": {
+      "tasa_global_fecundidad": "Pendiente de método específico. El promedio de hijos nacidos vivos no se interpreta como TGF."
+    }
+  },
+  {
+    "_id": "27_1",
+    "fuente": {
+      "institucion": "INEGI",
+      "programa": "Encuesta Intercensal 2025",
+      "tabla_origen": "PERSONAS",
+      "periodo": 2025
+    },
+    "territorio": {
+      "cve_ent": "27",
+      "tamloc": "1",
+      "tamloc_descripcion": "Menos de 2 500 habitantes"
+    },
+    "universo": {
+      "sexo": "Mujer",
+      "edad_min": 15,
+      "edad_max": 49
+    },
+    "conteos": {
+      "registros_microdato": 38375,
+      "poblacion_ponderada": 276220
+    },
+    "indicadores": {
+      "escolaridad_promedio": 10.2297,
+      "participacion_economica_pct": 27.9667,
+      "mujeres_unidas_pct": 59.1957,
+      "autoadscripcion_indigena_pct": 27.845,
+      "habla_lengua_indigena_pct": 5.911,
+      "promedio_hijos_nacidos_vivos": 1.6348
+    },
+    "notas": {
+      "tasa_global_fecundidad": "Pendiente de método específico. El promedio de hijos nacidos vivos no se interpreta como TGF."
+    }
+  },
+  {
+    "_id": "27_2",
+    "fuente": {
+      "institucion": "INEGI",
+      "programa": "Encuesta Intercensal 2025",
+      "tabla_origen": "PERSONAS",
+      "periodo": 2025
+    },
+    "territorio": {
+      "cve_ent": "27",
+      "tamloc": "2",
+      "tamloc_descripcion": "De 2 500 a 14 999 habitantes"
+    },
+    "universo": {
+      "sexo": "Mujer",
+      "edad_min": 15,
+      "edad_max": 49
+    },
+    "conteos": {
+      "registros_microdato": 19666,
+      "poblacion_ponderada": 192559
+    },
+    "indicadores": {
+      "escolaridad_promedio": 11.5368,
+      "participacion_economica_pct": 38.5239,
+      "mujeres_unidas_pct": 54.7916,
+      "autoadscripcion_indigena_pct": 16.6679,
+      "habla_lengua_indigena_pct": 2.6195,
+      "promedio_hijos_nacidos_vivos": 1.4189
+    },
+    "notas": {
+      "tasa_global_fecundidad": "Pendiente de método específico. El promedio de hijos nacidos vivos no se interpreta como TGF."
+    }
+  },
+  {
+    "_id": "27_3",
+    "fuente": {
+      "institucion": "INEGI",
+      "programa": "Encuesta Intercensal 2025",
+      "tabla_origen": "PERSONAS",
+      "periodo": 2025
+    },
+    "territorio": {
+      "cve_ent": "27",
+      "tamloc": "3",
+      "tamloc_descripcion": "De 15 000 a 49 999 habitantes"
+    },
+    "universo": {
+      "sexo": "Mujer",
+      "edad_min": 15,
+      "edad_max": 49
+    },
+    "conteos": {
+      "registros_microdato": 28053,
+      "poblacion_ponderada": 100311
+    },
+    "indicadores": {
+      "escolaridad_promedio": 12.3878,
+      "participacion_economica_pct": 46.8917,
+      "mujeres_unidas_pct": 49.1025,
+      "autoadscripcion_indigena_pct": 9.6717,
+      "habla_lengua_indigena_pct": 0.9105,
+      "promedio_hijos_nacidos_vivos": 1.2748
+    },
+    "notas": {
+      "tasa_global_fecundidad": "Pendiente de método específico. El promedio de hijos nacidos vivos no se interpreta como TGF."
+    }
+  },
+  {
+    "_id": "27_4",
+    "fuente": {
+      "institucion": "INEGI",
+      "programa": "Encuesta Intercensal 2025",
+      "tabla_origen": "PERSONAS",
+      "periodo": 2025
+    },
+    "territorio": {
+      "cve_ent": "27",
+      "tamloc": "4",
+      "tamloc_descripcion": "De 50 000 a 99 999 habitantes"
+    },
+    "universo": {
+      "sexo": "Mujer",
+      "edad_min": 15,
+      "edad_max": 49
+    },
+    "conteos": {
+      "registros_microdato": 2747,
+      "poblacion_ponderada": 22678
+    },
+    "indicadores": {
+      "escolaridad_promedio": 12.1014,
+      "participacion_economica_pct": 44.8927,
+      "mujeres_unidas_pct": 49.6957,
+      "autoadscripcion_indigena_pct": 5.7721,
+      "habla_lengua_indigena_pct": 0.5071,
+      "promedio_hijos_nacidos_vivos": 1.3102
+    },
+    "notas": {
+      "tasa_global_fecundidad": "Pendiente de método específico. El promedio de hijos nacidos vivos no se interpreta como TGF."
+    }
+  },
+  {
+    "_id": "27_5",
+    "fuente": {
+      "institucion": "INEGI",
+      "programa": "Encuesta Intercensal 2025",
+      "tabla_origen": "PERSONAS",
+      "periodo": 2025
+    },
+    "territorio": {
+      "cve_ent": "27",
+      "tamloc": "5",
+      "tamloc_descripcion": "100 000 y más habitantes"
+    },
+    "universo": {
+      "sexo": "Mujer",
+      "edad_min": 15,
+      "edad_max": 49
+    },
+    "conteos": {
+      "registros_microdato": 2824,
+      "poblacion_ponderada": 95525
+    },
+    "indicadores": {
+      "escolaridad_promedio": 12.7272,
+      "participacion_economica_pct": 57.6911,
+      "mujeres_unidas_pct": 46.2689,
+      "autoadscripcion_indigena_pct": 10.5875,
+      "habla_lengua_indigena_pct": 1.9617,
+      "promedio_hijos_nacidos_vivos": 1.1303
+    },
+    "notas": {
+      "tasa_global_fecundidad": "Pendiente de método específico. El promedio de hijos nacidos vivos no se interpreta como TGF."
+    }
+  },
+  {
+    "_id": "28_1",
+    "fuente": {
+      "institucion": "INEGI",
+      "programa": "Encuesta Intercensal 2025",
+      "tabla_origen": "PERSONAS",
+      "periodo": 2025
+    },
+    "territorio": {
+      "cve_ent": "28",
+      "tamloc": "1",
+      "tamloc_descripcion": "Menos de 2 500 habitantes"
+    },
+    "universo": {
+      "sexo": "Mujer",
+      "edad_min": 15,
+      "edad_max": 49
+    },
+    "conteos": {
+      "registros_microdato": 35589,
+      "poblacion_ponderada": 76553
+    },
+    "indicadores": {
+      "escolaridad_promedio": 9.8356,
+      "participacion_economica_pct": 27.8637,
+      "mujeres_unidas_pct": 61.0557,
+      "autoadscripcion_indigena_pct": 2.8618,
+      "habla_lengua_indigena_pct": 0.3959,
+      "promedio_hijos_nacidos_vivos": 1.64
+    },
+    "notas": {
+      "tasa_global_fecundidad": "Pendiente de método específico. El promedio de hijos nacidos vivos no se interpreta como TGF."
+    }
+  },
+  {
+    "_id": "28_2",
+    "fuente": {
+      "institucion": "INEGI",
+      "programa": "Encuesta Intercensal 2025",
+      "tabla_origen": "PERSONAS",
+      "periodo": 2025
+    },
+    "territorio": {
+      "cve_ent": "28",
+      "tamloc": "2",
+      "tamloc_descripcion": "De 2 500 a 14 999 habitantes"
+    },
+    "universo": {
+      "sexo": "Mujer",
+      "edad_min": 15,
+      "edad_max": 49
+    },
+    "conteos": {
+      "registros_microdato": 24383,
+      "poblacion_ponderada": 49728
+    },
+    "indicadores": {
+      "escolaridad_promedio": 10.7253,
+      "participacion_economica_pct": 43.4585,
+      "mujeres_unidas_pct": 54.4314,
+      "autoadscripcion_indigena_pct": 3.3747,
+      "habla_lengua_indigena_pct": 0.5793,
+      "promedio_hijos_nacidos_vivos": 1.5643
+    },
+    "notas": {
+      "tasa_global_fecundidad": "Pendiente de método específico. El promedio de hijos nacidos vivos no se interpreta como TGF."
+    }
+  },
+  {
+    "_id": "28_3",
+    "fuente": {
+      "institucion": "INEGI",
+      "programa": "Encuesta Intercensal 2025",
+      "tabla_origen": "PERSONAS",
+      "periodo": 2025
+    },
+    "territorio": {
+      "cve_ent": "28",
+      "tamloc": "3",
+      "tamloc_descripcion": "De 15 000 a 49 999 habitantes"
+    },
+    "universo": {
+      "sexo": "Mujer",
+      "edad_min": 15,
+      "edad_max": 49
+    },
+    "conteos": {
+      "registros_microdato": 6499,
+      "poblacion_ponderada": 23313
+    },
+    "indicadores": {
+      "escolaridad_promedio": 11.1339,
+      "participacion_economica_pct": 45.4952,
+      "mujeres_unidas_pct": 54.939,
+      "autoadscripcion_indigena_pct": 2.5337,
+      "habla_lengua_indigena_pct": 0.1891,
+      "promedio_hijos_nacidos_vivos": 1.5214
+    },
+    "notas": {
+      "tasa_global_fecundidad": "Pendiente de método específico. El promedio de hijos nacidos vivos no se interpreta como TGF."
+    }
+  },
+  {
+    "_id": "28_4",
+    "fuente": {
+      "institucion": "INEGI",
+      "programa": "Encuesta Intercensal 2025",
+      "tabla_origen": "PERSONAS",
+      "periodo": 2025
+    },
+    "territorio": {
+      "cve_ent": "28",
+      "tamloc": "4",
+      "tamloc_descripcion": "De 50 000 a 99 999 habitantes"
+    },
+    "universo": {
+      "sexo": "Mujer",
+      "edad_min": 15,
+      "edad_max": 49
+    },
+    "conteos": {
+      "registros_microdato": 4328,
+      "poblacion_ponderada": 41915
+    },
+    "indicadores": {
+      "escolaridad_promedio": 11.5507,
+      "participacion_economica_pct": 46.5026,
+      "mujeres_unidas_pct": 53.922,
+      "autoadscripcion_indigena_pct": 5.4242,
+      "habla_lengua_indigena_pct": 0.5466,
+      "promedio_hijos_nacidos_vivos": 1.3791
+    },
+    "notas": {
+      "tasa_global_fecundidad": "Pendiente de método específico. El promedio de hijos nacidos vivos no se interpreta como TGF."
+    }
+  },
+  {
+    "_id": "28_5",
+    "fuente": {
+      "institucion": "INEGI",
+      "programa": "Encuesta Intercensal 2025",
+      "tabla_origen": "PERSONAS",
+      "periodo": 2025
+    },
+    "territorio": {
+      "cve_ent": "28",
+      "tamloc": "5",
+      "tamloc_descripcion": "100 000 y más habitantes"
+    },
+    "universo": {
+      "sexo": "Mujer",
+      "edad_min": 15,
+      "edad_max": 49
+    },
+    "conteos": {
+      "registros_microdato": 32419,
+      "poblacion_ponderada": 757972
+    },
+    "indicadores": {
+      "escolaridad_promedio": 11.786,
+      "participacion_economica_pct": 52.3819,
+      "mujeres_unidas_pct": 51.1293,
+      "autoadscripcion_indigena_pct": 6.8427,
+      "habla_lengua_indigena_pct": 1.09,
+      "promedio_hijos_nacidos_vivos": 1.3468
+    },
+    "notas": {
+      "tasa_global_fecundidad": "Pendiente de método específico. El promedio de hijos nacidos vivos no se interpreta como TGF."
+    }
+  },
+  {
+    "_id": "29_1",
+    "fuente": {
+      "institucion": "INEGI",
+      "programa": "Encuesta Intercensal 2025",
+      "tabla_origen": "PERSONAS",
+      "periodo": 2025
+    },
+    "territorio": {
+      "cve_ent": "29",
+      "tamloc": "1",
+      "tamloc_descripcion": "Menos de 2 500 habitantes"
+    },
+    "universo": {
+      "sexo": "Mujer",
+      "edad_min": 15,
+      "edad_max": 49
+    },
+    "conteos": {
+      "registros_microdato": 34314,
+      "poblacion_ponderada": 68015
+    },
+    "indicadores": {
+      "escolaridad_promedio": 10.8005,
+      "participacion_economica_pct": 43.3536,
+      "mujeres_unidas_pct": 53.2708,
+      "autoadscripcion_indigena_pct": 20.6848,
+      "habla_lengua_indigena_pct": 1.005,
+      "promedio_hijos_nacidos_vivos": 1.4482
+    },
+    "notas": {
+      "tasa_global_fecundidad": "Pendiente de método específico. El promedio de hijos nacidos vivos no se interpreta como TGF."
+    }
+  },
+  {
+    "_id": "29_2",
+    "fuente": {
+      "institucion": "INEGI",
+      "programa": "Encuesta Intercensal 2025",
+      "tabla_origen": "PERSONAS",
+      "periodo": 2025
+    },
+    "territorio": {
+      "cve_ent": "29",
+      "tamloc": "2",
+      "tamloc_descripcion": "De 2 500 a 14 999 habitantes"
+    },
+    "universo": {
+      "sexo": "Mujer",
+      "edad_min": 15,
+      "edad_max": 49
+    },
+    "conteos": {
+      "registros_microdato": 95958,
+      "poblacion_ponderada": 184841
+    },
+    "indicadores": {
+      "escolaridad_promedio": 11.4277,
+      "participacion_economica_pct": 48.2067,
+      "mujeres_unidas_pct": 49.8604,
+      "autoadscripcion_indigena_pct": 17.5888,
+      "habla_lengua_indigena_pct": 2.0315,
+      "promedio_hijos_nacidos_vivos": 1.3608
+    },
+    "notas": {
+      "tasa_global_fecundidad": "Pendiente de método específico. El promedio de hijos nacidos vivos no se interpreta como TGF."
+    }
+  },
+  {
+    "_id": "29_3",
+    "fuente": {
+      "institucion": "INEGI",
+      "programa": "Encuesta Intercensal 2025",
+      "tabla_origen": "PERSONAS",
+      "periodo": 2025
+    },
+    "territorio": {
+      "cve_ent": "29",
+      "tamloc": "3",
+      "tamloc_descripcion": "De 15 000 a 49 999 habitantes"
+    },
+    "universo": {
+      "sexo": "Mujer",
+      "edad_min": 15,
+      "edad_max": 49
+    },
+    "conteos": {
+      "registros_microdato": 28619,
+      "poblacion_ponderada": 87086
+    },
+    "indicadores": {
+      "escolaridad_promedio": 11.8905,
+      "participacion_economica_pct": 52.84,
+      "mujeres_unidas_pct": 46.041,
+      "autoadscripcion_indigena_pct": 15.6148,
+      "habla_lengua_indigena_pct": 1.1997,
+      "promedio_hijos_nacidos_vivos": 1.2717
+    },
+    "notas": {
+      "tasa_global_fecundidad": "Pendiente de método específico. El promedio de hijos nacidos vivos no se interpreta como TGF."
+    }
+  },
+  {
+    "_id": "29_4",
+    "fuente": {
+      "institucion": "INEGI",
+      "programa": "Encuesta Intercensal 2025",
+      "tabla_origen": "PERSONAS",
+      "periodo": 2025
+    },
+    "territorio": {
+      "cve_ent": "29",
+      "tamloc": "4",
+      "tamloc_descripcion": "De 50 000 a 99 999 habitantes"
+    },
+    "universo": {
+      "sexo": "Mujer",
+      "edad_min": 15,
+      "edad_max": 49
+    },
+    "conteos": {
+      "registros_microdato": 10428,
+      "poblacion_ponderada": 53724
+    },
+    "indicadores": {
+      "escolaridad_promedio": 11.1746,
+      "participacion_economica_pct": 55.0364,
+      "mujeres_unidas_pct": 49.3814,
+      "autoadscripcion_indigena_pct": 23.9649,
+      "habla_lengua_indigena_pct": 1.5913,
+      "promedio_hijos_nacidos_vivos": 1.3853
+    },
+    "notas": {
+      "tasa_global_fecundidad": "Pendiente de método específico. El promedio de hijos nacidos vivos no se interpreta como TGF."
+    }
+  },
+  {
+    "_id": "30_1",
+    "fuente": {
+      "institucion": "INEGI",
+      "programa": "Encuesta Intercensal 2025",
+      "tabla_origen": "PERSONAS",
+      "periodo": 2025
+    },
+    "territorio": {
+      "cve_ent": "30",
+      "tamloc": "1",
+      "tamloc_descripcion": "Menos de 2 500 habitantes"
+    },
+    "universo": {
+      "sexo": "Mujer",
+      "edad_min": 15,
+      "edad_max": 49
+    },
+    "conteos": {
+      "registros_microdato": 323205,
+      "poblacion_ponderada": 772919
+    },
+    "indicadores": {
+      "escolaridad_promedio": 9.1464,
+      "participacion_economica_pct": 29.6582,
+      "mujeres_unidas_pct": 60.6595,
+      "autoadscripcion_indigena_pct": 43.0248,
+      "habla_lengua_indigena_pct": 15.3727,
+      "promedio_hijos_nacidos_vivos": 1.5615
+    },
+    "notas": {
+      "tasa_global_fecundidad": "Pendiente de método específico. El promedio de hijos nacidos vivos no se interpreta como TGF."
+    }
+  },
+  {
+    "_id": "30_2",
+    "fuente": {
+      "institucion": "INEGI",
+      "programa": "Encuesta Intercensal 2025",
+      "tabla_origen": "PERSONAS",
+      "periodo": 2025
+    },
+    "territorio": {
+      "cve_ent": "30",
+      "tamloc": "2",
+      "tamloc_descripcion": "De 2 500 a 14 999 habitantes"
+    },
+    "universo": {
+      "sexo": "Mujer",
+      "edad_min": 15,
+      "edad_max": 49
+    },
+    "conteos": {
+      "registros_microdato": 159890,
+      "poblacion_ponderada": 414076
+    },
+    "indicadores": {
+      "escolaridad_promedio": 10.6973,
+      "participacion_economica_pct": 44.917,
+      "mujeres_unidas_pct": 53.1707,
+      "autoadscripcion_indigena_pct": 29.8392,
+      "habla_lengua_indigena_pct": 7.4565,
+      "promedio_hijos_nacidos_vivos": 1.347
+    },
+    "notas": {
+      "tasa_global_fecundidad": "Pendiente de método específico. El promedio de hijos nacidos vivos no se interpreta como TGF."
+    }
+  },
+  {
+    "_id": "30_3",
+    "fuente": {
+      "institucion": "INEGI",
+      "programa": "Encuesta Intercensal 2025",
+      "tabla_origen": "PERSONAS",
+      "periodo": 2025
+    },
+    "territorio": {
+      "cve_ent": "30",
+      "tamloc": "3",
+      "tamloc_descripcion": "De 15 000 a 49 999 habitantes"
+    },
+    "universo": {
+      "sexo": "Mujer",
+      "edad_min": 15,
+      "edad_max": 49
+    },
+    "conteos": {
+      "registros_microdato": 100353,
+      "poblacion_ponderada": 370028
+    },
+    "indicadores": {
+      "escolaridad_promedio": 11.5137,
+      "participacion_economica_pct": 50.1352,
+      "mujeres_unidas_pct": 50.2118,
+      "autoadscripcion_indigena_pct": 18.5159,
+      "habla_lengua_indigena_pct": 2.3042,
+      "promedio_hijos_nacidos_vivos": 1.267
+    },
+    "notas": {
+      "tasa_global_fecundidad": "Pendiente de método específico. El promedio de hijos nacidos vivos no se interpreta como TGF."
+    }
+  },
+  {
+    "_id": "30_4",
+    "fuente": {
+      "institucion": "INEGI",
+      "programa": "Encuesta Intercensal 2025",
+      "tabla_origen": "PERSONAS",
+      "periodo": 2025
+    },
+    "territorio": {
+      "cve_ent": "30",
+      "tamloc": "4",
+      "tamloc_descripcion": "De 50 000 a 99 999 habitantes"
+    },
+    "universo": {
+      "sexo": "Mujer",
+      "edad_min": 15,
+      "edad_max": 49
+    },
+    "conteos": {
+      "registros_microdato": 12200,
+      "poblacion_ponderada": 85840
+    },
+    "indicadores": {
+      "escolaridad_promedio": 11.9194,
+      "participacion_economica_pct": 52.7869,
+      "mujeres_unidas_pct": 47.6151,
+      "autoadscripcion_indigena_pct": 17.8079,
+      "habla_lengua_indigena_pct": 1.2893,
+      "promedio_hijos_nacidos_vivos": 1.1853
+    },
+    "notas": {
+      "tasa_global_fecundidad": "Pendiente de método específico. El promedio de hijos nacidos vivos no se interpreta como TGF."
+    }
+  },
+  {
+    "_id": "30_5",
+    "fuente": {
+      "institucion": "INEGI",
+      "programa": "Encuesta Intercensal 2025",
+      "tabla_origen": "PERSONAS",
+      "periodo": 2025
+    },
+    "territorio": {
+      "cve_ent": "30",
+      "tamloc": "5",
+      "tamloc_descripcion": "100 000 y más habitantes"
+    },
+    "universo": {
+      "sexo": "Mujer",
+      "edad_min": 15,
+      "edad_max": 49
+    },
+    "conteos": {
+      "registros_microdato": 21780,
+      "poblacion_ponderada": 432849
+    },
+    "indicadores": {
+      "escolaridad_promedio": 12.5776,
+      "participacion_economica_pct": 54.6768,
+      "mujeres_unidas_pct": 43.0995,
+      "autoadscripcion_indigena_pct": 10.2185,
+      "habla_lengua_indigena_pct": 1.1786,
+      "promedio_hijos_nacidos_vivos": 1.0237
+    },
+    "notas": {
+      "tasa_global_fecundidad": "Pendiente de método específico. El promedio de hijos nacidos vivos no se interpreta como TGF."
+    }
+  },
+  {
+    "_id": "31_1",
+    "fuente": {
+      "institucion": "INEGI",
+      "programa": "Encuesta Intercensal 2025",
+      "tabla_origen": "PERSONAS",
+      "periodo": 2025
+    },
+    "territorio": {
+      "cve_ent": "31",
+      "tamloc": "1",
+      "tamloc_descripcion": "Menos de 2 500 habitantes"
+    },
+    "universo": {
+      "sexo": "Mujer",
+      "edad_min": 15,
+      "edad_max": 49
+    },
+    "conteos": {
+      "registros_microdato": 52912,
+      "poblacion_ponderada": 93310
+    },
+    "indicadores": {
+      "escolaridad_promedio": 9.3444,
+      "participacion_economica_pct": 39.7804,
+      "mujeres_unidas_pct": 62.5708,
+      "autoadscripcion_indigena_pct": 84.6358,
+      "habla_lengua_indigena_pct": 45.2966,
+      "promedio_hijos_nacidos_vivos": 1.4927
+    },
+    "notas": {
+      "tasa_global_fecundidad": "Pendiente de método específico. El promedio de hijos nacidos vivos no se interpreta como TGF."
+    }
+  },
+  {
+    "_id": "31_2",
+    "fuente": {
+      "institucion": "INEGI",
+      "programa": "Encuesta Intercensal 2025",
+      "tabla_origen": "PERSONAS",
+      "periodo": 2025
+    },
+    "territorio": {
+      "cve_ent": "31",
+      "tamloc": "2",
+      "tamloc_descripcion": "De 2 500 a 14 999 habitantes"
+    },
+    "universo": {
+      "sexo": "Mujer",
+      "edad_min": 15,
+      "edad_max": 49
+    },
+    "conteos": {
+      "registros_microdato": 97801,
+      "poblacion_ponderada": 152698
+    },
+    "indicadores": {
+      "escolaridad_promedio": 10.0367,
+      "participacion_economica_pct": 46.1019,
+      "mujeres_unidas_pct": 58.4235,
+      "autoadscripcion_indigena_pct": 76.987,
+      "habla_lengua_indigena_pct": 29.1439,
+      "promedio_hijos_nacidos_vivos": 1.3928
+    },
+    "notas": {
+      "tasa_global_fecundidad": "Pendiente de método específico. El promedio de hijos nacidos vivos no se interpreta como TGF."
+    }
+  },
+  {
+    "_id": "31_3",
+    "fuente": {
+      "institucion": "INEGI",
+      "programa": "Encuesta Intercensal 2025",
+      "tabla_origen": "PERSONAS",
+      "periodo": 2025
+    },
+    "territorio": {
+      "cve_ent": "31",
+      "tamloc": "3",
+      "tamloc_descripcion": "De 15 000 a 49 999 habitantes"
+    },
+    "universo": {
+      "sexo": "Mujer",
+      "edad_min": 15,
+      "edad_max": 49
+    },
+    "conteos": {
+      "registros_microdato": 23604,
+      "poblacion_ponderada": 70297
+    },
+    "indicadores": {
+      "escolaridad_promedio": 10.5188,
+      "participacion_economica_pct": 49.3021,
+      "mujeres_unidas_pct": 53.1838,
+      "autoadscripcion_indigena_pct": 71.197,
+      "habla_lengua_indigena_pct": 22.3634,
+      "promedio_hijos_nacidos_vivos": 1.3645
+    },
+    "notas": {
+      "tasa_global_fecundidad": "Pendiente de método específico. El promedio de hijos nacidos vivos no se interpreta como TGF."
+    }
+  },
+  {
+    "_id": "31_4",
+    "fuente": {
+      "institucion": "INEGI",
+      "programa": "Encuesta Intercensal 2025",
+      "tabla_origen": "PERSONAS",
+      "periodo": 2025
+    },
+    "territorio": {
+      "cve_ent": "31",
+      "tamloc": "4",
+      "tamloc_descripcion": "De 50 000 a 99 999 habitantes"
+    },
+    "universo": {
+      "sexo": "Mujer",
+      "edad_min": 15,
+      "edad_max": 49
+    },
+    "conteos": {
+      "registros_microdato": 9177,
+      "poblacion_ponderada": 51656
+    },
+    "indicadores": {
+      "escolaridad_promedio": 11.1377,
+      "participacion_economica_pct": 53.0628,
+      "mujeres_unidas_pct": 53.2027,
+      "autoadscripcion_indigena_pct": 61.647,
+      "habla_lengua_indigena_pct": 13.0606,
+      "promedio_hijos_nacidos_vivos": 1.2923
+    },
+    "notas": {
+      "tasa_global_fecundidad": "Pendiente de método específico. El promedio de hijos nacidos vivos no se interpreta como TGF."
+    }
+  },
+  {
+    "_id": "31_5",
+    "fuente": {
+      "institucion": "INEGI",
+      "programa": "Encuesta Intercensal 2025",
+      "tabla_origen": "PERSONAS",
+      "periodo": 2025
+    },
+    "territorio": {
+      "cve_ent": "31",
+      "tamloc": "5",
+      "tamloc_descripcion": "100 000 y más habitantes"
+    },
+    "universo": {
+      "sexo": "Mujer",
+      "edad_min": 15,
+      "edad_max": 49
+    },
+    "conteos": {
+      "registros_microdato": 8916,
+      "poblacion_ponderada": 326089
+    },
+    "indicadores": {
+      "escolaridad_promedio": 12.8339,
+      "participacion_economica_pct": 62.9483,
+      "mujeres_unidas_pct": 48.247,
+      "autoadscripcion_indigena_pct": 32.1137,
+      "habla_lengua_indigena_pct": 4.1353,
+      "promedio_hijos_nacidos_vivos": 1.0012
+    },
+    "notas": {
+      "tasa_global_fecundidad": "Pendiente de método específico. El promedio de hijos nacidos vivos no se interpreta como TGF."
+    }
+  },
+  {
+    "_id": "32_1",
+    "fuente": {
+      "institucion": "INEGI",
+      "programa": "Encuesta Intercensal 2025",
+      "tabla_origen": "PERSONAS",
+      "periodo": 2025
+    },
+    "territorio": {
+      "cve_ent": "32",
+      "tamloc": "1",
+      "tamloc_descripcion": "Menos de 2 500 habitantes"
+    },
+    "universo": {
+      "sexo": "Mujer",
+      "edad_min": 15,
+      "edad_max": 49
+    },
+    "conteos": {
+      "registros_microdato": 60762,
+      "poblacion_ponderada": 147345
+    },
+    "indicadores": {
+      "escolaridad_promedio": 9.766,
+      "participacion_economica_pct": 28.2109,
+      "mujeres_unidas_pct": 59.2807,
+      "autoadscripcion_indigena_pct": 3.6646,
+      "habla_lengua_indigena_pct": 0.421,
+      "promedio_hijos_nacidos_vivos": 1.6808
+    },
+    "notas": {
+      "tasa_global_fecundidad": "Pendiente de método específico. El promedio de hijos nacidos vivos no se interpreta como TGF."
+    }
+  },
+  {
+    "_id": "32_2",
+    "fuente": {
+      "institucion": "INEGI",
+      "programa": "Encuesta Intercensal 2025",
+      "tabla_origen": "PERSONAS",
+      "periodo": 2025
+    },
+    "territorio": {
+      "cve_ent": "32",
+      "tamloc": "2",
+      "tamloc_descripcion": "De 2 500 a 14 999 habitantes"
+    },
+    "universo": {
+      "sexo": "Mujer",
+      "edad_min": 15,
+      "edad_max": 49
+    },
+    "conteos": {
+      "registros_microdato": 36293,
+      "poblacion_ponderada": 83208
+    },
+    "indicadores": {
+      "escolaridad_promedio": 10.8266,
+      "participacion_economica_pct": 42.2878,
+      "mujeres_unidas_pct": 53.4002,
+      "autoadscripcion_indigena_pct": 3.8807,
+      "habla_lengua_indigena_pct": 0.7477,
+      "promedio_hijos_nacidos_vivos": 1.5528
+    },
+    "notas": {
+      "tasa_global_fecundidad": "Pendiente de método específico. El promedio de hijos nacidos vivos no se interpreta como TGF."
+    }
+  },
+  {
+    "_id": "32_3",
+    "fuente": {
+      "institucion": "INEGI",
+      "programa": "Encuesta Intercensal 2025",
+      "tabla_origen": "PERSONAS",
+      "periodo": 2025
+    },
+    "territorio": {
+      "cve_ent": "32",
+      "tamloc": "3",
+      "tamloc_descripcion": "De 15 000 a 49 999 habitantes"
+    },
+    "universo": {
+      "sexo": "Mujer",
+      "edad_min": 15,
+      "edad_max": 49
+    },
+    "conteos": {
+      "registros_microdato": 24062,
+      "poblacion_ponderada": 73650
+    },
+    "indicadores": {
+      "escolaridad_promedio": 11.5054,
+      "participacion_economica_pct": 50.3562,
+      "mujeres_unidas_pct": 49.8506,
+      "autoadscripcion_indigena_pct": 4.1389,
+      "habla_lengua_indigena_pct": 0.4265,
+      "promedio_hijos_nacidos_vivos": 1.4798
+    },
+    "notas": {
+      "tasa_global_fecundidad": "Pendiente de método específico. El promedio de hijos nacidos vivos no se interpreta como TGF."
+    }
+  },
+  {
+    "_id": "32_5",
+    "fuente": {
+      "institucion": "INEGI",
+      "programa": "Encuesta Intercensal 2025",
+      "tabla_origen": "PERSONAS",
+      "periodo": 2025
+    },
+    "territorio": {
+      "cve_ent": "32",
+      "tamloc": "5",
+      "tamloc_descripcion": "100 000 y más habitantes"
+    },
+    "universo": {
+      "sexo": "Mujer",
+      "edad_min": 15,
+      "edad_max": 49
+    },
+    "conteos": {
+      "registros_microdato": 10545,
+      "poblacion_ponderada": 137280
+    },
+    "indicadores": {
+      "escolaridad_promedio": 12.7884,
+      "participacion_economica_pct": 55.2552,
+      "mujeres_unidas_pct": 46.4573,
+      "autoadscripcion_indigena_pct": 2.3715,
+      "habla_lengua_indigena_pct": 0.1371,
+      "promedio_hijos_nacidos_vivos": 1.2578
+    },
+    "notas": {
+      "tasa_global_fecundidad": "Pendiente de método específico. El promedio de hijos nacidos vivos no se interpreta como TGF."
+    }
+  }
+]

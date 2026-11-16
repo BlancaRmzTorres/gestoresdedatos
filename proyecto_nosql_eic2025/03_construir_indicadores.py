@@ -55,7 +55,11 @@ def main():
         ).reset_index()
         partes.append(agg)
 
+    if not partes:
+        raise SystemExit("El archivo preparado esta vacio; revisa el CSV original y el universo de estudio.")
     total = pd.concat(partes, ignore_index=True)
+    if total.empty:
+        raise SystemExit("No se encontraron mujeres de 15 a 49 anos con dominios territoriales.")
     total = total.groupby(["CVE_ENT", "TAMLOC"], as_index=False).sum(numeric_only=True)
 
     def razon(num, den, escala=1.0):
@@ -79,9 +83,38 @@ def main():
     archivo_salida = SALIDAS_DIR / "indicadores_territoriales.csv"
     salida.to_csv(archivo_salida, index=False, encoding="utf-8-sig", float_format="%.4f")
 
-    print(salida.to_string(index=False))
-    print(f"\nIndicadores guardados en: {archivo_salida}")
-    print("Nota: promedio de hijos nacidos vivos NO equivale a la TGF.")
+    # Los componentes son sumables entre dominios; las tasas/promedios no lo son.
+    componentes = ["esc_num", "esc_den", "pea_num", "pea_den", "unida_num", "unida_den",
+                   "indigena_num", "indigena_den", "lengua_num", "lengua_den", "hnv_num", "hnv_den"]
+    # Exportar en formato analítico íntegro: permite auditar denominadores más adelante.
+    total[salida_cols + componentes].sort_values(["CVE_ENT", "TAMLOC"]).to_csv(
+        archivo_salida, index=False, encoding="utf-8-sig", float_format="%.6f")
+
+    # Nuevo producto de tesina: cuatro tamaños; 50 000+ = (4 + 5) combinados
+    # SUMANDO componentes, no calculando medias simples de indicadores.
+    dominios4 = total[["CVE_ENT", "TAMLOC", "registros", "poblacion_ponderada"] + componentes].copy()
+    dominios4["TAMLOC"] = dominios4["TAMLOC"].replace({"5": "4"})
+    dominios4 = dominios4.groupby(["CVE_ENT", "TAMLOC"], as_index=False).sum(numeric_only=True)
+    descripciones4 = {
+        "1": "Menos de 2 500 habitantes", "2": "De 2 500 a 14 999 habitantes",
+        "3": "De 15 000 a 49 999 habitantes", "4": "50 000 y mas habitantes",
+    }
+    dominios4["tamloc_descripcion"] = dominios4["TAMLOC"].map(descripciones4)
+    for resultado, num, den, factor_escala in (
+        ("escolaridad_promedio", "esc_num", "esc_den", 1),
+        ("participacion_economica_pct", "pea_num", "pea_den", 100),
+        ("mujeres_unidas_pct", "unida_num", "unida_den", 100),
+        ("autoadscripcion_indigena_pct", "indigena_num", "indigena_den", 100),
+        ("habla_lengua_indigena_pct", "lengua_num", "lengua_den", 100),
+        ("promedio_hijos_nacidos_vivos", "hnv_num", "hnv_den", 1),
+    ):
+        dominios4[resultado] = ((dominios4[num] / dominios4[den]) * factor_escala).where(dominios4[den] > 0)
+    archivo4 = SALIDAS_DIR / "indicadores_territoriales_4.csv"
+    dominios4[salida_cols + componentes].sort_values(["CVE_ENT", "TAMLOC"]).to_csv(
+        archivo4, index=False, encoding="utf-8-sig", float_format="%.6f")
+    print(f"Indicadores cinco tamaños: {archivo_salida} ({len(total)} dominios)")
+    print(f"Indicadores cuatro tamaños: {archivo4} ({len(dominios4)} dominios)")
+    print("Nota: HNV promedio NO equivale a TGF. Revisar precision muestral antes de inferir.")
 
 
 if __name__ == "__main__":

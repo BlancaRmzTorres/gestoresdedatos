@@ -1,0 +1,5 @@
+# Dependencias fijadas para ejecución reproducible (Python 3.12).
+pandas==2.3.3
+pymongo==4.15.4
+streamlit==1.51.0
+plotly==6.3.1

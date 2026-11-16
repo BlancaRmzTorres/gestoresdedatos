@@ -1,44 +1,44 @@
-"""Carga los documentos de indicadores en MongoDB y crea índices."""
+"""Carga idempotente de 5 tamaños y, cuando está disponible, 4 tamaños."""
 from __future__ import annotations
-
-import json
 from pymongo import MongoClient, UpdateOne
-from pymongo.errors import ServerSelectionTimeoutError
-
+from pymongo.errors import PyMongoError
 from config import COL_INDICADORES, MONGO_DB, MONGO_URI, SALIDAS_DIR
+from verificar_documentos import validar_archivo
+
+
+def cargar(coleccion, archivo):
+    documentos, n = validar_archivo(archivo)
+    operaciones = [UpdateOne({"_id": doc["_id"]},
+                             {"$set": {k: v for k, v in doc.items() if k != "_id"}},
+                             upsert=True) for doc in documentos]
+    resultado = coleccion.bulk_write(operaciones, ordered=False)
+    coleccion.create_index([("territorio.cve_ent", 1), ("territorio.tamloc", 1)])
+    coleccion.create_index("indicadores.promedio_hijos_nacidos_vivos")
+    ids = [doc["_id"] for doc in documentos]
+    # El JSON incluido es la fuente autoritativa para cada colección. Evita
+    # mezclar documentos obsoletos cuando cambia la cobertura entre corridas.
+    coleccion.delete_many({"_id": {"$nin": ids}})
+    coincidentes = coleccion.count_documents({"_id": {"$in": ids}})
+    print(f"{coleccion.full_name}: {n} documentos, "
+          f"{resultado.upserted_count} insertados, "
+          f"{resultado.modified_count} actualizados, {coincidentes} comprobados.")
+    if coincidentes != n:
+        raise ValueError("Verificación fallida: faltan documentos en MongoDB.")
 
 
 def main():
-    archivo = SALIDAS_DIR / "indicadores_territoriales.json"
-    with archivo.open("r", encoding="utf-8") as f:
-        documentos = json.load(f)
-
-    cliente = MongoClient(MONGO_URI, serverSelectionTimeoutMS=5000)
+    archivos = [(COL_INDICADORES, SALIDAS_DIR / "indicadores_territoriales.json")]
+    archivo4 = SALIDAS_DIR / "indicadores_territoriales_4.json"
+    if archivo4.exists():
+        archivos.append(("indicadores_territoriales_4", archivo4))
     try:
-        cliente.admin.command("ping")
-    except ServerSelectionTimeoutError as e:
-        raise SystemExit(
-            "No se pudo conectar a MongoDB. Inicia el servicio o ejecuta: docker compose up -d"
-        ) from e
-
-    coleccion = cliente[MONGO_DB][COL_INDICADORES]
-    operaciones = [
-        UpdateOne({"_id": doc["_id"]}, {"$set": doc}, upsert=True)
-        for doc in documentos
-    ]
-    if operaciones:
-        resultado = coleccion.bulk_write(operaciones, ordered=False)
-        print(f"Insertados (upsert): {resultado.upserted_count}")
-        print(f"Actualizados: {resultado.modified_count}")
-
-    coleccion.create_index([("territorio.cve_ent", 1), ("territorio.tamloc", 1)])
-    coleccion.create_index("indicadores.participacion_economica_pct")
-
-    print(f"Base: {MONGO_DB}")
-    print(f"Colección: {COL_INDICADORES}")
-    print(f"Documentos totales: {coleccion.count_documents({})}")
-    cliente.close()
-
+        with MongoClient(MONGO_URI, serverSelectionTimeoutMS=10000) as cli:
+            cli.admin.command("ping")
+            bd = cli[MONGO_DB]
+            for nombre, archivo in archivos:
+                cargar(bd[nombre], archivo)
+    except (PyMongoError, ValueError, OSError) as exc:
+        raise SystemExit(f"Fallo la carga: {exc}") from exc
 
 if __name__ == "__main__":
     main()

@@ -1,14 +1,14 @@
 """Configuración común del proyecto EIC 2025 -> MongoDB."""
 from pathlib import Path
+import os
 
 BASE_DIR = Path(__file__).resolve().parent
 DATOS_DIR = BASE_DIR / "datos"
 SALIDAS_DIR = BASE_DIR / "salidas"
 SALIDAS_DIR.mkdir(exist_ok=True)
 
-# Archivo de prueba incluido en el paquete. Para trabajar con la base completa,
-# pasa --archivo "C:/ruta/personas00M.csv" al ejecutar los scripts.
-ARCHIVO_PREDETERMINADO = DATOS_DIR / "personas00M_muestra.csv"
+# Microdatos opcionales: el modo demo solo requiere el JSON incluido.
+ARCHIVO_PREDETERMINADO = DATOS_DIR / "personas00.csv"
 
 # Leer en bloques evita cargar el archivo completo en memoria.
 CHUNKSIZE = 250_000
@@ -40,7 +40,9 @@ COLUMNAS_TEXTO = [
     "FECHA_NAC_M", "FECHA_NAC_A",
 ]
 
-MONGO_URI = "mongodb://localhost:27017/"
+# Puerto configurable: debe coincidir con MONGO_PORT usado por Docker Compose.
+MONGO_PORT = os.environ.get("MONGO_PORT", "27018")
+MONGO_URI = os.environ.get("MONGO_URI", f"mongodb://127.0.0.1:{MONGO_PORT}/")
 MONGO_DB = "eic2025_nosql"
 COL_PERSONAS = "personas_procesadas"
 COL_INDICADORES = "indicadores_territoriales"

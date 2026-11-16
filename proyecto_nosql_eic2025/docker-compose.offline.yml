@@ -1,0 +1,8 @@
+﻿services:
+  carga:
+    volumes:
+      - ./:/app
+
+  dashboard:
+    volumes:
+      - ./:/app

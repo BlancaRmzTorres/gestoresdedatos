@@ -1,0 +1,15 @@
+test_generacion_de_reporte_sin_mongodb (test_informe.InformeExploratorio.test_generacion_de_reporte_sin_mongodb) ... ok
+test_duplicados_entre_bloques_sqlite (test_pipeline.PruebasPipeline.test_duplicados_entre_bloques_sqlite) ... ok
+test_pipeline_completo_sintetico (test_pipeline.PruebasPipeline.test_pipeline_completo_sintetico) ... ok
+test_ruta_csv_inexistente (test_pipeline.PruebasPipeline.test_ruta_csv_inexistente) ... ok
+test_agregacion_promedio_dominios (test_tercera_entrega.ConsultasMongoDB.test_agregacion_promedio_dominios) ... ok
+test_filtrado_territorial (test_tercera_entrega.ConsultasMongoDB.test_filtrado_territorial) ... ok
+test_limite (test_tercera_entrega.ConsultasMongoDB.test_limite) ... ok
+test_pipeline_usa_operaciones_de_rubrica (test_tercera_entrega.ConsultasMongoDB.test_pipeline_usa_operaciones_de_rubrica) ... ok
+test_solo_metricas_permitidas (test_tercera_entrega.ConsultasMongoDB.test_solo_metricas_permitidas) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 6.038s
+
+OK
+JSON valido: 153 documentos con identificadores territoriales unicos.

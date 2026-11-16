@@ -1,0 +1,53 @@
+name: eic2025_nosql
+services:
+  mongodb:
+    image: mongo:8.0
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:${MONGO_PORT:-27018}:27017"
+    healthcheck:
+      test: ["CMD", "mongosh", "--quiet", "--eval", "db.adminCommand({ping: 1}).ok"]
+      interval: 5s
+      timeout: 5s
+      retries: 24
+    volumes:
+      - mongo_eic2025_data:/data/db
+
+  carga:
+    build: .
+    image: eic2025-analitica:local
+    environment:
+      MONGO_URI: mongodb://mongodb:27017/
+    command: ["python", "05_cargar_mongodb.py"]
+    depends_on:
+      mongodb:
+        condition: service_healthy
+    volumes:
+      - ./salidas:/app/salidas
+    restart: "no"
+
+  procesamiento:
+    profiles: ["completo"]
+    image: eic2025-analitica:local
+    command: ["python", "ejecutar_pipeline.py", "--archivo", "datos/personas00.csv", "--chunksize", "100000"]
+    volumes:
+      - ./datos:/app/datos
+      - ./salidas:/app/salidas
+    restart: "no"
+
+  dashboard:
+    image: eic2025-analitica:local
+    environment:
+      MONGO_URI: mongodb://mongodb:27017/
+    command: ["python", "-m", "streamlit", "run", "dashboard.py", "--server.address=0.0.0.0", "--server.port=8501", "--server.headless=true", "--browser.gatherUsageStats=false"]
+    ports:
+      - "127.0.0.1:${DASHBOARD_PORT:-8501}:8501"
+    volumes:
+      - ./salidas:/app/salidas
+    depends_on:
+      carga:
+        condition: service_completed_successfully
+    restart: unless-stopped
+
+volumes:
+  mongo_eic2025_data:

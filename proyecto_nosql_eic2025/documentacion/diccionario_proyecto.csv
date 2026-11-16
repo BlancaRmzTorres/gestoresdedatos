@@ -1,0 +1,18 @@
+variable,descripcion,tipo_origen,valores_relevantes,regla_proyecto,uso
+ID_PERSONA,Identificador único de persona,Carácter,17 caracteres,No modificar; verificar duplicados,Control de unicidad
+ID_VIV,Identificador único de vivienda,Carácter,12 caracteres,No modificar,Trazabilidad
+CVE_ENT,Entidad federativa,Carácter,01..32,Conservar como texto con cero inicial,Dominio territorial
+CVE_MUN,Municipio o demarcación territorial,Carácter,001..570,Conservar como texto con cero inicial,Control territorial
+TAMLOC,Tamaño de localidad,Carácter,1..5,Conservar categorías oficiales,Dominio territorial
+FACTOR,Factor de expansión,Numérico,1..99999,Convertir a numérico,Ponderación
+SEXO,Sexo,Carácter,1 hombre; 3 mujer,Seleccionar 3,Población objetivo
+EDAD,Edad,Numérico,0..130; 999 no especificado,999 -> NA; seleccionar 15..49,Población objetivo
+NIVACAD,Nivel académico,Carácter,00..14; 99; Nulo,99/Nulo como no especificado,Perfil educativo
+ESCOACUM,Escolaridad acumulada,Numérico,0..24; 99; Nulo,99/Nulo -> NA,Escolaridad promedio
+CONACT,Condición de actividad,Carácter,10;13..20;30;40;50;60;70;80;99;Nulo,PEA=10/13..20/30; 99/Nulo no válidos,Participación económica
+SITUA_CONYUGAL,Situación conyugal,Carácter,01..09;99;Nulo,Unida=01/06/07/08; 99/Nulo no válidos,Porcentaje de mujeres unidas
+PERTE_INDIGENA,Autoadscripción indígena,Carácter,1 sí;3 no;9 no especificado,1/3 válidos;9 no válido,Porcentaje indígena
+HLENGUA,Habla lengua indígena,Carácter,1 sí;3 no;9 no especificado;Nulo,1/3 válidos;9/Nulo no válidos,Porcentaje hablante de lengua indígena
+HIJOS_NAC_VIVOS,Hijas/os nacidos vivos,Numérico,0..25;98;99;Nulo,98/99/Nulo -> NA,Promedio de hijos nacidos vivos
+FECHA_NAC_M,Mes del último hijo nacido vivo,Carácter,01..12;99;Nulo,99/Nulo -> NA,Preparación futura de fecundidad reciente
+FECHA_NAC_A,Año del último hijo nacido vivo,Carácter,1925..2025;9999;Nulo,9999/Nulo -> NA,Preparación futura de fecundidad reciente
